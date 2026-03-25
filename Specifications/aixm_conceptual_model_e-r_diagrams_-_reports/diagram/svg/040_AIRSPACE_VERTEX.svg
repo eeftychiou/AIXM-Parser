@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xml:space="preserve" width="842" height="595" viewBox="0 0 842 595" color-interpolation-filters="sRGB" id="root" xmlns:xlink="http://www.w3.org/1999/xlink">
+ Converted with TEXTCAFE (tm) http://www.texterity.com 
+  <title>040_AIRSPACE_VERTEX (AICM-4-5) -- Page 1</title>
+<defs>
+    <style type="text/css">
+
+clipPath{shape-rendering:crispEdges}
+image{shape-rendering:crispEdges}
+
+    </style>
+<style type="text/css">
+
+@font-face{font-family:'font1';src:url("data:;base64,\
+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")}
+
+    </style>
+<clipPath id="id2">
+      <rect width="595" height="842" y="0" x="0"/>
+</clipPath>
+</defs>
+<defs/>
+<g>
+<g transform="scale(1 -1)">
+<g transform="matrix(0 -1 1 0 0 0)" clip-path="url(#id2)" id="main">
+<path stroke-width="1" d="M585.96 14.511L583.92 14.511M585.96 14.511L585.96 16.551M9.6 14.511L11.64 14.511M9.6 14.511L9.6 16.551M585.96 826.191L583.92 826.191M585.96 826.191L585.96 824.151M9.6 826.191L11.64 826.191M9.6 826.191L9.6 824.151" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<path d="M10.38 15.291h566.58v801.9h-566.58Z" fill-rule="nonzero" stroke="none" fill="#ffffff"/>
+<path stroke-width="1" d="M576.96 817.191h-566.64v-801.96h566.64Z" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('SIGNIFICANT_POINT');" onmousemove="(window.status ='SIGNIFICANT_POINT')">
+<path id="SIGNIFICANT_POINT" stroke-width="1" d="M460.38 422.691C456.6 422.691 453.54 419.571 453.54 415.791L453.54 274.551C453.54 270.771 456.6 267.711 460.38 267.711L498.06 267.711C501.84 267.711 504.96 270.771 504.96 274.551L504.96 415.791C504.96 419.571 501.84 422.691 498.06 422.691Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="470.22" fill="#000000" x="274.55">SIGNIFICANT_POINT</tspan>
+</text>
+</a>
+<a onclick="selectEntity('AIRSPACE_CIRCLE_VERTEX');" onmousemove="(window.status ='AIRSPACE_CIRCLE_VERTEX')">
+<path id="AIRSPACE_CIRCLE_VERTEX" stroke-width="1" d="M436.38 695.091C432.6 695.091 429.54 691.971 429.54 688.191L429.54 536.63C429.54 532.851 432.6 529.791 436.38 529.791L565.98 529.791C569.76 529.791 572.88 532.851 572.88 536.63L572.88 688.191C572.88 691.971 569.76 695.091 565.98 695.091Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="446.22" fill="#000000" x="536.63">AIRSPACE_CIRCLE_VERTEX</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="456.12" fill="#000000" x="536.63">*  GEO_LAT_CEN</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="465.06" fill="#000000" x="536.63">*  GEO_LONG_CEN</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="473.94" fill="#000000" x="536.63">*  CODE_DATUM</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="482.88" fill="#000000" x="536.63">o  VAL_GEO_ACCURACY</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="491.82" fill="#000000" x="536.63">o  UOM_GEO_ACCURACY</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="500.7" fill="#000000" x="536.63">*  VAL_RADIUS</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="509.64" fill="#000000" x="536.63">*  UOM_RADIUS</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="518.58" fill="#000000" x="536.63">o  VAL_CRC</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="527.46" fill="#000000" x="536.63">o  TXT_RMK</tspan>
+</text>
+</a>
+<a onclick="selectEntity('AIRSPACE_CORRIDOR');" onmousemove="(window.status ='AIRSPACE_CORRIDOR')">
+<path id="AIRSPACE_CORRIDOR" stroke-width="1" d="M359.52 300.591C355.74 300.591 352.68 297.471 352.68 293.691L352.68 98.211C352.68 94.431 355.74 91.371 359.52 91.371L415.68 91.371C419.46 91.371 422.58 94.431 422.58 98.211L422.58 293.691C422.58 297.471 419.46 300.591 415.68 300.591Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="369.36" fill="#000000" x="98.2105">AIRSPACE_CORRIDOR</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="379.26" fill="#000000" x="98.2105">*  VAL_WIDTH</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="388.2" fill="#000000" x="98.2105">*  UOM_WIDTH</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="397.08" fill="#000000" x="98.2105">o  TXT_RMK</tspan>
+</text>
+</a>
+<a onclick="selectEntity('GEO_BORDER_VERTEX');" onmousemove="(window.status ='GEO_BORDER_VERTEX')">
+<path id="GEO_BORDER_VERTEX" stroke-width="1" d="M178.38 711.531C174.6 711.531 171.54 708.411 171.54 704.63L171.54 548.271C171.54 544.49 174.6 541.43 178.38 541.43L307.98 541.43C311.76 541.43 314.88 544.49 314.88 548.271L314.88 704.63C314.88 708.411 311.76 711.531 307.98 711.531Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="188.22" fill="#000000" x="548.33">GEO_BORDER_VERTEX</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="198.12" fill="#000000" x="548.33">*  NO_SEQ</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="207.06" fill="#000000" x="548.33">*  CODE_TYPE</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="215.94" fill="#000000" x="548.33">*  GEO_LAT</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="224.88" fill="#000000" x="548.33">*  GEO_LONG</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="233.82" fill="#000000" x="548.33">*  CODE_DATUM</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="242.7" fill="#000000" x="548.33">o  VAL_GEO_ACCURACY</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="251.64" fill="#000000" x="548.33">o  UOM_GEO_ACCURACY</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="260.58" fill="#000000" x="548.33">o  VAL_CRC</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="269.46" fill="#000000" x="548.33">o  TXT_RMK</tspan>
+</text>
+</a>
+<a onclick="selectEntity('GEO_BORDER');" onmousemove="(window.status ='GEO_BORDER')">
+<path id="GEO_BORDER" stroke-width="1" d="M52.8 596.99C49.02 596.99 45.96 593.87 45.96 590.091L45.96 411.051C45.96 407.271 49.02 404.211 52.8 404.211L96.66 404.211C100.44 404.211 103.56 407.271 103.56 411.051L103.56 590.091C103.56 593.87 100.44 596.99 96.66 596.99Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="62.7" fill="#000000" x="411.11">GEO_BORDER</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="72.54" fill="#000000" x="411.11">*  TXT_NAME</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="81.48" fill="#000000" x="411.11">*  CODE_TYPE</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="90.4201" fill="#000000" x="411.11">o  TXT_RMK</tspan>
+</text>
+</a>
+<a onclick="selectEntity('AIRSPACE_VERTEX');" onmousemove="(window.status ='AIRSPACE_VERTEX')">
+<path id="AIRSPACE_VERTEX" stroke-width="1" d="M143.4 512.57C139.62 512.57 136.56 509.451 136.56 505.671L136.56 151.731C136.56 147.951 139.62 144.891 143.4 144.891L312.12 144.891C315.9 144.891 319.02 147.951 319.02 151.731L319.02 505.671C319.02 509.451 315.9 512.57 312.12 512.57Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="153.24" fill="#000000" x="151.73">AIRSPACE_VERTEX</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="163.14" fill="#000000" x="151.73">*  NO_SEQ</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="172.08" fill="#000000" x="151.73">*  GEO_LAT</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="180.96" fill="#000000" x="151.73">*  GEO_LONG</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="189.9" fill="#000000" x="151.73">*  CODE_DATUM</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="198.84" fill="#000000" x="151.73">o  VAL_GEO_ACCURACY</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="207.72" fill="#000000" x="151.73">o  UOM_GEO_ACCURACY</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="216.66" fill="#000000" x="151.73">o  GEO_LAT_ARC</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="225.6" fill="#000000" x="151.73">o  GEO_LONG_ARC</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="234.48" fill="#000000" x="151.73">o  VAL_RADIUS_ARC</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="243.42" fill="#000000" x="151.73">o  UOM_RADIUS_ARC</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="252.36" fill="#000000" x="151.73">o  VAL_CRC</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="261.24" fill="#000000" x="151.73">o  TXT_RMK</tspan>
+</text>
+</a>
+<a onclick="selectEntity('AIRSPACE_CLINE_VERTEX');" onmousemove="(window.status ='AIRSPACE_CLINE_VERTEX')">
+<path id="AIRSPACE_CLINE_VERTEX" stroke-width="1" d="M245.64 411.711C241.86 411.711 238.8 408.591 238.8 404.811L238.8 266.991C238.8 263.211 241.86 260.151 245.64 260.151L279.18 260.151C282.96 260.151 286.08 263.211 286.08 266.991L286.08 404.811C286.08 408.591 282.96 411.711 279.18 411.711Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="255.48" fill="#000000" x="266.99">AIRSPACE_CLINE_VERTEX</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="265.38" fill="#000000" x="266.99">*  CODE_TYPE</tspan>
+</text>
+</a>
+<a onclick="selectEntity('AIRSPACE_BORDER_VERTEX');" onmousemove="(window.status ='AIRSPACE_BORDER_VERTEX')">
+<path id="AIRSPACE_BORDER_VERTEX" stroke-width="1" d="M177 497.51C173.22 497.51 170.16 494.391 170.16 490.611L170.16 306.111C170.16 302.331 173.22 299.271 177 299.271L209.16 299.271C212.94 299.271 216.06 302.331 216.06 306.111L216.06 490.611C216.06 494.391 212.94 497.51 209.16 497.51Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="186.84" fill="#000000" x="306.11">AIRSPACE_BORDER_VERTEX</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="196.74" fill="#000000" x="306.11">o  CODE_TYPE</tspan>
+</text>
+</a>
+<a onclick="selectEntity('AIRSPACE_BORDER');" onmousemove="(window.status ='AIRSPACE_BORDER')">
+<path id="AIRSPACE_BORDER" stroke-width="1" d="M358.14 594.23C354.36 594.23 351.3 591.11 351.3 587.331L351.3 439.191C351.3 435.411 354.36 432.351 358.14 432.351L399.9 432.351C403.68 432.351 406.8 435.411 406.8 439.191L406.8 587.331C406.8 591.11 403.68 594.23 399.9 594.23Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="367.98" fill="#000000" x="439.25">AIRSPACE_BORDER</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="377.88" fill="#000000" x="439.25">o  TXT_RMK</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M343.74 474.171C343.74 470.391 346.8 467.331 350.58 467.331M343.74 474.231L343.74 594.951M350.58 601.791C346.8 601.791 343.74 598.671 343.74 594.951M350.64 601.851L366.42 601.851M373.2 594.951C373.2 598.671 370.08 601.791 366.36 601.791M366.36 605.211C364.44 605.211 362.94 603.651 362.94 601.791C362.94 599.931 364.44 598.431 366.36 598.431C368.22 598.431 369.78 599.931 369.78 601.791C369.78 603.651 368.22 605.211 366.36 605.211ZM343.68 477.591C341.82 477.591 340.32 476.031 340.32 474.171C340.32 472.311 341.82 470.811 343.68 470.811C345.54 470.811 347.1 472.311 347.1 474.171C347.1 476.031 345.54 477.591 343.68 477.591Z" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<path stroke-width="1" d="M490.56 426.891L490.56 439.251M490.56 443.331L490.56 455.691M490.56 459.831L490.56 472.131M490.56 480.411L490.56 492.771M490.56 496.85L490.56 509.211M490.56 513.351L490.56 525.651M490.56 519.471L487.14 529.791M490.56 519.471L494.04 529.791M490.56 519.471L490.56 529.791" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="484.62" fill="#000000" x="429.59">is used by</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="503.88" fill="#000000" x="446.091">using as center</tspan>
+</text>
+<path stroke-width="1" d="M323.16 406.311L335.52 406.311M339.66 406.311L351.96 406.311M356.1 406.311L368.46 406.311M372.6 406.311L384.9 406.311M390.42 406.311L402.78 406.311M406.86 406.311L419.22 406.311M423.36 405.591L435.72 405.591M439.8 405.591L452.16 405.591M328.68 406.311L319.08 402.891M328.68 406.311L319.08 409.731M328.68 406.311L319.08 406.311" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="335.76" fill="#000000" x="409.73">located at</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="444.18" fill="#000000" x="347.991">is used by</tspan>
+</text>
+<path stroke-width="1" d="M449.4 335.631L437.04 335.631M432.96 335.631L420.6 335.631M416.46 335.631L404.16 335.631M400.02 335.631L387.66 335.631M382.2 335.631L369.84 335.631M365.7 335.631L353.34 335.631M349.26 335.631L336.9 335.631M332.76 335.631L320.4 335.631M329.34 335.631L319.08 332.211M329.34 335.631L319.08 339.051M329.34 335.631L319.08 335.631" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="444.18" fill="#000000" x="277.97">is used by</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="335.76" fill="#000000" x="339.05">using as arc</tspan>
+</text>
+<path stroke-width="1" d="M366.42 594.291L366.42 654.651L429.54 654.651" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="360.48" fill="#000000" x="605.271">made of</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="420.18" fill="#000000" x="594.95">describing</tspan>
+</text>
+<path stroke-width="1" d="M286.14 272.511L352.68 272.511M296.4 272.511L286.14 269.091M296.4 272.511L286.14 275.931M296.4 272.511L286.14 272.511" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="302.82" fill="#000000" x="275.93">composing</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="343.319" fill="#000000" x="225.831">made of</tspan>
+</text>
+<path stroke-width="1" d="M103.62 564.11L171.54 564.11M161.22 564.11L171.54 560.69M161.22 564.11L171.54 567.531M161.22 564.11L171.54 564.11" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="120.3" fill="#000000" x="567.53">made of</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="163.56" fill="#000000" x="572.33">composing</tspan>
+</text>
+<path stroke-width="1" d="M166.02 444.051L153.72 444.051M149.58 444.051L137.22 444.051M133.14 444.051L120.78 444.051M116.64 444.051L104.28 444.051M159.9 444.051L170.16 440.571M159.9 444.051L170.16 447.471M159.9 444.051L170.16 444.051" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="160.8" fill="#000000" x="337.67">based on a portion </tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="120.301" fill="#000000" x="447.47">used to define</tspan>
+</text>
+<path stroke-width="1" d="M351.3 474.231L216.12 474.231M226.44 474.231L216.12 470.811M226.44 474.231L216.12 477.651M226.44 474.231L216.12 474.231" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="338.52" fill="#000000" x="479.69">made of</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="232.86" fill="#000000" x="477.651">composing</tspan>
+</text>
+</g>
+</g>
+</g>
+</svg>

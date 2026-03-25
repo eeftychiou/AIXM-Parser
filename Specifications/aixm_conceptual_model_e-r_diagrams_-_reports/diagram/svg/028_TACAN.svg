@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xml:space="preserve" width="842" height="595" viewBox="0 0 842 595" color-interpolation-filters="sRGB" id="root" xmlns:xlink="http://www.w3.org/1999/xlink">
+ Converted with TEXTCAFE (tm) http://www.texterity.com 
+  <title>028_TACAN (AICM-4-5) -- Page 1</title>
+<defs>
+    <style type="text/css">
+
+clipPath{shape-rendering:crispEdges}
+image{shape-rendering:crispEdges}
+
+    </style>
+<style type="text/css">
+
+@font-face{font-family:'font1';src:url("data:;base64,\
+T1RUTwACACAAAQAAQ0ZGIKoX25cAAAAsAAAVaGNtYXACegJKAAAVlAAAAHQBAAQBAAEBAQ9IS09L\
+S0orQXJpYWxNVAABAQEv97oRHPqv/S0cEDocCAwFHqAASIKPi4seoABIgo+LiwwH+BsBm/dHEvgY\
+BPdXDwABAQFjQXJpYWyuIFRyYWRlbWFyayBvZiBUaGUgTW9ub3R5cGUgQ29ycG9yYXRpb24gcGxj\
+IHJlZ2lzdGVyZWQgaW4gdGhlIFVTIFBhdCAmIFRNIE9mZi4gYW5kIGVsc2V3aGVyZS4AAB4ROKaI\
+/xQeEZWhWHNoTxUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMgIA\
+AQATABsAegCQANIBkgI8AsYC9QMeA9sECwQjBFcEcAS5BOkFogYQBusHgwhrCJAI/wkyCZsJ6woi\
+CjQLGgufDCYMrw1ADZoOXA60DtwO9A+PD+8QdREDEUsSIBKHEu0THhNrE9r5UAEDvYsV+OyLi/p8\
+/OyLBQ7//Y4vbAEDDv/+cYNmAQPLHAStFbn3IvVm2Gq7cBl+9w2F3oq49yWLGIlJgzh+KNCu2avk\
+qLn7Ihg2bzh4OoK0aMRM1TD7DDYYZMBe0lbmWi1fQ2Za+wrgGNjqw8qsqjWcOZ0+oAgO//3+00QB\
+A8z4TBWL90n4vYuL+0kFDv8Aqtt2AQOIixX4xxwFuvdli/jsHPpG+3GL+z/4UPz5i/s1/FAF9234\
+7hX4hYv7LfgqXPcPafF02hl4LXEuaS4IDv8Aqtt2AQP3KosVixwFuvi6i/cEi+V8z24Zzm3AXbJO\
+sU2eSotIi0x6UGlUaVRYXkZp5HHPX7tMukyjQYs2i0Z9TG5QblBnXWBrCGBrVnNLe0p6PIMuiwj8\
+AfnmFffRi+GLyZGwlhm8mrGjpK2krZe2i76LvH+2dLB0sGmkYJlgmECSIov7uYsYi/70FfgBi8qL\
+t42kkBm4k7CYqZ6pnqSmnq+erpW0i7qLwn26b7Rvs2SnWpxZm0OTLov754sYDv8BG39MAQMcBLT4\
+lhX3Vlpi+zNC+w4iOBkhN/sVYfsti/syi/sUqyjMKMs/6Fj3Dlf3DnH3F4v3IIv3Laj3Gcb3BsX3\
+Bd7i9wDG9sb3C6j3FYv3J4v3D2bvQAjvQNEisvsb+1NeGGn2WthKvEq8OqMpi/sFiy1wQFU/VVZD\
+bDBsMHwtiyqL+xGd+wCwLq8uw0XYXdhd3nTkiwj3AYvnqtbK1sq+6Kb3DwgO/wEbf0wBA/cyixWL\
+HAW6+I2L9waL4oTHfRnfeNNoxljYSsU3siaxJZ77CIv7F4v7A34ocTVxNWpEYlNiUl9fW2taalFz\
+R3pGej2DMosI++P3QRX3zYvsi9eUwp0Zwp22pKysubmvyaXZpNiY6Yv3A4v3LXL3ClneWN1OwkOn\
+V583lfsHi/vIixgO/wCq23YBA/c2ixWLHAW6+riLi/tB/faLi/xV+b+Li/tA/b+Li/yH+hiLi/tB\
+BQ7/ADgrVQED9zyLFYscBbr6cYuL+0H9r4uL/Fr5RIuL+0H9RIuL/S4FDv8Bji9uAQP54PjTFYv3\
+QPkBjIv8tCw/KFImZRkmZCN4IIv7JIv7F6r7Ccn7Csgy5E/3CU/3CW33Fov3JIv3I6n3Gcf3EMb3\
+D+Hn9wTH9wTH9xWp9yaL9YvreuFpCOBozlu8TrxOsDukKPtDWxh11nDFarZqtl2tTqVOpEiYQYsy\
+iz9+SnBKcFdnZF9jX2xbdVZmMHgpiyGL+xei+wG4Mwi4M8xK4WDhYOZ27Ivfi92b26zbq8ittLCL\
+96UYDv8BG39MAQP3OIsVixwFuvdWi4v87vmOi4v47vdWi4sc+kb7VouL+Uf9jouL/UcFDv/9ji9s\
+AQP3U4sVixwFuvdWi4sc+kYFDv8Aqtt2AQP3KosVixwFuvdWi4v9a/ls+Wv3m4v8+/zm+Rb9/PuU\
+i/ye+Xr7hPt+i/yQBQ4BA/cqixWLHAW691aLixz68/lmi4v7QQUO/wH+00QBA/csixWLHAW697iL\
+9+/+oqsqokOaWxmcwKXarvL38/qQGPeZi4sc+kb7T4uLHATL/D4c+zX7Q4v8PBwE4Isc+yAFDv8B\
+G39MAQP3MIsVixwFuvdbi/mWHPuBixwEf/dOi4sc+kb7W4v9lhwEgIsc+4AFDv8Bji9uAQPu+V4V\
+i/eHzPdT9xf3HvcX9x33PND3Y4v3G4v3Dmv3AUr3AUreMcT7B8T7CKf7F4v7J4v7KW37GU/7CU/7\
+CTYy+wJP+wJO+wtt+xOLCPsei/sPrPsBzvsBzjnmU/cHU/cHb/cOi/cVCPdciBWL+0W7+x/qJuol\
+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")}
+
+    </style>
+<clipPath id="id2">
+      <rect width="595" height="842" y="0" x="0"/>
+</clipPath>
+</defs>
+<defs/>
+<g>
+<g transform="scale(1 -1)">
+<g transform="matrix(0 -1 1 0 0 0)" clip-path="url(#id2)" id="main">
+<path stroke-width="1" d="M585.96 14.511L583.92 14.511M585.96 14.511L585.96 16.551M9.6 14.511L11.64 14.511M9.6 14.511L9.6 16.551M585.96 826.191L583.92 826.191M585.96 826.191L585.96 824.151M9.6 826.191L11.64 826.191M9.6 826.191L9.6 824.151" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<path d="M10.38 15.291h566.58v801.9h-566.58Z" fill-rule="nonzero" stroke="none" fill="#ffffff"/>
+<path stroke-width="1" d="M576.96 817.191h-566.64v-801.96h566.64Z" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('TACAN_USAGE_LIMIT');" onmousemove="(window.status ='TACAN_USAGE_LIMIT')">
+<path id="TACAN_USAGE_LIMIT" stroke-width="1" d="M82.32 171.591C78.54 171.591 75.48 168.471 75.48 164.691L75.48 48.831C75.48 45.051 78.54 41.991 82.32 41.991L136.44 41.991C140.22 41.991 143.34 45.051 143.34 48.831L143.34 164.691C143.34 168.471 140.22 171.591 136.44 171.591Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="92.16" fill="#000000" x="48.8305">TACAN_USAGE_LIMIT</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="102.06" fill="#000000" x="48.8305">*  CODE_COMP</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="111" fill="#000000" x="48.8305">*  CODE_TYPE</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="119.88" fill="#000000" x="48.8305">o  TXT_RMK</tspan>
+</text>
+</a>
+<a onclick="selectEntity('VOR');" onmousemove="(window.status ='VOR')">
+<path id="VOR" stroke-width="1" d="M273.72 792.531C269.94 792.531 266.88 789.411 266.88 785.63L266.88 664.911C266.88 661.13 269.94 658.07 273.72 658.07L541.92 658.07C545.7 658.07 548.82 661.13 548.82 664.911L548.82 785.63C548.82 789.411 545.7 792.531 541.92 792.531Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="283.62" fill="#000000" x="664.971">VOR</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="293.52" fill="#000000" x="664.971">*  CODE_ID</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="302.4" fill="#000000" x="664.971">*  GEO_LAT</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="311.34" fill="#000000" x="664.971">*  GEO_LONG</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="320.28" fill="#000000" x="664.971">o  TXT_NAME</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="329.16" fill="#000000" x="664.971">*  CODE_TYPE</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="338.1" fill="#000000" x="664.971">*  VAL_FREQ</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="347.04" fill="#000000" x="664.971">*  UOM_FREQ</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="355.92" fill="#000000" x="664.971">*  CODE_TYPE_NORTH</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="364.86" fill="#000000" x="664.971">o  VAL_DECLINATION</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="373.8" fill="#000000" x="664.971">o  VAL_MAG_VAR</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="382.68" fill="#000000" x="664.971">o  DATE_MAG_VAR</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="391.62" fill="#000000" x="664.971">o  CODE_EM</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="400.56" fill="#000000" x="664.971">*  CODE_DATUM</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="409.44" fill="#000000" x="664.971">o  VAL_GEO_ACCURACY</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="418.38" fill="#000000" x="664.971">o  UOM_GEO_ACCURACY</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="427.32" fill="#000000" x="664.971">o  VAL_ELEV</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="436.2" fill="#000000" x="664.971">o  VAL_ELEV_ACCURACY</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="445.14" fill="#000000" x="664.971">o  VAL_GEOID_UNDULATION</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="454.08" fill="#000000" x="664.971">o  UOM_DIST_VER</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="462.96" fill="#000000" x="664.971">o  VAL_CRC</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="471.9" fill="#000000" x="664.971">o  TXT_VER_DATUM</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="480.84" fill="#000000" x="664.971">o  TXT_RMK</tspan>
+</text>
+</a>
+<a onclick="selectEntity('TACAN');" onmousemove="(window.status ='TACAN')">
+<path id="TACAN" stroke-width="1" d="M312.84 195.591C309.06 195.591 306 192.471 306 188.691L306 60.471C306 56.691 309.06 53.631 312.84 53.631L544.02 53.631C547.8 53.631 550.92 56.691 550.92 60.471L550.92 188.691C550.92 192.471 547.8 195.591 544.02 195.591Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="322.74" fill="#000000" x="60.4706">TACAN</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="332.58" fill="#000000" x="60.4706">*  CODE_ID</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="341.52" fill="#000000" x="60.4706">*  GEO_LAT</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="350.46" fill="#000000" x="60.4706">*  GEO_LONG</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="359.34" fill="#000000" x="60.4706">o  TXT_NAME</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="368.28" fill="#000000" x="60.4706">*  CODE_CHANNEL</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="377.22" fill="#000000" x="60.4706">o  VAL_DECLINATION</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="386.1" fill="#000000" x="60.4706">o  VAL_MAG_VAR</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="395.04" fill="#000000" x="60.4706">o  DATE_MAG_VAR</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="403.98" fill="#000000" x="60.4706">o  CODE_EM</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="412.86" fill="#000000" x="60.4706">*  CODE_DATUM</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="421.8" fill="#000000" x="60.4706">o  VAL_GEO_ACCURACY</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="430.74" fill="#000000" x="60.4706">o  UOM_GEO_ACCURACY</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="439.62" fill="#000000" x="60.4706">o  VAL_ELEV</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="448.56" fill="#000000" x="60.4706">o  VAL_ELEV_ACCURACY</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="457.5" fill="#000000" x="60.4706">o  VAL_GEOID_UNDULATION</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="466.38" fill="#000000" x="60.4706">o  UOM_DIST_VER</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="475.32" fill="#000000" x="60.4706">o  VAL_CRC</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="484.26" fill="#000000" x="60.4706">o  TXT_VER_DATUM</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="493.14" fill="#000000" x="60.4706">o  TXT_RMK</tspan>
+</text>
+</a>
+<a onclick="selectEntity('TIMETABLE');" onmousemove="(window.status ='TIMETABLE')">
+<path id="TIMETABLE" stroke-width="1" d="M301.86 483.771C298.08 483.771 295.02 480.651 295.02 476.871L295.02 380.211C295.02 376.431 298.08 373.371 301.86 373.371L379.32 373.371C383.1 373.371 386.22 376.431 386.22 380.211L386.22 476.871C386.22 480.651 383.1 483.771 379.32 483.771Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="311.76" fill="#000000" x="380.21">TIMETABLE</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="321.66" fill="#000000" x="380.21">*  CODE_WORK_HR</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="330.54" fill="#000000" x="380.21">o  TXT_RMK_WORK_HR</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M288.18 373.311C288.18 369.531 291.24 366.471 295.02 366.471M288.18 373.371L288.18 483.831M295.02 490.611C291.24 490.611 288.18 487.551 288.18 483.771M295.02 490.671L361.62 490.671M368.4 483.771C368.4 487.551 365.28 490.611 361.56 490.611M361.56 366.471C365.28 366.471 368.4 369.531 368.4 373.311M361.62 366.471L295.02 366.471M361.56 494.031C359.64 494.031 358.14 492.47 358.14 490.611C358.14 488.751 359.64 487.251 361.56 487.251C363.42 487.251 364.98 488.751 364.98 490.611C364.98 492.47 363.42 494.031 361.56 494.031ZM361.56 369.891C359.64 369.891 358.14 368.331 358.14 366.471C358.14 364.551 359.64 363.051 361.56 363.051C363.42 363.051 364.98 364.551 364.98 366.471C364.98 368.331 363.42 369.891 361.56 369.891ZM315.6 369.891C313.68 369.891 312.18 368.331 312.18 366.471C312.18 364.551 313.68 363.051 315.6 363.051C317.46 363.051 319.02 364.551 319.02 366.471C319.02 368.331 317.46 369.891 315.6 369.891ZM314.22 494.031C312.3 494.031 310.8 492.47 310.8 490.611C310.8 488.751 312.3 487.251 314.22 487.251C316.08 487.251 317.64 488.751 317.64 490.611C317.64 492.47 316.08 494.031 314.22 494.031Z" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('TIMESHEET');" onmousemove="(window.status ='TIMESHEET')">
+<path id="TIMESHEET" stroke-width="1" d="M43.2 503.69C39.42 503.69 36.36 500.57 36.36 496.79L36.36 379.491C36.36 375.711 39.42 372.651 43.2 372.651L202.32 372.651C206.1 372.651 209.22 375.711 209.22 379.491L209.22 496.79C209.22 500.57 206.1 503.69 202.32 503.69Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="53.04" fill="#000000" x="379.55">TIMESHEET</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="62.94" fill="#000000" x="379.55">*  CODE_TIME_REF</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="71.88" fill="#000000" x="379.55">*  DATE_VALID_WEF</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="80.8201" fill="#000000" x="379.55">*  DATE_VALID_TIL</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="89.7" fill="#000000" x="379.55">*  CODE_DAY</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="98.6401" fill="#000000" x="379.55">o  CODE_DAY_TIL</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="107.58" fill="#000000" x="379.55">o  TIME_WEF</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="116.46" fill="#000000" x="379.55">o  CODE_EVENT_WEF</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="125.4" fill="#000000" x="379.55">o  TIME_REL_EVENT_WEF</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="134.34" fill="#000000" x="379.55">o  CODE_COMB_WEF</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="143.22" fill="#000000" x="379.55">o  TIME_TIL</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="152.16" fill="#000000" x="379.55">o  CODE_EVENT_TIL</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="161.1" fill="#000000" x="379.55">o  TIME_REL_EVENT_TIL</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="169.98" fill="#000000" x="379.55">o  CODE_COMB_TIL</tspan>
+</text>
+</a>
+<a onclick="selectEntity('ORG_AUTH');" onmousemove="(window.status ='ORG_AUTH')">
+<path id="ORG_AUTH" stroke-width="1" d="M461.76 474.831C457.98 474.831 454.92 471.711 454.92 467.931L454.92 395.991C454.92 392.211 457.98 389.151 461.76 389.151L525.48 389.151C529.26 389.151 532.38 392.211 532.38 395.991L532.38 467.931C532.38 471.711 529.26 474.831 525.48 474.831Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="471.6" fill="#000000" x="395.99">ORG_AUTH</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="481.5" fill="#000000" x="395.99">*  TXT_NAME</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="490.44" fill="#000000" x="395.99">o  CODE_ID</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="499.32" fill="#000000" x="395.99">*  CODE_TYPE</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="508.26" fill="#000000" x="395.99">o  TXT_RMK</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M143.4 100.971L224.34 100.971M228.48 100.971L240.84 100.971M244.98 100.971L257.28 100.971M261.42 100.971L273.78 100.971M277.86 100.971L290.22 100.971M294.36 100.971L306 100.971M153.72 100.971L143.4 97.551M153.72 100.971L143.4 104.391M153.72 100.971L143.4 100.971" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="160.08" fill="#000000" x="104.391">limiting the use of</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="296.64" fill="#000000" x="61.8504">having</tspan>
+</text>
+<path stroke-width="1" d="M479.58 385.011L479.58 372.651M479.58 368.571L479.58 356.211M479.58 352.071L479.58 339.711M479.58 335.631L479.58 323.271M479.58 319.131L479.58 306.831M479.58 302.691L479.58 195.651M479.58 205.971L476.16 195.651M479.58 205.971L483.06 195.651M479.58 205.971L479.58 195.651" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="492.9" fill="#000000" x="308.151">responsible for</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="473.64" fill="#000000" x="202.491">under the responsibility </tspan>
+</text>
+<path stroke-width="1" d="M479.58 479.031L479.58 491.391M479.58 495.471L480.3 507.831M480.3 511.971L480.3 524.331M480.3 528.411L480.3 540.771M480.96 544.911L480.96 557.211M480.96 561.351L480.96 566.151L482.34 658.07M482.34 648.471L478.92 658.07M482.34 648.471L485.76 658.07M482.34 648.471L482.34 658.07" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="473.64" fill="#000000" x="481.79">responsible for</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="495.599" fill="#000000" x="527.75">under the responsibility </tspan>
+</text>
+<path stroke-width="1" d="M413.76 199.791L413.76 212.151M413.76 216.231L413.76 228.591M413.76 232.731L413.76 245.031M413.76 249.171L413.76 261.531M413.76 265.611L413.76 277.971M413.76 282.111L413.76 294.471M413.76 298.551L413.76 310.911M413.76 315.051L413.76 327.411M413.76 331.491L413.76 343.851M413.76 347.991L413.76 360.351M413.76 364.431L413.76 376.791M413.76 380.931L413.76 393.231M413.76 397.371L413.76 409.731M413.76 413.811L413.76 426.171M413.76 430.971L413.76 443.331M413.76 447.471L413.76 459.831M413.76 463.911L413.76 476.271M413.76 480.411L413.76 492.771M413.76 496.85L413.76 509.211M413.76 513.351L413.76 525.651M413.76 529.791L413.76 542.151M413.76 546.23L413.76 558.591M413.76 562.73L413.76 575.091M413.76 579.171L413.76 591.531M413.76 595.671L413.76 608.031M413.76 612.11L413.76 624.471M413.76 628.61L413.76 640.971M413.76 645.051L413.76 657.411" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="405.72" fill="#000000" x="202.49">co-located with</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="427.02" fill="#000000" x="566.149">co-located with</tspan>
+</text>
+<path stroke-width="1" d="M315.6 199.791L315.6 212.151M315.6 216.231L315.6 228.591M315.6 232.731L315.6 245.031M315.6 249.171L315.6 261.531M315.6 265.611L315.6 277.971M315.6 282.111L315.6 373.371" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="307.62" fill="#000000" x="202.49">unmonitored according to</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="328.92" fill="#000000" x="202.49">describing unmonitored hours of</tspan>
+</text>
+<path stroke-width="1" d="M361.62 483.831L361.62 570.951M361.62 575.091L361.62 587.451M361.62 591.531L361.62 603.891M361.62 608.031L361.62 620.331M361.62 624.471L361.62 636.831M361.62 640.971L361.62 653.271M361.62 657.411L361.62 658.07" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="354.96" fill="#000000" x="492.05">describing operational hours for</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="373.5" fill="#000000" x="537.351">operating according to</tspan>
+</text>
+<path stroke-width="1" d="M361.62 373.371L361.62 284.871M361.62 280.731L361.62 268.371M361.62 264.291L361.62 251.931M361.62 247.791L361.62 235.431M361.62 231.351L361.62 218.991M361.62 214.851L361.62 202.491M361.62 198.411L361.62 195.651" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="375.54" fill="#000000" x="196.37">describing operational hours for</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="353.581" fill="#000000" x="202.491">operating according to</tspan>
+</text>
+<path stroke-width="1" d="M314.28 653.99L314.28 641.63M314.28 637.49L314.28 625.19M314.28 621.051L314.28 608.69M314.28 604.551L314.28 592.25M314.28 588.11L314.28 575.75M314.28 571.671L314.28 483.831" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="327.54" fill="#000000" x="519.53">unmonitored according to</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="306.24" fill="#000000" x="493.43">describing unmonitored hours of</tspan>
+</text>
+<path stroke-width="1" d="M209.28 428.271L251.82 428.271M255.96 428.271L268.26 428.271M272.4 428.271L284.76 428.271M288.84 428.271L295.02 428.271M219.54 428.271L209.28 424.791M219.54 428.271L209.28 431.691M219.54 428.271L209.28 428.271" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="225.96" fill="#000000" x="431.69">part of</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="283.62" fill="#000000" x="349.371">composed of</tspan>
+</text>
+</g>
+</g>
+</g>
+</svg>

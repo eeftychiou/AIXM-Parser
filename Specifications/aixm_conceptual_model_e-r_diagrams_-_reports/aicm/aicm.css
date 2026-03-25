@@ -1,0 +1,339 @@
+/*
+
+	Common style sheet for every AICM HTML files
+	********************************************
+*/
+
+/* NB: Span should not be given a default because it bypasses inheritance */
+body, p, a {
+	font-family: Helvetica;
+	font-size: 11pt;
+	font-style: normal;
+	color: black;
+}
+
+/* Common HTML tags definition
+   *************************** */
+body {
+	background-color: white;
+}
+
+h1, h1 a:link, h1 a:visited {
+	font-family: Helvetica;
+	font-size: 12pt;
+	font-style: bold;
+	color: black;
+	text-decoration: none;
+}
+h2, h2 a:link, h2 a:visited {
+	font-family: Helvetica;
+	font-size: 10pt;
+	font-style: bold;
+	color: black;
+	text-decoration: none;
+}
+
+/* Span should not be given a default because it bypasses inheritance
+span {
+	color: black;
+}
+*/
+
+span.menuitem, span.menuitem a:link, span.menuitem a:visited {
+	font-family: Helvetica;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+option {
+	font-family: Helvetica;
+	color: black;
+}
+
+/* Styles for Entities
+   ******************* */
+span.EIndex, span.EIndex a:link, span.EIndex a:visited  {
+	display: block;
+	margin: 4px;
+	font-family: Helvetica;
+	font-size: 9pt;
+	font-style: normal;
+	color: navy;
+	text-decoration: none;
+
+}
+span.EntHeader {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: bold;
+	color: navy;
+}
+span.EntDHeader {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+	color: navy;
+}
+span.SubtypeOf {
+	display: inline;
+	margin: 20px;
+	font-family: Helvetica;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: bold;
+	color: olive;
+}
+span.HrefSupertype {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: bold;
+	color: olive;
+}
+span.EntReference, span.EntReference a:link, span.EntReference a:visited {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bold;
+	color: navy;
+	text-decoration: none;
+}
+span.EntDReference {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 7pt;
+	font-style: normal;
+	font-weight: normal;
+	color: navy;
+}
+
+/* Styles for Attributes
+   ********************* */
+span.AttTitle {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	color: brown;
+	text-decoration: underline;
+}
+span.AttReference {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bold;
+	color: brown;
+}
+span.AttDReference {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 7pt;
+	font-style: normal;
+	font-weight: normal;
+	color: brown;
+}
+span.AttCardinality {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 9pt;
+	font-style: italic;
+	font-weight: normal;
+	color: blue;
+}
+/* Styles for Relations
+   ******************** */
+span.RelTitle {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	color: purple;
+	text-decoration: underline;
+}
+span.RelDesc {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	color: purple;
+}
+span.RelCardinality {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+	color: purple;
+}
+/* Styles for Domains
+   ****************** */
+span.DomTitle {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	color: green;
+	text-decoration: underline;
+}
+span.DomHeader {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: bold;
+	color: green;
+}
+span.DomDHeader {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+	color: green;
+}
+span.DomReference, span.DomReference a:link, span.DomReference a:visited {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bold;
+	color: green;
+	text-decoration: none;
+}
+span.DomDReference {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 7pt;
+	font-style: normal;
+	font-weight: normal;
+	color: green;
+}
+span.DomValTitle {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	color: teal;
+	text-decoration: underline;
+}
+span.DomValReference {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bold;
+	color: teal;
+}
+span.DomValDReference {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 7pt;
+	font-style: normal;
+	font-weight: normal;
+	color: teal;
+}
+
+/* Styles for Rules
+   **************** */
+span.RuleTitle {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	color: blue;
+	text-decoration: underline;
+}
+span.RuleEntDesc {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 9pt;
+	font-style: italic;
+	font-weight: normal;
+	color: blue;
+}
+span.RuleSupertype {
+	display: inline;
+	margin: 20px;
+	font-family: Helvetica;
+	font-size: 9pt;
+	font-style: italic;
+	font-weight: normal;
+	color: olive;
+}
+li.RuleEntDesc, ol.RuleEntDesc {
+	list-style-type: arabic-numbers;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: Helvetica;
+	font-size: 9pt;
+	font-style: italic;
+	font-weight: normal;
+	color: blue;
+}
+span.RuleRuleDesc {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	color: blue;
+}
+span.RuleRuleQual {
+	display: inline;
+	font-family: Helvetica;
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bold;
+	color: blue;
+}
+
+/* Styles for descriptions, notes ...
+   ********************************** */
+span.NoteTitle {
+	font-family: Helvetica;
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bold;
+	color: black;
+	text-decoration: underline;
+}
+span.Note {
+	font-family: Helvetica;
+	font-size: 9pt;
+	font-style: italic;
+	font-weight: normal;
+	color: black;
+}
+span.Desc {
+	font-family: Helvetica;
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	color: black;
+}
+
+/* Styles for deprecation
+   *********************** */
+
+/*span.Deprecated {
+	text-decoration: line-through;
+}*/
+
+span.DeprecatedRed {
+	color: red;
+}

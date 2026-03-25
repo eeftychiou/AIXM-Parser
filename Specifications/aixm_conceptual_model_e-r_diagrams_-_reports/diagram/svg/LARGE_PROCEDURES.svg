@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xml:space="preserve" width="1191" height="842" viewBox="0 0 1191 842" color-interpolation-filters="sRGB" id="root" xmlns:xlink="http://www.w3.org/1999/xlink">
+ Converted with TEXTCAFE (tm) http://www.texterity.com 
+  <title>LARGE_PROCEDURES (AICM-4-5) -- Page 1</title>
+<defs>
+    <style type="text/css">
+
+clipPath{shape-rendering:crispEdges}
+image{shape-rendering:crispEdges}
+
+    </style>
+<style type="text/css">
+
+@font-face{font-family:'font2';src:url("data:;base64,\
+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\
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==")}
+@font-face{font-family:'font1';src:url("data:;base64,\
+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")}
+
+    </style>
+<clipPath id="id26">
+      <path clip-rule="nonzero" d="M311.4 1052.008h1.92v7.5h-1.92Z"/>
+</clipPath>
+<clipPath id="id17">
+      <path clip-rule="nonzero" d="M99.3 480.088h5.04v26.82h-5.04Z"/>
+</clipPath>
+<clipPath id="id24">
+      <path clip-rule="nonzero" d="M212.34 741.808h5.1v13.32h-5.1Z"/>
+</clipPath>
+<clipPath id="id8">
+      <path clip-rule="nonzero" d="M203.64 547.888h5.1v22.62h-5.1Z"/>
+</clipPath>
+<clipPath id="id20">
+      <path clip-rule="nonzero" d="M488.16 214.468h5.1v13.68h-5.1Z"/>
+</clipPath>
+<clipPath id="id19">
+      <path clip-rule="nonzero" d="M226.14 413.008h5.1v26.82h-5.1Z"/>
+</clipPath>
+<clipPath id="id23">
+      <path clip-rule="nonzero" d="M162.24 926.548h5.1v26.82h-5.1Z"/>
+</clipPath>
+<image transform="matrix(1 0 0 -1 0 1)" width="1" height="1" xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAwAAAAPCAIAAABfg7keAAAAH0lEQVR42mP4TwRgGBBFDNgAFkXo ukegIsLhRIVoAQAXwcZIaYhmSgAAAABJRU5ErkJggg==" preserveAspectRatio="none" id="id6"/>
+<clipPath id="id16">
+      <path clip-rule="nonzero" d="M257.4 156.388h5.1v13.68h-5.1Z"/>
+</clipPath>
+<clipPath id="id7">
+      <path clip-rule="nonzero" d="M117.42 868.708h5.1v20.04h-5.1Z"/>
+</clipPath>
+<clipPath id="id12">
+      <path clip-rule="nonzero" d="M475.32 887.368h5.1v45.84h-5.1Z"/>
+</clipPath>
+<clipPath id="id13">
+      <path clip-rule="nonzero" d="M203.64 596.308h5.1v13.68h-5.1Z"/>
+</clipPath>
+<clipPath id="id2">
+      <rect width="842" height="1191" y="0" x="0"/>
+</clipPath>
+<clipPath id="id14">
+      <path clip-rule="nonzero" d="M167.1 600.928h5.04v13.68h-5.04Z"/>
+</clipPath>
+<rect width="1" height="1" y="0" mask="url(#id4)" id="id5" x="0"/>
+<clipPath id="id3">
+      <path clip-rule="nonzero" d="M14.28 14.488h786v1161.96h-786Z"/>
+</clipPath>
+<clipPath id="id10">
+      <path clip-rule="nonzero" d="M475.32 887.368h5.1v45.84h-5.1Z"/>
+</clipPath>
+<clipPath id="id22">
+      <path clip-rule="nonzero" d="M510.9 634.108h5.1v26.82h-5.1Z"/>
+</clipPath>
+<clipPath id="id18">
+      <path clip-rule="nonzero" d="M234.66 1074.268h5.04v13.32h-5.04Z"/>
+</clipPath>
+<clipPath id="id15">
+      <path clip-rule="nonzero" d="M175.56 411.088h5.1v39.42h-5.1Z"/>
+</clipPath>
+<mask id="id4">
+      <image transform="matrix(1 0 0 -1 0 1)" width="1" height="1" xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAaQAAABaAQAAAADf2B9FAAAC8ElEQVR42u2WX0hTURzHv+fust3E cmnBBkU3+udTbA+CldWtpEcz6MEHia1ACAKXaI5Kt1XSHsQiCHqpDYoeoodBDwVJbinaHyKDCPai l9R2E6IJU6bb3encbeamBq6HCLpf7h/O5X7vOfec+/t+LqBLl641KDITi74s1cTh9glptnSXYZSH o2SXi4RRel+3Wg8hWLILpXfFXCoyJb8XVG3mHX9nlammuP616/p/VAsk+YesOo+A51mbv+4VwBER vBkIEoBtlQKqi2u5HvDjCqvnJSXZLgPx7DF/JVnk0h5Ppo1dJ/ee29K0cd2zyzsf73j74vub83f2 ba2r3dM02MpdqsncTMYOtF2clQrSBu7dIavjbrnR6hskTtuc1emzlPlarJGzBtJrJMOkJep0Ruw9 Z5ZyguvXRohWB+T0fCYzNSAjMpBxsQF9pimacaTfdWv17hiQO/sL3ut19nSDxRtPwdHtIqgIvwCE MIcUeFUbFg0TkUhFeaipTIbIs7lTRBEQITCXm1QQU5AfPardJUuid5nLzZljQSQSMe8CDQQ5GoSi eLwKvafS9gTdT70CDRwOeCRujbEMiXWcl4QVI/y9Fl0mSa8IXbp0/aLDH/zp1S8yJR9D/GaRYYTn JAgiKrNhw0FqlLJk2VSQUcVMSedAEl4iCmuEc2RJF7jI9KcLr+I1DfWWyeYNtuEH92vLXB0N7old fdUjjW3P6zqEkeMmQ3/1a3lo4tSUnKdDjimWY1hvMxqsp31PyzlLleG93TcYddqsvV+rQK4R36Oo 0+6099hDeTrkmJLsmxwfa84k2bOSaVcc9EkmRSl+sOlSu90mjSyhcblzrCB7NabMgIhfsm0BfoZX B4MKgXmIXUhh3stODkYWsZgpAlGw7SrHZo65BDNInKvQXIymqskP5iJxUfSKxUxRVNDgwkIs6JEU KB9VOkoPCqp5NIFvoF3UIwn0QyDg0QBfRGjzsrXkV1lfaRlT2le4VpFOFl3/kH4CHMgINwmnmCcA AAAASUVORK5CYII=" preserveAspectRatio="none"/>
+</mask>
+<clipPath id="id25">
+      <path clip-rule="nonzero" d="M182.1 719.068h5.1v13.32h-5.1Z"/>
+</clipPath>
+<clipPath id="id9">
+      <path clip-rule="nonzero" d="M99.3 145.228h1.44v3.84h-1.44Z"/>
+</clipPath>
+<clipPath id="id21">
+      <path clip-rule="nonzero" d="M465.66 666.028h5.04v13.32h-5.04Z"/>
+</clipPath>
+<clipPath id="id11">
+      <path clip-rule="nonzero" d="M475.32 887.368h5.1v45.84h-5.1Z"/>
+</clipPath>
+</defs>
+<defs/>
+<g>
+<g transform="scale(1 -1)">
+<g transform="matrix(0 -1 1 0 0 0)" clip-path="url(#id2)" id="main">
+<path stroke-width="1" d="M800.52 14.248L798.12 14.248M800.52 14.248L800.52 16.648M14.04 14.248L16.44 14.248M14.04 14.248L14.04 16.648M800.52 1176.688L798.12 1176.688M800.52 1176.688L800.52 1174.288M14.04 1176.688L16.44 1176.688M14.04 1176.688L14.04 1174.288" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<g clip-path="url(#id3)">
+<path d="M14.28 14.488h786v1161.96h-786Z" fill-rule="nonzero" stroke="none" fill="#ffffff"/>
+<path stroke-width="1" d="M807.24 1302.268h-799.98v-1415.16h799.98Z" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+</g>
+<path d="M746.07 1031.938L746.07 1176.178L783.33 1176.178L783.33 1031.938" fill-rule="evenodd" stroke="none" fill="#ffffff"/>
+<g transform="matrix(0 144.300003 -37.32 0 783.359985 1031.907837)">
+<use fill="#000000" xlink:href="#id5"/>
+</g>
+<g transform="matrix(0 2.94 -3.6 0 800.039978 1171.827881)">
+<use xlink:href="#id6"/>
+</g>
+<g transform="matrix(0 2.88 -3.66 0 17.940004 14.487897)">
+<use xlink:href="#id6"/>
+</g>
+<a onclick="selectEntity('SERVICE_ON_STAR');" onmousemove="(window.status ='SERVICE_ON_STAR')">
+<path id="SERVICE_ON_STAR" stroke-width="1" d="M559.56 341.308C558.24 341.308 557.16 340.228 557.16 338.848L557.16 290.248C557.16 288.928 558.24 287.848 559.56 287.848L585.42 287.848C586.74 287.848 587.88 288.928 587.88 290.248L587.88 338.848C587.88 340.228 586.74 341.308 585.42 341.308Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="563.88" fill="#808080" x="290.248">SERVICE_ON_STAR</tspan>
+</text>
+</a>
+<a onclick="selectEntity('SERVICE_ON_SID');" onmousemove="(window.status ='SERVICE_ON_SID')">
+<path id="SERVICE_ON_SID" stroke-width="1" d="M107.52 309.808C106.2 309.808 105.12 308.728 105.12 307.348L105.12 259.768C105.12 258.448 106.2 257.368 107.52 257.368L132.12 257.368C133.44 257.368 134.58 258.448 134.58 259.768L134.58 307.348C134.58 308.728 133.44 309.808 132.12 309.808Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="111.78" fill="#808080" x="259.768">SERVICE_ON_SID</tspan>
+</text>
+</a>
+<a onclick="selectEntity('TFC_FLOW_RTE_ELEMENT');" onmousemove="(window.status ='TFC_FLOW_RTE_ELEMENT')">
+<path id="TFC_FLOW_RTE_ELEMENT" stroke-width="1" d="M537.06 167.188C535.74 167.188 534.66 166.108 534.66 164.728L534.66 94.588C534.66 93.268 535.74 92.188 537.06 92.188L574.74 92.188C576.06 92.188 577.2 93.268 577.2 94.588L577.2 164.728C577.2 166.108 576.06 167.188 574.74 167.188Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="541.32" fill="#808080" x="94.6479">TFC_FLOW_RTE_ELEMENT</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M532.26 143.488C532.26 142.168 533.28 141.148 534.6 141.148M532.26 143.548L532.26 167.248M534.6 169.648C533.28 169.648 532.26 168.568 532.26 167.248M534.66 169.708L577.26 169.708M579.66 167.248C579.66 168.568 578.58 169.648 577.26 169.648M579.72 167.248L579.72 160.468M577.26 158.068C578.58 158.068 579.66 159.088 579.66 160.468M545.52 170.848C544.86 170.848 544.32 170.308 544.32 169.648C544.32 168.988 544.86 168.508 545.52 168.508C546.18 168.508 546.72 168.988 546.72 169.648C546.72 170.308 546.18 170.848 545.52 170.848ZM558.6 170.848C557.94 170.848 557.4 170.308 557.4 169.648C557.4 168.988 557.94 168.508 558.6 168.508C559.26 168.508 559.8 168.988 559.8 169.648C559.8 170.308 559.26 170.848 558.6 170.848ZM579.66 161.668C579 161.668 578.46 161.128 578.46 160.468C578.46 159.748 579 159.268 579.66 159.268C580.32 159.268 580.86 159.748 580.86 160.468C580.86 161.128 580.32 161.668 579.66 161.668ZM532.2 144.688C531.54 144.688 531 144.148 531 143.488C531 142.828 531.54 142.348 532.2 142.348C532.86 142.348 533.4 142.828 533.4 143.488C533.4 144.148 532.86 144.688 532.2 144.688Z" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('RWY_DIRECTION_OBSTACLE');" onmousemove="(window.status ='RWY_DIRECTION_OBSTACLE')">
+<path id="RWY_DIRECTION_OBSTACLE" stroke-width="1" d="M361.74 449.788C360.42 449.788 359.34 448.708 359.34 447.328L359.34 379.588C359.34 378.268 360.42 377.188 361.74 377.188L434.58 377.188C435.9 377.188 437.04 378.268 437.04 379.588L437.04 447.328C437.04 448.708 435.9 449.788 434.58 449.788Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="366" fill="#000000" x="379.588">RWY_DIRECTION_OBSTACLE</tspan>
+</text>
+</a>
+<a onclick="selectEntity('SERVICE_ON_IAP');" onmousemove="(window.status ='SERVICE_ON_IAP')">
+<path id="SERVICE_ON_IAP" stroke-width="1" d="M163.68 263.608C162.36 263.608 161.28 262.528 161.28 261.148L161.28 212.548C161.28 211.228 162.36 210.148 163.68 210.148L178.86 210.148C180.18 210.148 181.32 211.228 181.32 212.548L181.32 261.148C181.32 262.528 180.18 263.608 178.86 263.608Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="167.94" fill="#808080" x="212.548">SERVICE_ON_IAP</tspan>
+</text>
+</a>
+<a onclick="selectEntity('SERVICE_ON_HOLDING_PROC');" onmousemove="(window.status ='SERVICE_ON_HOLDING_PROC')">
+<path id="SERVICE_ON_HOLDING_PROC" stroke-width="1" d="M61.26 937.408C59.94 937.408 58.86 936.328 58.86 934.948L58.86 862.648C58.86 861.328 59.94 860.248 61.26 860.248L92.64 860.248C93.96 860.248 95.1 861.328 95.1 862.648L95.1 934.948C95.1 936.328 93.96 937.408 92.64 937.408Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="65.52" fill="#808080" x="862.648">SERVICE_ON_HOLDING_PROC</tspan>
+</text>
+</a>
+<a onclick="selectEntity('FATO_DIRECTION_OBSTACLE');" onmousemove="(window.status ='FATO_DIRECTION_OBSTACLE')">
+<path id="FATO_DIRECTION_OBSTACLE" stroke-width="1" d="M446.52 566.008C445.2 566.008 444.12 564.928 444.12 563.548L444.12 496.528C444.12 495.208 445.2 494.128 446.52 494.128L519.06 494.128C520.38 494.128 521.52 495.208 521.52 496.528L521.52 563.548C521.52 564.928 520.38 566.008 519.06 566.008Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="450.78" fill="#000000" x="496.588">FATO_DIRECTION_OBSTACLE</tspan>
+</text>
+</a>
+<a onclick="selectEntity('OBSTACLE');" onmousemove="(window.status ='OBSTACLE')">
+<path id="OBSTACLE" stroke-width="1" d="M462.96 444.208C461.64 444.208 460.56 443.128 460.56 441.748L460.56 391.468C460.56 390.148 461.64 389.068 462.96 389.068L518.82 389.068C520.14 389.068 521.28 390.148 521.28 391.468L521.28 441.748C521.28 443.128 520.14 444.208 518.82 444.208Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="467.22" fill="#000000" x="391.468">OBSTACLE</tspan>
+</text>
+</a>
+<a onclick="selectEntity('AD_HP_OBSTACLE');" onmousemove="(window.status ='AD_HP_OBSTACLE')">
+<path id="AD_HP_OBSTACLE" stroke-width="1" d="M457.86 346.168C456.54 346.168 455.46 345.028 455.46 343.708L455.46 279.088C455.46 277.768 456.54 276.688 457.86 276.688L534.78 276.688C536.1 276.688 537.24 277.768 537.24 279.088L537.24 343.708C537.24 345.028 536.1 346.168 534.78 346.168Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="462.12" fill="#000000" x="279.148">AD_HP_OBSTACLE</tspan>
+</text>
+</a>
+<a onclick="selectEntity('TIMETABLE');" onmousemove="(window.status ='TIMETABLE')">
+<path id="TIMETABLE" stroke-width="1" d="M37.02 82.708C35.7 82.708 34.62 81.628 34.62 80.248L34.62 31.168C34.62 29.848 35.7 28.768 37.02 28.768L780.6 28.768C781.92 28.768 783.06 29.848 783.06 31.168L783.06 80.248C783.06 81.628 781.92 82.708 780.6 82.708Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="41.28" fill="#808080" x="31.2279">TIMETABLE</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M44.04 87.568C42.66 87.568 41.64 86.488 41.64 85.168M44.1 87.628L775.08 87.628M777.48 85.168C777.48 86.488 776.4 87.568 775.08 87.568M607.74 88.768C607.08 88.768 606.6 88.228 606.6 87.568C606.6 86.908 607.08 86.428 607.74 86.428C608.4 86.428 608.94 86.908 608.94 87.568C608.94 88.228 608.4 88.768 607.74 88.768ZM59.76 88.768C59.1 88.768 58.62 88.228 58.62 87.568C58.62 86.908 59.1 86.428 59.76 86.428C60.42 86.428 60.96 86.908 60.96 87.568C60.96 88.228 60.42 88.768 59.76 88.768ZM391.98 88.768C391.32 88.768 390.84 88.228 390.84 87.568C390.84 86.908 391.32 86.428 391.98 86.428C392.64 86.428 393.18 86.908 393.18 87.568C393.18 88.228 392.64 88.768 391.98 88.768ZM775.08 88.768C774.42 88.768 773.88 88.228 773.88 87.568C773.88 86.908 774.42 86.428 775.08 86.428C775.74 86.428 776.28 86.908 776.28 87.568C776.28 88.228 775.74 88.768 775.08 88.768ZM44.04 88.768C43.38 88.768 42.84 88.228 42.84 87.568C42.84 86.908 43.38 86.428 44.04 86.428C44.7 86.428 45.24 86.908 45.24 87.568C45.24 88.228 44.7 88.768 44.04 88.768ZM71.4 88.768C70.74 88.768 70.2 88.228 70.2 87.568C70.2 86.908 70.74 86.428 71.4 86.428C72.06 86.428 72.6 86.908 72.6 87.568C72.6 88.228 72.06 88.768 71.4 88.768ZM196.56 88.768C195.9 88.768 195.42 88.228 195.42 87.568C195.42 86.908 195.9 86.428 196.56 86.428C197.22 86.428 197.76 86.908 197.76 87.568C197.76 88.228 197.22 88.768 196.56 88.768ZM742.86 88.768C742.2 88.768 741.72 88.228 741.72 87.568C741.72 86.908 742.2 86.428 742.86 86.428C743.52 86.428 744.06 86.908 744.06 87.568C744.06 88.228 743.52 88.768 742.86 88.768ZM92.94 88.768C92.28 88.768 91.8 88.228 91.8 87.568C91.8 86.908 92.28 86.428 92.94 86.428C93.6 86.428 94.14 86.908 94.14 87.568C94.14 88.228 93.6 88.768 92.94 88.768ZM690.54 88.768C689.88 88.768 689.4 88.228 689.4 87.568C689.4 86.908 689.88 86.428 690.54 86.428C691.2 86.428 691.74 86.908 691.74 87.568C691.74 88.228 691.2 88.768 690.54 88.768ZM762.48 88.768C761.82 88.768 761.28 88.228 761.28 87.568C761.28 86.908 761.82 86.428 762.48 86.428C763.14 86.428 763.68 86.908 763.68 87.568C763.68 88.228 763.14 88.768 762.48 88.768ZM622.74 88.768C622.08 88.768 621.6 88.228 621.6 87.568C621.6 86.908 622.08 86.428 622.74 86.428C623.4 86.428 623.94 86.908 623.94 87.568C623.94 88.228 623.4 88.768 622.74 88.768Z" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('RWY_DIRECTION_STAR');" onmousemove="(window.status ='RWY_DIRECTION_STAR')">
+<path id="RWY_DIRECTION_STAR" stroke-width="1" d="M639.72 492.148C638.4 492.148 637.32 491.068 637.32 489.688L637.32 428.008C637.32 426.688 638.4 425.608 639.72 425.608L673.56 425.608C674.88 425.608 676.02 426.688 676.02 428.008L676.02 489.688C676.02 491.068 674.88 492.148 673.56 492.148Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="643.98" fill="#000000" x="428.068">RWY_DIRECTION_STAR</tspan>
+</text>
+</a>
+<a onclick="selectEntity('FATO_DIRECTION_STAR');" onmousemove="(window.status ='FATO_DIRECTION_STAR')">
+<path id="FATO_DIRECTION_STAR" stroke-width="1" d="M666.36 596.488C665.04 596.488 663.96 595.408 663.96 594.028L663.96 525.328C663.96 524.008 665.04 522.928 666.36 522.928L689.76 522.928C691.08 522.928 692.22 524.008 692.22 525.328L692.22 594.028C692.22 595.408 691.08 596.488 689.76 596.488Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="670.62" fill="#000000" x="525.388">FATO_DIRECTION_STAR</tspan>
+</text>
+</a>
+<a onclick="selectEntity('TLOF');" onmousemove="(window.status ='TLOF')">
+<path id="TLOF" stroke-width="1" d="M337.26 313.228C335.94 313.228 334.86 312.148 334.86 310.768L334.86 276.208C334.86 274.888 335.94 273.808 337.26 273.808L402.6 273.808C403.92 273.808 405.06 274.888 405.06 276.208L405.06 310.768C405.06 312.148 403.92 313.228 402.6 313.228Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="341.58" fill="#808080" x="276.208">TLOF</tspan>
+</text>
+</a>
+<a onclick="selectEntity('FATO_DIRECTION');" onmousemove="(window.status ='FATO_DIRECTION')">
+<path id="FATO_DIRECTION" stroke-width="1" d="M130.98 598.408C129.66 598.408 128.58 597.328 128.58 595.948L128.58 531.868C128.58 530.548 129.66 529.468 130.98 529.468L198.72 529.468C200.04 529.468 201.18 530.548 201.18 531.868L201.18 595.948C201.18 597.328 200.04 598.408 198.72 598.408Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="135.24" fill="#808080" x="531.928">FATO_DIRECTION</tspan>
+</text>
+</a>
+<a onclick="selectEntity('SID');" onmousemove="(window.status ='SID')">
+<path id="SID" stroke-width="1" d="M84.24 477.628C82.92 477.628 81.84 476.548 81.84 475.168L81.84 392.668C81.84 391.348 82.92 390.268 84.24 390.268L159 390.268C160.32 390.268 161.46 391.348 161.46 392.668L161.46 475.168C161.46 476.548 160.32 477.628 159 477.628Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="88.5" fill="#000000" x="392.668">SID</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M141.36 482.488C140.04 482.488 139.02 481.408 139.02 480.088M141.42 482.548L163.92 482.548M166.32 480.088C166.32 481.408 165.24 482.488 163.92 482.488M166.38 480.088L166.38 469.228M163.92 466.768C165.24 466.768 166.32 467.788 166.32 469.168M141.36 483.688C140.7 483.688 140.22 483.148 140.22 482.488C140.22 481.768 140.7 481.288 141.36 481.288C142.02 481.288 142.56 481.768 142.56 482.488C142.56 483.148 142.02 483.688 141.36 483.688ZM166.32 470.368C165.66 470.368 165.12 469.828 165.12 469.168C165.12 468.448 165.66 467.968 166.32 467.968C166.98 467.968 167.52 468.448 167.52 469.168C167.52 469.828 166.98 470.368 166.32 470.368Z" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('SID_USAGE');" onmousemove="(window.status ='SID_USAGE')">
+<path id="SID_USAGE" stroke-width="1" d="M76.98 247.108C75.66 247.108 74.58 246.028 74.58 244.648L74.58 194.368C74.58 193.048 75.66 191.968 76.98 191.968L108.6 191.968C109.92 191.968 111.06 193.048 111.06 194.368L111.06 244.648C111.06 246.028 109.92 247.108 108.6 247.108Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="81.24" fill="#000000" x="194.368">SID_USAGE</tspan>
+</text>
+</a>
+<a onclick="selectEntity('OCA_OCH');" onmousemove="(window.status ='OCA_OCH')">
+<path id="OCA_OCH" stroke-width="1" d="M226.14 261.868C224.82 261.868 223.74 260.788 223.74 259.408L223.74 226.348C223.74 225.028 224.82 223.948 226.14 223.948L255.36 223.948C256.68 223.948 257.82 225.028 257.82 226.348L257.82 259.408C257.82 260.788 256.68 261.868 255.36 261.868Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="230.4" fill="#000000" x="226.348">OCA_OCH</tspan>
+</text>
+</a>
+<a onclick="selectEntity('IAP_USAGE');" onmousemove="(window.status ='IAP_USAGE')">
+<path id="IAP_USAGE" stroke-width="1" d="M189.84 247.828C188.52 247.828 187.44 246.748 187.44 245.368L187.44 201.628C187.44 200.308 188.52 199.228 189.84 199.228L205.5 199.228C206.82 199.228 207.96 200.308 207.96 201.628L207.96 245.368C207.96 246.748 206.82 247.828 205.5 247.828Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="194.1" fill="#000000" x="201.628">IAP_USAGE</tspan>
+</text>
+</a>
+<a onclick="selectEntity('IAP');" onmousemove="(window.status ='IAP')">
+<path id="IAP" stroke-width="1" d="M169.98 408.628C168.66 408.628 167.58 407.488 167.58 406.168L167.58 326.548C167.58 325.228 168.66 324.148 169.98 324.148L282 324.148C283.32 324.148 284.46 325.228 284.46 326.548L284.46 406.168C284.46 407.488 283.32 408.628 282 408.628Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="174.24" fill="#000000" x="326.608">IAP</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M181.8 411.028C180.42 411.028 179.4 409.948 179.4 408.628M181.86 411.088L284.52 411.088M286.86 408.628C286.86 409.948 285.78 411.028 284.46 411.028M286.92 408.688L286.92 332.428M284.46 329.968C285.78 329.968 286.86 330.988 286.86 332.368M286.92 333.568C286.26 333.568 285.72 333.028 285.72 332.368C285.72 331.648 286.26 331.168 286.92 331.168C287.58 331.168 288.12 331.648 288.12 332.368C288.12 333.028 287.58 333.568 286.92 333.568ZM181.8 412.228C181.14 412.228 180.66 411.688 180.66 411.028C180.66 410.368 181.14 409.888 181.8 409.888C182.46 409.888 183 410.368 183 411.028C183 411.688 182.46 412.228 181.8 412.228ZM271.62 412.228C270.96 412.228 270.48 411.688 270.48 411.028C270.48 410.368 270.96 409.888 271.62 409.888C272.28 409.888 272.82 410.368 272.82 411.028C272.82 411.688 272.28 412.228 271.62 412.228Z" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('AD_HP');" onmousemove="(window.status ='AD_HP')">
+<path id="AD_HP" stroke-width="1" d="M267.3 227.248C265.98 227.248 264.9 226.168 264.9 224.788L264.9 166.528C264.9 165.208 265.98 164.128 267.3 164.128L483.24 164.128C484.56 164.128 485.7 165.208 485.7 166.528L485.7 224.788C485.7 226.168 484.56 227.248 483.24 227.248Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="271.56" fill="#808080" x="166.528">AD_HP</tspan>
+</text>
+</a>
+<a onclick="selectEntity('RWY_DIRECTION');" onmousemove="(window.status ='RWY_DIRECTION')">
+<path id="RWY_DIRECTION" stroke-width="1" d="M248.88 529.168C247.56 529.168 246.48 528.088 246.48 526.708L246.48 456.328C246.48 455.008 247.56 453.928 248.88 453.928L369.18 453.928C370.5 453.928 371.64 455.008 371.64 456.328L371.64 526.708C371.64 528.088 370.5 529.168 369.18 529.168Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="253.2" fill="#808080" x="456.388">RWY_DIRECTION</tspan>
+</text>
+</a>
+<a onclick="selectEntity('STAR_USAGE');" onmousemove="(window.status ='STAR_USAGE')">
+<path id="STAR_USAGE" stroke-width="1" d="M672.18 235.708C670.86 235.708 669.78 234.628 669.78 233.248L669.78 180.088C669.78 178.768 670.86 177.688 672.18 177.688L726.12 177.688C727.44 177.688 728.58 178.768 728.58 180.088L728.58 233.248C728.58 234.628 727.44 235.708 726.12 235.708Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="676.44" fill="#000000" x="180.088">STAR_USAGE</tspan>
+</text>
+</a>
+<a onclick="selectEntity('STAR');" onmousemove="(window.status ='STAR')">
+<path id="STAR" stroke-width="1" d="M642.42 356.788C641.1 356.788 640.02 355.708 640.02 354.328L640.02 286.888C640.02 285.568 641.1 284.488 642.42 284.488L728.76 284.488C730.08 284.488 731.22 285.568 731.22 286.888L731.22 354.328C731.22 355.708 730.08 356.788 728.76 356.788Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="646.68" fill="#000000" x="286.888">STAR</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M646.98 359.728C645.6 359.728 644.58 358.648 644.58 357.328M647.04 359.788L682.62 359.788M684.96 357.328C684.96 358.648 683.88 359.728 682.56 359.728M682.56 360.928C681.9 360.928 681.42 360.388 681.42 359.728C681.42 359.008 681.9 358.528 682.56 358.528C683.22 358.528 683.76 359.008 683.76 359.728C683.76 360.388 683.22 360.928 682.56 360.928ZM646.98 360.928C646.32 360.928 645.78 360.388 645.78 359.728C645.78 359.008 646.32 358.528 646.98 358.528C647.64 358.528 648.18 359.008 648.18 359.728C648.18 360.388 647.64 360.928 646.98 360.928Z" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('MSA_GROUP');" onmousemove="(window.status ='MSA_GROUP')">
+<path id="MSA_GROUP" stroke-width="1" d="M520.86 684.388C519.54 684.388 518.46 683.308 518.46 681.928L518.46 605.008C518.46 603.688 519.54 602.608 520.86 602.608L589.26 602.608C590.58 602.608 591.72 603.688 591.72 605.008L591.72 681.928C591.72 683.308 590.58 684.388 589.26 684.388Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="525.12" fill="#000000" x="605.008">MSA_GROUP</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M525.18 686.788C523.8 686.788 522.78 685.708 522.78 684.388M525.24 686.848L579.48 686.848M581.82 684.388C581.82 685.708 580.74 686.788 579.42 686.788M525.18 688.048C524.52 688.048 523.98 687.508 523.98 686.848C523.98 686.128 524.52 685.648 525.18 685.648C525.84 685.648 526.38 686.128 526.38 686.848C526.38 687.508 525.84 688.048 525.18 688.048ZM579.42 688.048C578.76 688.048 578.22 687.508 578.22 686.848C578.22 686.128 578.76 685.648 579.42 685.648C580.08 685.648 580.62 686.128 580.62 686.848C580.62 687.508 580.08 688.048 579.42 688.048Z" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('MSA');" onmousemove="(window.status ='MSA')">
+<path id="MSA" stroke-width="1" d="M420.36 714.148C419.04 714.148 417.96 713.068 417.96 711.688L417.96 679.348C417.96 678.028 419.04 676.948 420.36 676.948L461.94 676.948C463.26 676.948 464.4 678.028 464.4 679.348L464.4 711.688C464.4 713.068 463.26 714.148 461.94 714.148Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="424.62" fill="#000000" x="679.348">MSA</tspan>
+</text>
+</a>
+<a onclick="selectEntity('HOLDING_PROCEDURE');" onmousemove="(window.status ='HOLDING_PROCEDURE')">
+<path id="HOLDING_PROCEDURE" stroke-width="1" d="M127.32 924.088C126 924.088 124.92 923.008 124.92 921.628L124.92 865.288C124.92 863.968 126 862.888 127.32 862.888L187.8 862.888C189.12 862.888 190.26 863.968 190.26 865.288L190.26 921.628C190.26 923.008 189.12 924.088 187.8 924.088Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="131.64" fill="#000000" x="865.348">HOLDING_PROCEDURE</tspan>
+</text>
+</a>
+<a onclick="selectEntity('VOR');" onmousemove="(window.status ='VOR')">
+<path id="VOR" stroke-width="1" d="M567.54 879.328C566.22 879.328 565.14 878.188 565.14 876.868L565.14 777.868C565.14 776.548 566.22 775.468 567.54 775.468L688.56 775.468C689.88 775.468 691.02 776.548 691.02 777.868L691.02 876.868C691.02 878.188 689.88 879.328 688.56 879.328Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="571.86" fill="#808080" x="777.928">VOR</tspan>
+</text>
+</a>
+<a onclick="selectEntity('NDB');" onmousemove="(window.status ='NDB')">
+<path id="NDB" stroke-width="1" d="M485.22 975.448C483.9 975.448 482.82 974.368 482.82 972.988L482.82 893.128C482.82 891.808 483.9 890.728 485.22 890.728L533.34 890.728C534.66 890.728 535.8 891.808 535.8 893.128L535.8 972.988C535.8 974.368 534.66 975.448 533.34 975.448Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="489.54" fill="#808080" x="893.188">NDB</tspan>
+</text>
+</a>
+<a onclick="selectEntity('DME');" onmousemove="(window.status ='DME')">
+<path id="DME" stroke-width="1" d="M163.92 820.708C162.6 820.708 161.52 819.628 161.52 818.248L161.52 738.208C161.52 736.888 162.6 735.808 163.92 735.808L207.42 735.808C208.74 735.808 209.88 736.888 209.88 738.208L209.88 818.248C209.88 819.628 208.74 820.708 207.42 820.708Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="168.18" fill="#808080" x="738.208">DME</tspan>
+</text>
+</a>
+<a onclick="selectEntity('TACAN');" onmousemove="(window.status ='TACAN')">
+<path id="TACAN" stroke-width="1" d="M550.86 1034.488C549.54 1034.488 548.46 1033.408 548.46 1032.028L548.46 965.068C548.46 963.748 549.54 962.668 550.86 962.668L614.7 962.668C616.02 962.668 617.16 963.748 617.16 965.068L617.16 1032.028C617.16 1033.408 616.02 1034.488 614.7 1034.488Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="555.12" fill="#808080" x="965.068">TACAN</tspan>
+</text>
+</a>
+<a onclick="selectEntity('SIGNIFICANT_POINT');" onmousemove="(window.status ='SIGNIFICANT_POINT')">
+<path id="SIGNIFICANT_POINT" stroke-width="1" d="M355.68 936.448C354.36 936.448 353.28 935.368 353.28 933.988L353.28 854.188C353.28 852.868 354.36 851.788 355.68 851.788L440.82 851.788C442.14 851.788 443.28 852.868 443.28 854.188L443.28 933.988C443.28 935.368 442.14 936.448 440.82 936.448Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="360" fill="#808080" x="854.188">SIGNIFICANT_POINT</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M412.8 938.848C411.48 938.848 410.46 937.768 410.46 936.448M412.86 938.908L443.34 938.908M445.74 936.448C445.74 937.768 444.66 938.848 443.34 938.848M445.8 936.508L445.8 851.788M443.34 849.328C444.66 849.328 445.74 850.348 445.74 851.728M443.34 849.328L387.66 849.328M385.26 851.728C385.26 850.348 386.28 849.328 387.66 849.328M445.74 858.748C445.08 858.748 444.6 858.208 444.6 857.548C444.6 856.828 445.08 856.348 445.74 856.348C446.4 856.348 446.94 856.828 446.94 857.548C446.94 858.208 446.4 858.748 445.74 858.748ZM445.74 918.268C445.08 918.268 444.6 917.728 444.6 917.068C444.6 916.408 445.08 915.928 445.74 915.928C446.4 915.928 446.94 916.408 446.94 917.068C446.94 917.728 446.4 918.268 445.74 918.268ZM387.6 850.468C386.94 850.468 386.46 849.928 386.46 849.268C386.46 848.608 386.94 848.128 387.6 848.128C388.26 848.128 388.8 848.608 388.8 849.268C388.8 849.928 388.26 850.468 387.6 850.468ZM412.8 940.048C412.14 940.048 411.66 939.508 411.66 938.848C411.66 938.188 412.14 937.708 412.8 937.708C413.46 937.708 414 938.188 414 938.848C414 939.508 413.46 940.048 412.8 940.048Z" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('MLS');" onmousemove="(window.status ='MLS')">
+<path id="MLS" stroke-width="1" d="M330.48 721.168C329.16 721.168 328.08 720.088 328.08 718.708L328.08 657.568C328.08 656.248 329.16 655.168 330.48 655.168L386.82 655.168C388.14 655.168 389.28 656.248 389.28 657.568L389.28 718.708C389.28 720.088 388.14 721.168 386.82 721.168Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="334.8" fill="#808080" x="657.568">MLS</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M363.9 652.708C365.22 652.708 366.3 653.728 366.3 655.108M363.96 652.708L346.02 652.708M343.62 655.108C343.62 653.728 344.64 652.708 345.96 652.708M345.96 653.908C345.3 653.908 344.82 653.368 344.82 652.708C344.82 651.988 345.3 651.508 345.96 651.508C346.62 651.508 347.16 651.988 347.16 652.708C347.16 653.368 346.62 653.908 345.96 653.908ZM363.9 653.908C363.24 653.908 362.76 653.368 362.76 652.708C362.76 651.988 363.24 651.508 363.9 651.508C364.56 651.508 365.1 651.988 365.1 652.708C365.1 653.368 364.56 653.908 363.9 653.908Z" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('ILS');" onmousemove="(window.status ='ILS')">
+<path id="ILS" stroke-width="1" d="M257.64 753.868C256.32 753.868 255.24 752.788 255.24 751.408L255.24 681.028C255.24 679.708 256.32 678.628 257.64 678.628L315.18 678.628C316.5 678.628 317.64 679.708 317.64 681.028L317.64 751.408C317.64 752.788 316.5 753.868 315.18 753.868Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="261.9" fill="#808080" x="681.088">ILS</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M252.54 678.388C252.54 677.008 253.56 675.988 254.94 675.988M252.54 678.388L252.54 686.128M254.94 688.528C253.56 688.528 252.54 687.448 252.54 686.128M297.54 675.988C298.86 675.988 299.94 677.008 299.94 678.388M297.6 675.988L255 675.988M252.48 687.268C251.82 687.268 251.34 686.728 251.34 686.068C251.34 685.408 251.82 684.928 252.48 684.928C253.14 684.928 253.68 685.408 253.68 686.068C253.68 686.728 253.14 687.268 252.48 687.268ZM297.54 677.128C296.88 677.128 296.4 676.588 296.4 675.928C296.4 675.268 296.88 674.788 297.54 674.788C298.2 674.788 298.74 675.268 298.74 675.928C298.74 676.588 298.2 677.128 297.54 677.128Z" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('SPEC_NAV_SYS');" onmousemove="(window.status ='SPEC_NAV_SYS')">
+<path id="SPEC_NAV_SYS" stroke-width="1" d="M38.46 1154.848C37.14 1154.848 36.06 1153.768 36.06 1152.388L36.06 1103.788C36.06 1102.468 37.14 1101.388 38.46 1101.388L65.52 1101.388C66.84 1101.388 67.98 1102.468 67.98 1103.788L67.98 1152.388C67.98 1153.768 66.84 1154.848 65.52 1154.848Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="42.78" fill="#808080" x="1103.79">SPEC_NAV_SYS</tspan>
+</text>
+</a>
+<a onclick="selectEntity('PROCEDURE_LEG');" onmousemove="(window.status ='PROCEDURE_LEG')">
+<path id="PROCEDURE_LEG" stroke-width="1" d="M94.2 1161.628C92.88 1161.628 91.8 1160.548 91.8 1159.168L91.8 1102.108C91.8 1100.788 92.88 1099.708 94.2 1099.708L743.52 1099.708C744.84 1099.708 745.98 1100.788 745.98 1102.108L745.98 1159.168C745.98 1160.548 744.84 1161.628 743.52 1161.628Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="98.46" fill="#000000" x="1102.11">PROCEDURE_LEG</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M87.42 1097.728C87.42 1096.348 88.44 1095.328 89.82 1095.328M87.42 1097.788L87.42 1122.928M89.82 1125.328C88.44 1125.328 87.42 1124.248 87.42 1122.928M649.14 1095.328C650.46 1095.328 651.54 1096.348 651.54 1097.728M649.2 1095.328L89.82 1095.328M649.14 1096.468C648.48 1096.468 648 1095.928 648 1095.268C648 1094.608 648.48 1094.128 649.14 1094.128C649.8 1094.128 650.34 1094.608 650.34 1095.268C650.34 1095.928 649.8 1096.468 649.14 1096.468ZM489.3 1096.468C488.64 1096.468 488.16 1095.928 488.16 1095.268C488.16 1094.608 488.64 1094.128 489.3 1094.128C489.96 1094.128 490.5 1094.608 490.5 1095.268C490.5 1095.928 489.96 1096.468 489.3 1096.468ZM572.64 1096.468C571.98 1096.468 571.44 1095.928 571.44 1095.268C571.44 1094.608 571.98 1094.128 572.64 1094.128C573.3 1094.128 573.84 1094.608 573.84 1095.268C573.84 1095.928 573.3 1096.468 572.64 1096.468ZM335.82 1096.468C335.16 1096.468 334.62 1095.928 334.62 1095.268C334.62 1094.608 335.16 1094.128 335.82 1094.128C336.48 1094.128 337.02 1094.608 337.02 1095.268C337.02 1095.928 336.48 1096.468 335.82 1096.468ZM304.56 1096.468C303.9 1096.468 303.42 1095.928 303.42 1095.268C303.42 1094.608 303.9 1094.128 304.56 1094.128C305.22 1094.128 305.76 1094.608 305.76 1095.268C305.76 1095.928 305.22 1096.468 304.56 1096.468ZM87.36 1124.068C86.7 1124.068 86.22 1123.528 86.22 1122.868C86.22 1122.208 86.7 1121.728 87.36 1121.728C88.02 1121.728 88.56 1122.208 88.56 1122.868C88.56 1123.528 88.02 1124.068 87.36 1124.068ZM206.04 1096.468C205.38 1096.468 204.84 1095.928 204.84 1095.268C204.84 1094.608 205.38 1094.128 206.04 1094.128C206.7 1094.128 207.24 1094.608 207.24 1095.268C207.24 1095.928 206.7 1096.468 206.04 1096.468ZM722.04 1091.488C723.36 1091.488 724.44 1092.508 724.44 1093.828M722.1 1091.488L105.6 1091.488M103.14 1093.828C103.14 1092.508 104.16 1091.488 105.54 1091.488M105.54 1092.628C104.88 1092.628 104.34 1092.088 104.34 1091.428C104.34 1090.708 104.88 1090.228 105.54 1090.228C106.2 1090.228 106.74 1090.708 106.74 1091.428C106.74 1092.088 106.2 1092.628 105.54 1092.628ZM232.44 1092.628C231.78 1092.628 231.24 1092.088 231.24 1091.428C231.24 1090.708 231.78 1090.228 232.44 1090.228C233.1 1090.228 233.64 1090.708 233.64 1091.428C233.64 1092.088 233.1 1092.628 232.44 1092.628ZM722.04 1092.628C721.38 1092.628 720.84 1092.088 720.84 1091.428C720.84 1090.708 721.38 1090.228 722.04 1090.228C722.7 1090.228 723.24 1090.708 723.24 1091.428C723.24 1092.088 722.7 1092.628 722.04 1092.628ZM168.48 1092.628C167.82 1092.628 167.34 1092.088 167.34 1091.428C167.34 1090.708 167.82 1090.228 168.48 1090.228C169.14 1090.228 169.68 1090.708 169.68 1091.428C169.68 1092.088 169.14 1092.628 168.48 1092.628Z" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<path stroke-width="1" d="M545.58 167.248L545.58 594.388M411.9 850.288L411.9 845.968M411.9 844.468L411.9 840.148M411.9 838.708L411.9 834.328M411.9 832.888L411.9 828.508M411.9 827.068L411.9 822.688M411.9 821.248L411.9 816.868M411.9 815.428L411.9 811.108M411.9 809.608L411.9 805.288M411.9 803.848L411.9 799.468M411.9 798.028L411.9 793.648M411.9 792.208L411.9 787.828M411.9 786.388L411.9 782.008M411.9 780.568L411.9 776.188M411.9 774.748L411.9 770.428M411.9 768.928L411.9 764.608M411.9 763.168L411.9 758.788M411.9 757.348L411.9 752.968M411.9 751.528L411.9 747.148M411.9 745.708L411.9 741.328M411.9 739.888L411.9 735.568M411.9 734.068L411.9 729.748M411.9 728.248L411.9 723.928M411.9 722.488L411.9 718.108M411.9 716.668L411.9 712.288M411.9 710.848L411.9 706.468M411.9 705.028L411.9 700.648M411.9 699.208L411.9 694.888M411.9 693.388L411.9 689.068M411.9 687.628L411.9 683.248M411.9 681.808L411.9 677.428M411.9 675.988L411.9 671.608M411.9 670.168L411.9 665.788M411.9 664.348L411.9 659.968M411.9 658.528L411.9 654.208M411.9 652.708L411.9 648.388M411.9 646.948L411.9 642.568M411.9 641.128L411.9 636.748M411.9 635.308L411.9 630.928M411.9 629.488L411.9 625.108M411.9 623.668L411.9 619.348M411.9 617.848L411.9 613.528M411.9 612.028L411.9 607.708M411.9 606.268L411.9 601.888M411.9 600.448L411.9 596.068M411.9 594.628L411.9 594.388L415.98 594.388M417.48 594.388L421.8 594.388M423.3 594.388L427.62 594.388M429.06 594.388L433.44 594.388M434.88 594.388L439.26 594.388M440.7 594.388L445.08 594.388M446.52 594.388L450.9 594.388M452.34 594.388L456.66 594.388M458.16 594.388L462.48 594.388M463.98 594.388L468.3 594.388M469.74 594.388L474.12 594.388M475.56 594.388L479.94 594.388M481.38 594.388L485.76 594.388M487.2 594.388L491.58 594.388M493.02 594.388L497.34 594.388M498.84 594.388L503.16 594.388M504.66 594.388L508.98 594.388M510.42 594.388L514.8 594.388M516.24 594.388L520.62 594.388M522.06 594.388L526.44 594.388M527.88 594.388L532.26 594.388M533.7 594.388L538.02 594.388M539.52 594.388L543.84 594.388M545.34 594.388L545.58 594.388M545.58 170.908L544.32 167.248M545.58 170.908L546.78 167.248M545.58 170.908L545.58 167.248" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="543.24" fill="#808080" x="171.148">based on</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="417.299" fill="#808080" x="830.434">used as</tspan>
+</text>
+<path stroke-width="1" d="M558.6 167.248L558.6 193.408M487.2 192.928L491.58 192.928M493.02 192.928L497.34 192.928M498.84 192.928L503.16 192.928M504.66 193.168L508.98 193.168M510.42 193.168L514.8 193.168M516.24 193.168L520.62 193.168M522.06 193.168L526.44 193.168M527.88 193.168L532.26 193.168M533.7 193.168L538.02 193.168M539.52 193.168L543.84 193.408M545.34 193.408L549.66 193.408M551.1 193.408L555.48 193.408M556.92 193.408L558.6 193.408M558.6 170.908L557.4 167.248M558.6 170.908L559.86 167.248M558.6 170.908L558.6 167.248" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="556.32" fill="#808080" x="171.388">based on</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="498.179" fill="#808080" x="193.888">used as</tspan>
+</text>
+<path stroke-width="1" d="M577.26 160.468L658.14 160.468M658.14 282.988L658.14 278.668M658.14 277.168L658.14 272.848M658.14 271.408L658.14 267.028M658.14 265.588L658.14 261.208M658.14 259.768L658.14 255.388M658.14 253.948L658.14 249.568M658.14 248.128L658.14 243.808M658.14 242.308L658.14 237.988M658.14 236.548L658.14 232.168M658.14 230.728L658.14 226.348M658.14 224.908L658.14 220.528M658.14 219.088L658.14 214.708M658.14 213.268L658.14 208.888M658.14 207.448L658.14 203.128M658.14 201.628L658.14 197.308M658.14 195.868L658.14 191.488M658.14 190.048L658.14 185.668M658.14 184.228L658.14 179.848M658.14 178.408L658.14 174.028M658.14 172.588L658.14 168.268M658.14 166.768L658.14 162.448M658.14 160.948L658.14 160.468M580.92 160.468L577.26 159.268M580.92 160.468L577.26 161.728M580.92 160.468L577.26 160.468" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="583.92" fill="#000000" x="161.728">based on</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="663.541" fill="#000000" x="263.129">used as</tspan>
+</text>
+<path stroke-width="1" d="M587.94 321.508L613.86 321.508M615.3 321.508L619.68 321.508M621.12 321.508L625.44 321.508M626.94 321.508L631.26 321.508M632.7 321.508L637.08 321.508M638.52 321.508L640.02 321.508M591.54 321.508L587.94 320.308M591.54 321.508L587.94 322.708M591.54 321.508L587.94 321.508" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="594.54" fill="#000000" x="322.708">furnished on</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="636.18" fill="#000000" x="299.007">served by</tspan>
+</text>
+<path stroke-width="1" d="M118.92 309.868L118.92 350.068M118.92 351.508L118.92 355.888M118.92 357.328L118.92 361.708M118.92 363.148L118.92 367.528M118.92 368.968L118.92 373.348M118.92 374.788L118.92 379.108M118.92 380.608L118.92 384.928M118.92 386.368L118.92 390.268M118.92 313.528L117.66 309.868M118.92 313.528L120.12 309.868M118.92 313.528L118.92 309.868" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="116.82" fill="#000000" x="312.328">furnished on</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="124.8" fill="#000000" x="364.348">served by</tspan>
+</text>
+<path stroke-width="1" d="M534.66 143.548L139.02 143.548M139.02 388.828L139.02 384.448M139.02 383.008L139.02 378.628M139.02 377.188L139.02 372.808M139.02 371.368L139.02 367.048M139.02 365.548L139.02 361.228M139.02 359.788L139.02 355.408M139.02 353.968L139.02 349.588M139.02 348.148L139.02 343.768M139.02 342.328L139.02 337.948M139.02 336.508L139.02 332.188M139.02 330.688L139.02 326.368M139.02 324.868L139.02 320.548M139.02 319.108L139.02 314.728M139.02 313.288L139.02 308.908M139.02 307.468L139.02 303.088M139.02 301.648L139.02 297.268M139.02 295.828L139.02 291.508M139.02 290.008L139.02 285.688M139.02 284.248L139.02 279.868M139.02 278.428L139.02 274.048M139.02 272.608L139.02 268.228M139.02 266.788L139.02 262.408M139.02 260.968L139.02 256.588M139.02 255.148L139.02 250.828M139.02 249.328L139.02 245.008M139.02 243.568L139.02 239.188M139.02 237.748L139.02 233.368M139.02 231.928L139.02 227.548M139.02 226.108L139.02 221.728M139.02 220.288L139.02 215.968M139.02 214.468L139.02 210.148M139.02 208.648L139.02 204.328M139.02 202.888L139.02 198.508M139.02 197.068L139.02 192.688M139.02 191.248L139.02 186.868M139.02 185.428L139.02 181.048M139.02 179.608L139.02 175.288M139.02 173.788L139.02 169.468M139.02 168.028L139.02 163.648M139.02 162.208L139.02 157.828M139.02 156.388L139.02 152.008M139.02 150.568L139.02 146.188M139.02 144.748L139.02 143.548M531 143.548L534.66 142.348M531 143.548L534.66 144.748M531 143.548L534.66 143.548" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="531.12" fill="#000000" x="120.568">based on</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="144.417" fill="#000000" x="368.97">used as</tspan>
+</text>
+<path stroke-width="1" d="M437.1 413.248L448.68 413.248M450.12 413.248L454.5 413.248M455.94 413.248L460.32 413.248M440.7 413.248L437.1 412.048M440.7 413.248L437.1 414.508M440.7 413.248L437.1 413.248" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="443.7" fill="#000000" x="414.508">also</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="458.22" fill="#000000" x="381.088">considered as</tspan>
+</text>
+<path stroke-width="1" d="M313.08 452.488L313.08 448.108M313.08 446.668L313.08 442.348M313.08 440.848L313.08 436.528M313.08 435.088L313.08 430.708M313.08 429.268L313.08 424.888M313.08 423.448L313.08 419.068M313.08 417.628L313.08 413.248M313.08 411.808L313.08 407.488M313.08 405.988L313.08 401.668M313.08 400.168L313.08 395.848M313.08 394.408L313.08 392.908L359.34 392.908M355.74 392.908L359.34 391.708M355.74 392.908L359.34 394.168M355.74 392.908L359.34 392.908" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="318.48" fill="#000000" x="425.848">affected by</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="355.081" fill="#000000" x="372.088">affecting</tspan>
+</text>
+<path stroke-width="1" d="M172.62 263.668L172.62 293.908M172.62 295.348L172.62 299.728M172.62 301.168L172.62 305.548M172.62 306.988L172.62 311.308M172.62 312.808L172.62 317.128M172.62 318.628L172.62 322.948M172.62 267.268L171.42 263.668M172.62 267.268L173.88 263.668M172.62 267.268L172.62 263.668" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="170.34" fill="#000000" x="266.068">furnished on</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="178.08" fill="#000000" x="300.448">served by</tspan>
+</text>
+<path stroke-width="1" d="M95.16 892.408L109.92 892.408M111.36 892.408L115.74 892.408M117.18 892.408L121.56 892.408M123 892.408L124.92 892.408M98.82 892.408L95.16 891.208M98.82 892.408L95.16 893.668M98.82 892.408L95.16 892.408" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="101.76" fill="#000000" x="893.668">furnished on</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="121.62" fill="#000000" x="868.708">served b</tspan>
+</text>
+<g clip-path="url(#id7)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="121.62" fill="#000000" x="886.353">y</tspan>
+</text>
+</g>
+<path stroke-width="1" d="M507.06 494.128L507.06 469.228M507.06 467.728L507.06 463.408M507.06 461.968L507.06 457.588M507.06 456.148L507.06 451.768M507.06 450.328L507.06 445.948M507.06 444.508L507.06 444.268M507.06 490.528L505.86 494.128M507.06 490.528L508.26 494.128M507.06 490.528L507.06 494.128" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="512.94" fill="#000000" x="482.248">also</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="504.96" fill="#000000" x="446.668">considered as</tspan>
+</text>
+<path stroke-width="1" d="M202.68 546.688L207.06 546.688M208.5 546.688L212.82 546.688M214.32 546.688L218.64 546.688M220.14 546.688L224.46 546.688M225.9 546.688L230.28 546.688M231.72 546.688L236.1 546.688M237.54 546.688L241.92 546.688M243.36 546.688L247.74 546.688M249.18 546.688L253.5 546.688M255 546.688L259.32 546.688M260.82 546.688L265.14 546.688M266.58 546.688L270.96 546.688M272.4 546.688L276.78 546.688M278.22 546.688L282.6 546.688M284.04 546.688L288.42 546.688M289.86 546.688L294.18 546.688M295.68 546.688L300 546.688M301.5 546.688L305.82 546.688M307.26 546.688L311.64 546.688M313.08 546.688L317.46 546.688M318.9 546.688L444.12 546.688M440.46 546.688L444.12 545.488M440.46 546.688L444.12 547.888M440.46 546.688L444.12 546.688" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="207.84" fill="#000000" x="547.888">affected b</tspan>
+</text>
+<g clip-path="url(#id8)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="207.84" fill="#000000" x="568.094">y</tspan>
+</text>
+</g>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="439.56" fill="#000000" x="526.588">affecting</tspan>
+</text>
+<path stroke-width="1" d="M489.36 346.228L489.36 367.528M489.36 368.968L489.36 373.348M489.36 374.788L489.36 379.108M489.36 380.608L489.36 384.928M489.36 386.368L489.36 389.068M489.36 349.828L488.16 346.228M489.36 349.828L490.56 346.228M489.36 349.828L489.36 346.228" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="486.3" fill="#000000" x="348.628">also</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="494.76" fill="#000000" x="354.928">considered as</tspan>
+</text>
+<path stroke-width="1" d="M458.64 276.688L458.64 252.028M458.64 250.588L458.64 246.208M458.64 244.768L458.64 240.388M458.64 238.948L458.64 234.568M458.64 233.128L458.64 228.748M458.64 273.088L457.44 276.688M458.64 273.088L459.84 276.688M458.64 273.088L458.64 276.688" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="464.76" fill="#000000" x="257.608">affecting</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="456.3" fill="#000000" x="228.508">affected by</tspan>
+</text>
+<path stroke-width="1" d="M160.08 759.748L155.7 759.748M154.26 759.748L149.88 759.748M148.44 759.748L144.06 759.748M142.62 759.748L138.24 759.748M136.8 759.748L132.48 759.748M130.98 759.748L126.66 759.748M125.16 759.748L120.84 759.748M119.4 759.748L115.02 759.748M113.58 759.748L109.2 759.748M107.76 759.748L103.38 759.748M101.94 759.748L97.56 759.748M96.12 759.748L91.8 759.748M90.3 759.748L85.98 759.748M84.48 759.748L80.16 759.748M78.72 759.748L74.34 759.748M72.9 759.748L71.46 759.748L71.46 82.768" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="157.5" fill="#808080" x="709.888">operating according to</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="68.0993" fill="#808080" x="89.7827">describing operational hours for</tspan>
+</text>
+<path stroke-width="1" d="M196.62 197.788L196.62 193.408M196.62 191.968L196.62 187.588M196.62 186.148L196.62 181.828M196.62 180.328L196.62 176.008M196.62 174.508L196.62 170.188M196.62 168.748L196.62 164.368M196.62 162.928L196.62 158.548M196.62 157.108L196.62 152.728M196.62 151.288L196.62 146.908M196.62 145.468L196.62 82.768" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="202.02" fill="#000000" x="146.668">operating according to</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="193.8" fill="#000000" x="90.2673">describing operational hours for</tspan>
+</text>
+<path stroke-width="1" d="M537.3 925.108L541.68 925.108M543.12 925.108L547.5 925.108M548.94 925.108L553.32 925.108M554.76 925.108L559.14 925.108M560.58 925.108L564.9 925.108M566.4 925.108L570.72 925.108M572.16 925.108L576.54 925.108M577.98 925.108L582.36 925.108M583.8 925.108L588.18 925.108M589.62 925.108L594 925.108M595.44 925.108L599.82 925.108M601.26 925.108L605.58 925.108M607.08 925.108L611.4 925.108M612.9 925.108L617.22 925.108M618.66 925.108L623.04 925.108M624.48 925.108L628.86 925.108M630.3 925.108L634.68 925.108M636.12 925.108L640.5 925.108M641.94 925.108L646.26 925.108M647.76 925.108L652.08 925.108M653.58 925.108L657.9 925.108M659.34 925.108L663.72 925.108M665.16 925.108L669.54 925.108M670.98 925.108L675.36 925.108M676.8 925.108L681.18 925.108M682.62 925.108L686.94 925.108M688.44 925.108L692.76 925.108M694.26 925.108L698.58 925.108M700.02 925.108L704.4 925.108M705.84 925.108L710.22 925.108M711.66 925.108L716.04 925.108M717.48 925.108L721.86 925.108M723.3 925.108L727.62 925.108M729.12 925.108L733.44 925.108M734.94 925.108L739.26 925.108M740.7 925.108L742.92 925.108L742.92 82.768" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="541.02" fill="#808080" x="926.308">unmonitored according to</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="740.102" fill="#808080" x="90.2606">describing unmonitored hours of</tspan>
+</text>
+<path stroke-width="1" d="M93 190.528L93 186.148M93 184.708L93 180.328M93 178.888L93 174.508M93 173.068L93 168.748M93 167.248L93 162.928M93 161.488L93 157.108M93 155.668L93 151.288M93 149.848L93 145.468M93 144.028L93 139.648M93 138.208L93 82.768" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="98.16" fill="#000000" x="145.228">operating according </tspan>
+</text>
+<g clip-path="url(#id9)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="103.5" fill="#000000" x="145.228">t</tspan>
+</text>
+</g>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="90.42" fill="#000000" x="89.0679">describing operational hours for</tspan>
+</text>
+<path stroke-width="1" d="M690.6 176.248L690.6 171.868M690.6 170.428L690.6 166.048M690.6 164.608L690.6 160.228M690.6 158.788L690.6 154.468M690.6 152.968L690.6 148.648M690.6 147.148L690.6 142.828M690.6 141.388L690.6 137.008M690.6 135.568L690.6 82.768" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="696.24" fill="#000000" x="128.068">operating according to</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="686.58" fill="#000000" x="89.5475">describing operational hours for</tspan>
+</text>
+<path stroke-width="1" d="M618.66 976.228L623.04 976.228M624.48 976.228L628.86 976.228M630.3 976.228L634.68 976.228M636.12 976.228L640.5 976.228M641.94 976.228L646.26 976.228M647.76 976.228L652.08 976.228M653.58 976.228L657.9 976.228M659.34 976.228L663.72 976.228M665.16 976.228L669.54 976.228M670.98 976.228L675.36 976.228M676.8 976.228L681.18 976.228M682.62 976.228L686.94 976.228M688.44 976.228L692.76 976.228M694.26 976.228L698.58 976.228M700.02 976.228L704.4 976.228M705.84 976.228L710.22 976.228M711.66 976.228L716.04 976.228M717.48 976.228L721.86 976.228M723.3 976.228L727.62 976.228M729.12 976.228L733.44 976.228M734.94 976.228L739.26 976.228M740.7 976.228L745.08 976.228M746.52 976.228L750.9 976.228M752.34 976.228L756.72 976.228M758.16 976.228L762.54 976.228L762.54 82.768" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="624.12" fill="#808080" x="955.888">unmonitored according to</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="758.701" fill="#808080" x="91.4605">describing unmonitored hours of</tspan>
+</text>
+<path stroke-width="1" d="M607.8 82.768L607.8 429.028M607.8 430.468L607.8 434.848M607.8 436.288L607.8 440.608M607.8 442.108L607.8 446.428M607.8 447.868L607.8 452.248M607.8 453.688L607.8 458.068M607.8 459.508L607.8 463.888M607.8 465.328L607.8 469.708M607.8 471.148L607.8 475.468M607.8 476.968L607.8 481.288M607.8 482.788L607.8 487.108M607.8 488.548L607.8 492.928M607.8 494.368L607.8 498.748M607.8 500.188L607.8 504.568M607.8 506.008L607.8 510.388M607.8 511.828L607.8 516.148M607.8 517.648L607.8 521.968M607.8 523.468L607.8 527.788M607.8 529.228L607.8 533.608M607.8 535.048L607.8 539.428M607.8 540.868L607.8 545.248M607.8 546.688L607.8 551.068M607.8 552.508L607.8 556.828M607.8 558.328L607.8 562.648M607.8 564.088L607.8 568.468M607.8 569.908L607.8 574.288M607.8 575.728L607.8 580.108M607.8 581.548L607.8 585.928M607.8 587.368L607.8 591.688M607.8 593.188L607.8 597.508M607.8 599.008L607.8 603.328M607.8 604.768L607.8 609.148M607.8 610.588L607.8 614.968M607.8 616.408L607.8 620.788M607.8 622.228L607.8 626.608M607.8 628.048L607.8 632.368M607.8 633.868L607.8 638.188M607.8 639.688L607.8 644.008M607.8 645.448L607.8 649.828M607.8 651.268L607.8 655.648M607.8 657.088L607.8 661.468M607.8 662.908L607.8 667.288M607.8 668.728L607.8 673.048M607.8 674.548L607.8 678.868M607.8 680.308L607.8 684.688M607.8 686.128L607.8 690.508M607.8 691.948L607.8 696.328M607.8 697.768L607.8 702.148M607.8 703.588L607.8 707.908M607.8 709.408L607.8 713.728M607.8 715.228L607.8 719.548M607.8 720.988L607.8 725.368M607.8 726.808L607.8 731.188M607.8 732.628L607.8 737.008M607.8 738.448L607.8 742.828M607.8 744.268L607.8 748.588M607.8 750.088L607.8 754.408M607.8 755.908L607.8 760.228M607.8 761.668L607.8 766.048M607.8 767.488L607.8 771.868M607.8 773.308L607.8 775.468" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="604.74" fill="#808080" x="88.3479">describing operational hours for</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="613.2" fill="#808080" x="724.414">operating according to</tspan>
+</text>
+<path stroke-width="1" d="M59.82 82.768L59.82 806.248M160.08 806.248L155.7 806.248M154.26 806.248L149.88 806.248M148.44 806.248L144.06 806.248M142.62 806.248L138.24 806.248M136.8 806.248L132.48 806.248M130.98 806.248L126.66 806.248M125.16 806.248L120.84 806.248M119.4 806.248L115.02 806.248M113.58 806.248L109.2 806.248M107.76 806.248L103.38 806.248M101.94 806.248L97.56 806.248M96.12 806.248L91.8 806.248M90.3 806.248L85.98 806.248M84.48 806.248L80.16 806.248M78.72 806.248L74.34 806.248M72.9 806.248L68.52 806.248M67.08 806.248L62.7 806.248M61.26 806.248L59.82 806.248" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="57.48" fill="#808080" x="88.8279">describing unmonitored hours of</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="153.601" fill="#808080" x="781.294">unmonitored according to</tspan>
+</text>
+<path stroke-width="1" d="M392.04 82.768L392.04 123.448M392.04 124.888L392.04 129.268M392.04 130.708L392.04 135.088M392.04 136.528L392.04 140.908M392.04 142.348L392.04 146.668M392.04 148.168L392.04 152.488M392.04 153.928L392.04 158.308M392.04 159.748L392.04 164.128" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="389.22" fill="#808080" x="88.1079">describing operational hours for</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="397.92" fill="#808080" x="116.908">operating according to</tspan>
+</text>
+<path stroke-width="1" d="M775.08 82.768L775.08 1026.088M618.66 1026.088L623.04 1026.088M624.48 1026.088L628.86 1026.088M630.3 1026.088L634.68 1026.088M636.12 1026.088L640.5 1026.088M641.94 1026.088L646.26 1026.088M647.76 1026.088L652.08 1026.088M653.58 1026.088L657.9 1026.088M659.34 1026.088L663.72 1026.088M665.16 1026.088L669.54 1026.088M670.98 1026.088L675.36 1026.088M676.8 1026.088L681.18 1026.088M682.62 1026.088L686.94 1026.088M688.44 1026.088L692.76 1026.088M694.26 1026.088L698.58 1026.088M700.02 1026.088L704.4 1026.088M705.84 1026.088L710.22 1026.088M711.66 1026.088L716.04 1026.088M717.48 1026.088L721.86 1026.088M723.3 1026.088L727.62 1026.088M729.12 1026.088L733.44 1026.088M734.94 1026.088L739.26 1026.088M740.7 1026.088L745.08 1026.088M746.52 1026.088L750.9 1026.088M752.34 1026.088L756.72 1026.088M758.16 1026.088L762.54 1026.088M763.98 1026.088L768.3 1026.088M769.8 1026.088L774.12 1026.088" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="773.04" fill="#808080" x="91.4679">describing operational hours for</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="623.879" fill="#808080" x="1027.3">operating according to</tspan>
+</text>
+<path stroke-width="1" d="M44.1 82.768L44.1 947.908M481.38 952.468L477 952.468M475.56 952.468L471.24 952.228M469.74 952.228L465.42 952.228M463.98 952.228L459.6 952.228M458.16 952.228L453.78 952.228M452.34 952.228L447.96 951.988M446.52 951.988L442.14 951.988M440.7 951.988L436.32 951.988M434.88 951.988L430.56 951.988M429.06 951.988L424.74 951.748M423.3 951.748L418.92 951.748M417.48 951.748L413.1 951.748M411.66 951.748L407.28 951.748M405.84 951.748L401.46 951.508M400.02 951.508L395.64 951.508M394.2 951.508L389.88 951.508M388.38 951.508L384.06 951.508M382.56 951.508L378.24 951.268M376.8 951.268L372.42 951.268M370.98 951.268L366.6 951.268M365.16 951.268L360.78 951.268M359.34 951.268L354.96 951.028M353.52 951.028L349.2 951.028M347.7 951.028L343.38 951.028M341.88 951.028L337.56 951.028M336.12 951.028L331.74 950.788M330.3 950.788L325.92 950.788M324.48 950.788L320.1 950.788M318.66 950.788L314.28 950.788M312.84 950.788L308.52 950.548M307.02 950.548L302.7 950.548M301.2 950.548L296.88 950.548M295.44 950.548L291.06 950.548M289.62 950.548L285.24 950.308M283.8 950.308L279.42 950.308M277.98 950.308L273.6 950.308M272.16 950.308L267.84 950.308M266.34 950.308L262.02 950.068M260.52 950.068L256.2 950.068M254.76 950.068L250.38 950.068M248.94 950.068L244.56 950.068M243.12 950.068L238.74 949.828M237.3 949.828L232.92 949.828M231.48 949.828L227.16 949.828M225.66 949.828L221.34 949.828M219.84 949.828L215.52 949.588M214.08 949.588L209.7 949.588M208.26 949.588L203.88 949.588M202.44 949.588L198.06 949.588M196.62 949.588L192.24 949.348M190.8 949.348L186.48 949.348M184.98 949.348L180.66 949.348M179.16 949.348L174.84 949.348M173.4 949.348L169.02 949.108M167.58 949.108L163.2 949.108M161.76 949.108L157.38 949.108M155.94 949.108L151.56 949.108M150.12 949.108L145.8 948.868M144.3 948.868L139.98 948.868M138.48 948.868L134.16 948.868M132.72 948.868L128.34 948.868M126.9 948.868L122.52 948.628M121.08 948.628L116.7 948.628M115.26 948.628L110.88 948.628M109.44 948.628L105.12 948.628M103.62 948.628L99.3 948.388M97.8 948.388L93.48 948.388M92.04 948.388L87.66 948.388M86.22 948.388L81.84 948.388M80.4 948.388L76.02 948.148M74.58 948.148L70.2 948.148M68.76 948.148L64.44 948.148M62.94 948.148L58.62 948.148M57.12 948.148L52.8 947.908M51.36 947.908L46.98 947.908M45.54 947.908L44.1 947.908" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="40.74" fill="#808080" x="90.7479">describing operational hours for</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="479.524" fill="#808080" x="887.375">o</tspan>
+</text>
+<g clip-path="url(#id10)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="479.52" fill="#808080" x="889.926">p</tspan>
+</text>
+</g>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="479.52" fill="#808080" x="892.485">eratin</tspan>
+</text>
+<g clip-path="url(#id11)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="479.52" fill="#808080" x="903.993">g</tspan>
+</text>
+</g>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="479.52" fill="#808080" x="906.552"> accordin</tspan>
+</text>
+<g clip-path="url(#id12)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="479.52" fill="#808080" x="925.219">g</tspan>
+</text>
+</g>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="479.52" fill="#808080" x="927.778"> to</tspan>
+</text>
+<path stroke-width="1" d="M622.8 774.028L622.8 769.708M622.8 768.208L622.8 763.888M622.8 762.388L622.8 758.068M622.8 756.628L622.8 752.248M622.8 750.808L622.8 746.428M622.8 744.988L622.8 740.608M622.8 739.168L622.8 734.788M622.8 733.348L622.8 729.028M622.8 727.528L622.8 723.208M622.8 721.768L622.8 717.388M622.8 715.948L622.8 711.568M622.8 710.128L622.8 705.748M622.8 704.308L622.8 699.928M622.8 698.488L622.8 694.108M622.8 692.668L622.8 688.348M622.8 686.848L622.8 682.528M622.8 681.088L622.8 676.708M622.8 675.268L622.8 670.888M622.8 669.448L622.8 665.068M622.8 663.628L622.8 659.248M622.8 657.808L622.8 653.488M622.8 651.988L622.8 647.668M622.8 646.168L622.8 641.848M622.8 640.408L622.8 636.028M622.8 634.588L622.8 630.208M622.8 628.768L622.8 624.388M622.8 622.948L622.8 618.568M622.8 617.128L622.8 612.808M622.8 611.308L622.8 606.988M622.8 605.548L622.8 601.168M622.8 599.728L622.8 595.348M622.8 593.908L622.8 589.528M622.8 588.088L622.8 583.708M622.8 582.268L622.8 577.888M622.8 576.448L622.8 572.128M622.8 570.628L622.8 566.308M622.8 564.868L622.8 560.488M622.8 559.048L622.8 554.668M622.8 553.228L622.8 548.848M622.8 547.408L622.8 543.028M622.8 541.588L622.8 537.268M622.8 535.768L622.8 531.448M622.8 529.948L622.8 525.628M622.8 524.188L622.8 519.808M622.8 518.368L622.8 513.988M622.8 512.548L622.8 508.168M622.8 506.728L622.8 502.348M622.8 500.908L622.8 496.588M622.8 495.088L622.8 490.768M622.8 489.328L622.8 484.948M622.8 483.508L622.8 479.128M622.8 477.688L622.8 473.308M622.8 471.868L622.8 467.488M622.8 466.048L622.8 461.668M622.8 460.228L622.8 455.908M622.8 454.408L622.8 450.088M622.8 448.648L622.8 444.268M622.8 442.828L622.8 438.448M622.8 437.008L622.8 432.628M622.8 431.188L622.8 82.768" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="628.2" fill="#808080" x="717.868">unmonitored according to</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="619.98" fill="#808080" x="89.3026">describing unmonitored hours of</tspan>
+</text>
+<path stroke-width="1" d="M285.96 332.428L290.34 332.428M291.78 332.428L296.16 332.428M297.6 332.428L301.98 332.428M303.42 332.428L307.74 332.428M309.24 332.428L313.56 332.428M315.06 332.428L319.38 332.428M320.82 332.428L325.2 332.428M326.64 332.428L331.02 332.428M332.46 332.428L336.84 332.428M338.28 332.428L341.4 332.428M341.4 314.728L341.4 319.108M341.4 320.548L341.4 324.868M341.4 326.368L341.4 330.688M341.4 332.188L341.4 332.428M288.18 332.428L284.52 331.168M288.18 332.428L284.52 333.628M288.18 332.428L284.52 332.428" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="292.86" fill="#000000" x="317.128">used for landing on</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="339.3" fill="#000000" x="315.688">having</tspan>
+</text>
+<path stroke-width="1" d="M271.44 324.148L271.44 275.728M271.44 274.288L271.44 269.908M271.44 268.468L271.44 264.148M271.44 262.648L271.44 258.328M271.44 256.888L271.44 252.508M271.44 251.068L271.44 246.688M271.44 245.248L271.44 240.868M271.44 239.428L271.44 235.048M271.44 233.608L271.44 229.228M271.44 227.788L271.44 227.308M271.44 320.548L270.24 324.148M271.44 320.548L272.64 324.148M271.44 320.548L271.44 324.148" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="276.84" fill="#000000" x="287.128">associated with</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="268.38" fill="#000000" x="229.768">having</tspan>
+</text>
+<path stroke-width="1" d="M682.62 522.928L682.62 439.888M682.62 438.448L682.62 434.068M682.62 432.628L682.62 428.308M682.62 426.808L682.62 422.488M682.62 421.048L682.62 416.668M682.62 415.228L682.62 410.848M682.62 409.408L682.62 405.028M682.62 403.588L682.62 399.208M682.62 397.768L682.62 393.388M682.62 391.948L682.62 387.628M682.62 386.128L682.62 381.808M682.62 380.368L682.62 375.988M682.62 374.548L682.62 370.168M682.62 368.728L682.62 364.348M682.62 362.908L682.62 358.528M682.62 357.088L682.62 356.848M682.62 519.328L681.42 522.928M682.62 519.328L683.82 522.928M682.62 519.328L682.62 522.928" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="688.02" fill="#000000" x="499.228">related to</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="680.04" fill="#000000" x="364.107">used as</tspan>
+</text>
+<path stroke-width="1" d="M663.96 575.728L432.72 575.728M431.28 575.728L426.9 575.728M425.46 575.728L421.08 575.728M419.64 575.728L415.26 575.728M413.82 575.728L409.44 575.728M408 575.728L403.68 575.728M402.18 575.728L397.86 575.728M396.42 575.728L392.04 575.728M390.6 575.728L386.22 575.728M384.78 575.728L380.4 575.728M378.96 575.728L374.58 575.728M373.14 575.728L368.76 575.728M367.32 575.728L363 575.728M361.5 575.728L357.18 575.728M355.74 575.728L351.36 575.728M349.92 575.728L345.54 575.728M344.1 575.728L339.72 575.728M338.28 575.728L333.9 575.728M332.46 575.728L328.08 575.728M326.64 575.728L322.32 575.728M320.82 575.728L316.5 575.728M315.06 575.728L310.68 575.728M309.24 575.728L304.86 575.728M303.42 575.728L299.04 575.728M297.6 575.728L293.22 575.728M291.78 575.728L287.4 575.728M285.96 575.728L281.64 575.728M280.14 575.728L275.82 575.728M274.38 575.728L270 575.728M268.56 575.728L264.18 575.728M262.74 575.728L258.36 575.728M256.92 575.728L252.54 575.728M251.1 575.728L246.72 575.728M245.28 575.728L240.96 575.728M239.46 575.728L235.14 575.728M233.7 575.728L229.32 575.728M227.88 575.728L223.5 575.728M222.06 575.728L217.68 575.728M216.24 575.728L211.86 575.728M210.42 575.728L206.04 575.728M204.6 575.728L201.24 575.728M660.36 575.728L663.96 574.528M660.36 575.728L663.96 576.928M660.36 575.728L663.96 575.728" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="660.66" fill="#000000" x="567.028">for</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="207.836" fill="#000000" x="576.928">having</tspan>
+</text>
+<path stroke-width="1" d="M373.14 468.208L377.52 468.208M378.96 468.208L383.34 468.208M384.78 468.208L389.1 468.208M390.6 468.208L394.92 468.208M396.42 468.208L400.74 468.208M402.18 468.208L406.56 468.208M408 468.208L412.38 468.208M413.82 468.208L418.2 468.208M419.64 468.208L424.02 468.208M425.46 468.208L429.78 468.208M431.28 468.208L435.6 468.208M437.1 468.208L441.42 468.208M442.86 468.208L447.24 468.208M448.68 468.208L453.06 468.208M454.5 468.208L458.88 468.208M460.32 468.208L464.7 468.208M466.14 468.208L470.46 468.208M471.96 468.208L476.28 468.208M477.78 468.208L482.1 468.208M483.54 468.208L487.92 468.208M489.36 468.208L493.74 468.208M495.18 468.208L499.56 468.208M501 468.208L637.32 468.208M633.72 468.208L637.32 467.008M633.72 468.208L637.32 469.468M633.72 468.208L637.32 468.208" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="378.3" fill="#000000" x="469.468">having</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="634.022" fill="#000000" x="456.868">for</tspan>
+</text>
+<path stroke-width="1" d="M647.04 425.608L647.04 391.228M647.04 389.788L647.04 385.408M647.04 383.968L647.04 379.588M647.04 378.148L647.04 373.828M647.04 372.328L647.04 368.008M647.04 366.568L647.04 362.188M647.04 360.748L647.04 356.848M647.04 422.008L645.78 425.608M647.04 422.008L648.24 425.608M647.04 422.008L647.04 425.608" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="652.44" fill="#000000" x="401.428">related to</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="644.7" fill="#000000" x="365.548">used as</tspan>
+</text>
+<path stroke-width="1" d="M367.8 228.748L367.8 233.128M367.8 234.568L367.8 238.948M367.8 240.388L367.8 244.768M367.8 246.208L367.8 273.808M367.8 270.148L366.6 273.808M367.8 270.148L369 273.808M367.8 270.148L367.8 273.808" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="364.74" fill="#808080" x="229.768">having</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="373.2" fill="#808080" x="248.608">situated at</tspan>
+</text>
+<path stroke-width="1" d="M346.02 655.168L346.02 595.108M202.68 595.108L207.06 595.108M208.5 595.108L212.82 595.108M214.32 595.108L218.64 595.108M220.14 595.108L224.46 595.108M225.9 595.108L230.28 595.108M231.72 595.108L236.1 595.108M237.54 595.108L241.92 595.108M243.36 595.108L247.74 595.108M249.18 595.108L253.5 595.108M255 595.108L259.32 595.108M260.82 595.108L265.14 595.108M266.58 595.108L270.96 595.108M272.4 595.108L276.78 595.108M278.22 595.108L282.6 595.108M284.04 595.108L288.42 595.108M289.86 595.108L294.18 595.108M295.68 595.108L300 595.108M301.5 595.108L305.82 595.108M307.26 595.108L311.64 595.108M313.08 595.108L317.46 595.108M318.9 595.108L323.28 595.108M324.72 595.108L329.1 595.108M330.54 595.108L334.86 595.108M336.36 595.108L340.68 595.108M342.18 595.108L346.02 595.108" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="351.42" fill="#808080" x="617.848">associated with</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="207.839" fill="#808080" x="596.308">havin</tspan>
+</text>
+<g clip-path="url(#id13)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="207.84" fill="#808080" x="607.306">g</tspan>
+</text>
+</g>
+<path stroke-width="1" d="M255.24 686.128L173.4 686.128M173.4 599.968L173.4 604.288M173.4 605.788L173.4 610.108M173.4 611.548L173.4 615.928M173.4 617.368L173.4 621.748M173.4 623.188L173.4 627.568M173.4 629.008L173.4 633.388M173.4 634.828L173.4 639.148M173.4 640.648L173.4 644.968M173.4 646.408L173.4 650.788M173.4 652.228L173.4 656.608M173.4 658.048L173.4 662.428M173.4 663.868L173.4 668.248M173.4 669.688L173.4 674.068M173.4 675.508L173.4 679.828M173.4 681.328L173.4 685.648" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="249.48" fill="#808080" x="648.628">associated with</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="171.299" fill="#808080" x="600.927">havin</tspan>
+</text>
+<g clip-path="url(#id14)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="171.3" fill="#808080" x="611.926">g</tspan>
+</text>
+</g>
+<path stroke-width="1" d="M181.86 410.128L181.86 414.508M181.86 415.948L181.86 420.268M181.86 421.768L181.86 426.088M181.86 427.528L181.86 431.908M181.86 433.348L181.86 437.728M181.86 439.168L181.86 443.548M181.86 444.988L181.86 449.368M181.86 450.808L181.86 455.188M181.86 456.628L181.86 460.948M181.86 462.448L181.86 466.768M181.86 468.208L181.86 468.988M181.86 470.428L181.86 474.748M181.86 476.248L181.86 480.568M181.86 482.008L181.86 486.388M181.86 487.828L181.86 492.208M181.86 493.648L181.86 498.028M181.86 499.468L181.86 503.848M181.86 505.288L181.86 509.608M181.86 511.108L181.86 515.428M181.86 516.928L181.86 521.248M181.86 522.688L181.86 527.068M181.86 528.508L181.86 529.468M181.86 412.288L180.66 408.688M181.86 412.288L183.06 408.688M181.86 412.288L181.86 408.688" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="179.76" fill="#000000" x="411.088">used for landin</tspan>
+</text>
+<g clip-path="url(#id15)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="179.76" fill="#000000" x="441.268">g</tspan>
+</text>
+</g>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="179.76" fill="#000000" x="443.826"> on</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="187.26" fill="#000000" x="513.508">having</tspan>
+</text>
+<path stroke-width="1" d="M141.42 479.128L141.42 483.508M141.42 484.948L141.42 489.328M141.42 490.768L141.42 495.088M141.42 496.588L141.42 500.908M141.42 502.348L141.42 503.608M141.42 505.048L141.42 509.368M141.42 510.868L141.42 515.188M141.42 516.688L141.42 521.008M141.42 522.448L141.42 526.828M141.42 528.268L141.42 529.468M141.42 481.288L140.22 477.688M141.42 481.288L142.62 477.688M141.42 481.288L141.42 477.688" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="139.32" fill="#000000" x="483.268">for</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="147.06" fill="#000000" x="513.508">having</tspan>
+</text>
+<path stroke-width="1" d="M152.82 390.268L152.82 173.788M263.46 173.788L259.08 173.788M257.64 173.788L253.26 173.788M251.82 173.788L247.5 173.788M246 173.788L241.68 173.788M240.18 173.788L235.86 173.788M234.42 173.788L230.04 173.788M228.6 173.788L224.22 173.788M222.78 173.788L218.4 173.788M216.96 173.788L212.58 173.788M211.14 173.788L206.82 173.788M205.32 173.788L201 173.788M199.5 173.788L195.18 173.788M193.74 173.788L189.36 173.788M187.92 173.788L183.54 173.788M182.1 173.788L177.72 173.788M176.28 173.788L171.9 173.788M170.46 173.788L166.14 173.788M164.64 173.788L160.32 173.788M158.82 173.788L154.5 173.788M153.06 173.788L152.82 173.788M152.82 386.608L151.56 390.268M152.82 386.608L154.02 390.268M152.82 386.608L152.82 390.268" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="158.22" fill="#000000" x="380.368">for</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="261.601" fill="#000000" x="156.386">havin</tspan>
+</text>
+<g clip-path="url(#id16)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="261.6" fill="#000000" x="167.386">g</tspan>
+</text>
+</g>
+<path stroke-width="1" d="M162.96 469.228L167.34 469.228M168.78 469.228L173.16 469.228M174.6 469.228L178.92 469.228M180.42 469.228L184.74 469.228M186.18 469.228L190.56 469.228M192 469.228L196.38 469.228M197.82 469.228L202.2 469.228M203.64 469.228L203.88 469.228M205.32 469.228L209.7 469.228M211.14 469.228L215.52 469.228M216.96 469.228L221.34 469.228M222.78 469.228L227.16 469.228M228.6 469.228L232.92 469.228M234.42 469.228L238.74 469.228M240.18 469.228L244.56 469.228M246 469.228L246.48 469.228M165.12 469.228L161.52 467.968M165.12 469.228L161.52 470.428M165.12 469.228L161.52 469.228" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="172.02" fill="#000000" x="470.908">for</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="242.941" fill="#000000" x="452.248">having</tspan>
+</text>
+<path stroke-width="1" d="M93 247.168L93 318.628M93 320.068L93 324.388M93 325.888L93 330.208M93 331.648L93 336.028M93 337.468L93 341.848M93 343.288L93 347.668M93 349.108L93 353.488M93 354.928L93 359.248M93 360.748L93 365.068M93 366.568L93 370.888M93 372.328L93 376.708M93 378.148L93 382.528M93 383.968L93 388.348M93 389.788L93 390.268M93 250.828L91.8 247.168M93 250.828L94.2 247.168M93 250.828L93 247.168" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="90.9" fill="#000000" x="249.568">based on</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="98.3999" fill="#000000" x="348.869">used according to</tspan>
+</text>
+<path stroke-width="1" d="M105.6 1099.708L105.6 788.788M105.6 787.348L105.6 782.968M105.6 781.528L105.6 777.208M105.6 775.708L105.6 771.388M105.6 769.948L105.6 765.568M105.6 764.128L105.6 759.748M105.6 758.308L105.6 753.928M105.6 752.488L105.6 748.108M105.6 746.668L105.6 742.348M105.6 740.848L105.6 736.528M105.6 735.028L105.6 730.708M105.6 729.268L105.6 724.888M105.6 723.448L105.6 719.068M105.6 717.628L105.6 713.248M105.6 711.808L105.6 707.428M105.6 705.988L105.6 701.668M105.6 700.168L105.6 695.848M105.6 694.408L105.6 690.028M105.6 688.588L105.6 684.208M105.6 682.768L105.6 678.388M105.6 676.948L105.6 672.568M105.6 671.128L105.6 666.748M105.6 665.308L105.6 660.988M105.6 659.488L105.6 655.168M105.6 653.728L105.6 649.348M105.6 647.908L105.6 643.528M105.6 642.088L105.6 637.708M105.6 636.268L105.6 631.888M105.6 630.448L105.6 626.128M105.6 624.628L105.6 620.308M105.6 618.808L105.6 614.488M105.6 613.048L105.6 608.668M105.6 607.228L105.6 602.848M105.6 601.408L105.6 597.028M105.6 595.588L105.6 591.208M105.6 589.768L105.6 585.448M105.6 583.948L105.6 579.628M105.6 578.188L105.6 573.808M105.6 572.368L105.6 567.988M105.6 566.548L105.6 562.168M105.6 560.728L105.6 556.348M105.6 554.908L105.6 550.528M105.6 549.088L105.6 544.768M105.6 543.268L105.6 538.948M105.6 537.508L105.6 533.128M105.6 531.688L105.6 527.308M105.6 525.868L105.6 521.488M105.6 520.048L105.6 515.668M105.6 514.228L105.6 509.908M105.6 508.408L105.6 504.088M105.6 502.588L105.6 498.268M105.6 496.828L105.6 492.448M105.6 491.008L105.6 486.628M105.6 485.188L105.6 480.808M105.6 479.368L105.6 477.688M105.6 1096.048L104.34 1099.708M105.6 1096.048L106.8 1099.708M105.6 1096.048L105.6 1099.708" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="111.48" fill="#000000" x="1075.71">part of</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="103.5" fill="#000000" x="480.083">com</tspan>
+</text>
+<g clip-path="url(#id17)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="103.5" fill="#000000" x="488.779">p</tspan>
+</text>
+</g>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="103.5" fill="#000000" x="491.338">osed of</tspan>
+</text>
+<path stroke-width="1" d="M95.16 479.128L95.16 483.508M95.16 484.948L95.16 489.328M95.16 490.768L95.16 495.088M95.16 496.588L95.16 500.908M95.16 502.348L95.16 506.728M95.16 508.168L95.16 512.548M95.16 513.988L95.16 518.368M95.16 519.808L95.16 524.188M95.16 525.628L95.16 529.948M95.16 531.448L95.16 535.768M95.16 537.268L95.16 541.588M95.16 543.028L95.16 547.408M95.16 548.848L95.16 553.228M95.16 554.668L95.16 559.048M95.16 560.488L95.16 564.868M95.16 566.308L95.16 570.628M95.16 572.128L95.16 576.448M95.16 577.888L95.16 582.268M95.16 583.708L95.16 588.088M95.16 589.528L95.16 593.908M95.16 595.348L95.16 599.728M95.16 601.168L95.16 605.548M95.16 606.988L95.16 611.308M95.16 612.808L95.16 617.128M95.16 618.568L95.16 622.948M95.16 624.388L95.16 628.768M516.96 629.248L512.64 629.248M511.14 629.248L506.82 629.248M505.38 629.248L501 629.248M499.56 629.248L495.18 629.248M493.74 629.248L489.36 629.248M487.92 629.248L483.54 629.248M482.1 629.248L477.78 629.248M476.28 629.248L471.96 629.248M470.46 629.248L466.14 629.248M464.7 629.248L460.32 629.248M458.88 629.248L454.5 629.248M453.06 629.248L448.68 629.248M447.24 629.248L442.86 629.248M441.42 629.248L437.1 629.248M435.6 629.248L431.28 629.248M429.78 629.248L425.46 629.248M424.02 629.248L419.64 629.248M418.2 629.248L413.82 629.248M412.38 629.248L408 629.248M406.56 629.248L402.18 629.248M400.74 629.248L396.42 629.248M394.92 629.248L390.6 629.248M389.1 629.248L384.78 629.248M383.34 629.248L378.96 629.248M377.52 629.248L373.14 629.248M371.7 629.248L367.32 629.248M365.88 629.248L361.5 629.248M360.06 629.248L355.74 629.248M354.24 629.248L349.92 629.248M348.42 629.248L344.1 629.248M342.66 629.248L338.28 629.248M336.84 629.248L332.46 629.248M331.02 629.248L326.64 629.248M325.2 629.248L320.82 629.248M319.38 629.248L315.06 629.248M313.56 629.248L309.24 629.248M307.74 629.248L303.42 629.248M301.98 629.248L297.6 629.248M296.16 629.248L291.78 629.248M290.34 629.248L285.96 629.248M284.52 629.248L280.14 629.248M278.7 629.248L274.38 629.248M272.88 629.248L268.56 629.248M267.06 629.248L262.74 629.248M261.3 629.248L256.92 629.248M255.48 629.248L251.1 629.248M249.66 629.248L245.28 629.248M243.84 629.248L239.46 629.248M238.02 629.248L233.7 629.248M232.2 629.248L227.88 629.248M226.38 629.248L222.06 629.248M220.62 629.248L216.24 629.248M214.8 629.248L210.42 629.248M208.98 629.248L204.6 629.248M203.16 629.248L198.78 629.248M197.34 629.248L192.96 629.248M191.52 629.248L187.2 629.248M185.7 629.248L181.38 629.248M179.94 629.248L175.56 629.248M174.12 629.248L169.74 629.248M168.3 629.248L163.92 629.248M162.48 629.248L158.1 629.248M156.66 629.248L152.28 629.248M150.84 629.248L146.52 629.248M145.02 629.248L140.7 629.248M139.26 629.248L134.88 629.248M133.44 629.248L129.06 629.248M127.62 629.248L123.24 629.248M121.8 629.248L117.42 629.248M115.98 629.248L111.6 629.248M110.16 629.248L105.84 629.248M104.34 629.248L100.02 629.248M98.58 629.248L95.16 629.248M95.16 481.288L93.96 477.688M95.16 481.288L96.36 477.688M95.16 481.288L95.16 477.688" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="93.06" fill="#000000" x="480.088">associated with</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="516.124" fill="#000000" x="594.389">associated with</tspan>
+</text>
+<path stroke-width="1" d="M285.96 370.648L290.34 370.648M291.78 370.648L296.16 370.648M297.6 370.648L301.98 370.648M303.42 370.648L307.74 370.648M309.24 370.648L313.56 370.648M315.06 370.648L319.38 370.648M320.82 370.648L325.2 370.648M326.64 370.648L331.02 370.648M332.46 370.648L336.84 370.648M338.28 370.648L342.66 370.648M344.1 370.648L348.42 370.648M349.92 370.648L354.24 370.648M355.74 370.648L360.06 370.648M361.5 370.648L365.88 370.648M367.32 370.648L371.7 370.648M373.14 370.648L377.52 370.648M378.96 370.648L383.34 370.648M384.78 370.648L389.1 370.648M390.6 370.648L394.92 370.648M396.42 370.648L400.74 370.648M402.18 370.648L406.56 370.648M408 370.648L412.38 370.648M413.82 370.648L418.2 370.648M419.64 370.648L424.02 370.648M425.46 370.648L429.78 370.648M431.28 370.648L435.6 370.648M437.1 370.648L441.42 370.648M442.86 370.648L447.24 370.648M448.68 370.648L453.06 370.648M454.5 370.648L458.88 370.648M460.32 370.648L464.7 370.648M466.14 370.648L470.46 370.648M471.96 370.648L476.28 370.648M477.78 370.648L482.1 370.648M483.54 370.648L487.92 370.648M489.36 370.648L493.74 370.648M495.18 370.648L499.56 370.648M501 370.648L505.38 370.648M506.82 370.648L511.14 370.648M512.64 370.648L516.96 370.648M518.46 370.648L522.78 370.648M524.22 370.648L528.6 370.648M530.04 370.648L534.42 370.648M535.14 601.168L535.14 596.788M535.14 595.348L535.14 590.968M535.14 589.528L535.14 585.208M535.14 583.708L535.14 579.388M535.14 577.888L535.14 573.568M535.14 572.128L535.14 567.748M535.14 566.308L535.14 561.928M535.14 560.488L535.14 556.108M535.14 554.668L535.14 550.288M535.14 548.848L535.14 544.528M535.14 543.028L535.14 538.708M535.14 537.268L535.14 532.888M535.14 531.448L535.14 527.068M535.14 525.628L535.14 521.248M535.14 519.808L535.14 515.428M535.14 513.988L535.14 509.608M535.14 508.168L535.14 503.848M535.14 502.348L535.14 498.028M535.14 496.588L535.14 492.208M535.14 490.768L535.14 486.388M535.14 484.948L535.14 480.568M535.14 479.128L535.14 474.748M535.14 473.308L535.14 468.988M535.14 467.488L535.14 463.168M535.14 461.668L535.14 457.348M535.14 455.908L535.14 451.528M535.14 450.088L535.14 445.708M535.14 444.268L535.14 439.888M535.14 438.448L535.14 434.068M535.14 432.628L535.14 428.308M535.14 426.808L535.14 422.488M535.14 421.048L535.14 416.668M535.14 415.228L535.14 410.848M535.14 409.408L535.14 405.028M535.14 403.588L535.14 399.208M535.14 397.768L535.14 393.388M535.14 391.948L535.14 387.628M535.14 386.128L535.14 381.808M535.14 380.368L535.14 375.988M535.14 374.548L535.14 370.648M288.18 370.648L284.52 369.448M288.18 370.648L284.52 371.848M288.18 370.648L284.52 370.648" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="293.82" fill="#000000" x="371.848">associated with</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="540.542" fill="#000000" x="567.51">associated with</tspan>
+</text>
+<path stroke-width="1" d="M238.74 322.708L238.74 318.388M238.74 316.888L238.74 312.568M238.74 311.068L238.74 306.748M238.74 305.308L238.74 300.928M238.74 299.488L238.74 295.108M238.74 293.668L238.74 261.928M238.74 265.588L237.54 261.928M238.74 265.588L239.94 261.928M238.74 265.588L238.74 261.928" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="244.14" fill="#000000" x="307.948">having</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="236.64" fill="#000000" x="264.388">associated with</tspan>
+</text>
+<path stroke-width="1" d="M197.58 247.888L197.58 285.928M197.58 287.368L197.58 291.748M197.58 293.188L197.58 297.508M197.58 299.008L197.58 303.328M197.58 304.828L197.58 309.148M197.58 310.588L197.58 314.968M197.58 316.408L197.58 320.788M197.58 322.228L197.58 324.148M197.58 251.548L196.38 247.888M197.58 251.548L198.78 247.888M197.58 251.548L197.58 247.888" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="194.52" fill="#000000" x="250.348">based on</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="203.7" fill="#000000" x="282.508">used according to</tspan>
+</text>
+<path stroke-width="1" d="M271.68 410.128L271.68 414.508M271.68 415.948L271.68 420.268M271.68 421.768L271.68 426.088M271.68 427.528L271.68 431.188M271.68 432.628L271.68 437.008M271.68 438.448L271.68 442.828M271.68 444.268L271.68 448.648M271.68 450.088L271.68 453.928M271.68 412.288L270.48 408.688M271.68 412.288L272.88 408.688M271.68 412.288L271.68 408.688" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="269.34" fill="#000000" x="412.528">used for landing on</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="277.08" fill="#000000" x="435.808">having</tspan>
+</text>
+<path stroke-width="1" d="M232.44 1099.708L232.44 754.168M232.44 752.728L232.44 748.348M232.44 746.908L232.44 742.588M232.44 741.088L232.44 736.768M232.44 735.268L232.44 730.948M232.44 729.508L232.44 725.128M232.44 723.688L232.44 719.308M232.44 717.868L232.44 713.488M232.44 712.048L232.44 707.668M232.44 706.228L232.44 701.908M232.44 700.408L232.44 696.088M232.44 694.648L232.44 690.268M232.44 688.828L232.44 684.448M232.44 683.008L232.44 678.628M232.44 677.188L232.44 672.808M232.44 671.368L232.44 667.048M232.44 665.548L232.44 661.228M232.44 659.728L232.44 655.408M232.44 653.968L232.44 649.588M232.44 648.148L232.44 643.768M232.44 642.328L232.44 637.948M232.44 636.508L232.44 632.128M232.44 630.688L232.44 626.368M232.44 624.868L232.44 620.548M232.44 619.048L232.44 614.728M232.44 613.288L232.44 608.908M232.44 607.468L232.44 603.088M232.44 601.648L232.44 597.268M232.44 595.828L232.44 591.448M232.44 590.008L232.44 585.688M232.44 584.188L232.44 579.868M232.44 578.428L232.44 574.048M232.44 572.608L232.44 568.228M232.44 566.788L232.44 562.408M232.44 560.968L232.44 556.588M232.44 555.148L232.44 550.828M232.44 549.328L232.44 545.008M232.44 543.508L232.44 539.188M232.44 537.748L232.44 533.368M232.44 531.928L232.44 527.548M232.44 526.108L232.44 521.728M232.44 520.288L232.44 515.908M232.44 514.468L232.44 510.148M232.44 508.648L232.44 504.328M232.44 502.828L232.44 498.508M232.44 497.068L232.44 492.688M232.44 491.248L232.44 486.868M232.44 485.428L232.44 481.048M232.44 479.608L232.44 475.228M232.44 473.788L232.44 469.468M232.44 467.968L232.44 463.648M232.44 462.208L232.44 457.828M232.44 456.388L232.44 452.008M232.44 450.568L232.44 446.188M232.44 444.748L232.44 440.368M232.44 438.928L232.44 434.608M232.44 433.108L232.44 428.788M232.44 427.288L232.44 422.968M232.44 421.528L232.44 417.148M232.44 415.708L232.44 411.328M232.44 409.888L232.44 408.688M232.44 1096.048L231.24 1099.708M232.44 1096.048L233.7 1099.708M232.44 1096.048L232.44 1099.708" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<g clip-path="url(#id18)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="238.86" fill="#000000" x="1074.27">p</tspan>
+</text>
+</g>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="238.86" fill="#000000" x="1076.83">art of</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="230.34" fill="#000000" x="413.002">com</tspan>
+</text>
+<g clip-path="url(#id19)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="230.34" fill="#000000" x="421.699">p</tspan>
+</text>
+</g>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="230.34" fill="#000000" x="424.258">osed of</tspan>
+</text>
+<path stroke-width="1" d="M645.54 284.488L645.54 213.268M487.2 213.268L491.58 213.268M493.02 213.268L497.34 213.268M498.84 213.268L503.16 213.268M504.66 213.268L508.98 213.268M510.42 213.268L514.8 213.268M516.24 213.268L520.62 213.268M522.06 213.268L526.44 213.268M527.88 213.268L532.26 213.268M533.7 213.268L538.02 213.268M539.52 213.268L543.84 213.268M545.34 213.268L549.66 213.268M551.1 213.268L555.48 213.268M556.92 213.268L561.3 213.268M562.74 213.268L567.12 213.268M568.56 213.268L572.94 213.268M574.38 213.268L578.7 213.268M580.2 213.268L584.52 213.268M586.02 213.268L590.34 213.268M591.78 213.268L596.16 213.268M597.6 213.268L601.98 213.268M603.42 213.268L607.8 213.268M609.24 213.268L613.62 213.268M615.06 213.268L619.38 213.268M620.88 213.268L625.2 213.268M626.7 213.268L631.02 213.268M632.46 213.268L636.84 213.268M638.28 213.268L642.66 213.268M644.1 213.268L645.54 213.268M645.54 280.828L644.34 284.488M645.54 280.828L646.8 284.488M645.54 280.828L645.54 284.488" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="651" fill="#000000" x="271.888">for</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="492.358" fill="#000000" x="214.467">havin</tspan>
+</text>
+<g clip-path="url(#id20)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="492.36" fill="#000000" x="225.466">g</tspan>
+</text>
+</g>
+<path stroke-width="1" d="M363.96 655.168L363.96 592.228M363.96 590.728L363.96 586.408M363.96 584.908L363.96 580.588M363.96 579.148L363.96 574.768M363.96 573.328L363.96 568.948M363.96 567.508L363.96 563.128M363.96 561.688L363.96 557.308M363.96 555.868L363.96 551.548M363.96 550.048L363.96 545.728M363.96 544.288L363.96 539.908M363.96 538.468L363.96 534.088M363.96 532.648L363.96 529.228" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="369.36" fill="#808080" x="618.568">associated with</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="359.94" fill="#808080" x="531.687">having</tspan>
+</text>
+<path stroke-width="1" d="M297.6 678.628L297.6 604.048M297.6 602.608L297.6 598.228M297.6 596.788L297.6 592.468M297.6 590.968L297.6 586.648M297.6 585.208L297.6 580.828M297.6 579.388L297.6 575.008M297.6 573.568L297.6 569.188M297.6 567.748L297.6 563.368M297.6 561.928L297.6 557.548M297.6 556.108L297.6 551.788M297.6 550.288L297.6 545.968M297.6 544.528L297.6 540.148M297.6 538.708L297.6 534.328M297.6 532.888L297.6 529.228" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="303" fill="#808080" x="641.128">associated with</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="294.06" fill="#808080" x="531.687">having</tspan>
+</text>
+<path stroke-width="1" d="M692.52 235.768L692.52 260.008M692.52 261.448L692.52 265.828M692.52 267.268L692.52 271.648M692.52 273.088L692.52 277.468M692.52 278.908L692.52 283.228M692.52 239.428L691.32 235.768M692.52 239.428L693.72 235.768M692.52 239.428L692.52 235.768" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="690.18" fill="#000000" x="238.228">based on</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="697.92" fill="#000000" x="256.348">used </tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="703.26" fill="#000000" x="256.348">according to</tspan>
+</text>
+<path stroke-width="1" d="M593.28 612.028L597.6 612.028M599.04 612.028L603.42 612.028M604.86 612.028L609.24 612.028M610.68 612.028L615.06 612.028M616.5 612.028L620.88 612.028M622.32 612.028L626.7 612.028M628.14 612.028L632.46 612.028M633.96 612.028L638.28 612.028M639.72 612.028L644.1 612.028M645.54 612.028L649.92 612.028M651.36 612.028L655.74 612.028M657.18 612.028L661.56 612.028M663 612.028L667.38 612.028M668.82 612.028L673.14 612.028M674.64 612.028L678.96 612.028M680.4 612.028L684.78 612.028M686.22 612.028L690.6 612.028M692.04 612.028L696.42 612.028M697.86 612.028L702.24 612.028M703.68 612.028L704.64 612.028M704.64 358.288L704.64 362.668M704.64 364.108L704.64 368.488M704.64 369.928L704.64 374.308M704.64 375.748L704.64 380.128M704.64 381.568L704.64 385.888M704.64 387.388L704.64 391.708M704.64 393.148L704.64 397.528M704.64 398.968L704.64 403.348M704.64 404.788L704.64 409.168M704.64 410.608L704.64 414.988M704.64 416.428L704.64 420.748M704.64 422.248L704.64 426.568M704.64 428.068L704.64 432.388M704.64 433.828L704.64 438.208M704.64 439.648L704.64 444.028M704.64 445.468L704.64 449.848M704.64 451.288L704.64 455.668M704.64 457.108L704.64 461.428M704.64 462.928L704.64 467.248M704.64 468.688L704.64 473.068M704.64 474.508L704.64 478.888M704.64 480.328L704.64 484.708M704.64 486.148L704.64 490.528M704.64 491.968L704.64 496.348M704.64 497.788L704.64 502.108M704.64 503.608L704.64 507.928M704.64 509.368L704.64 513.748M704.64 515.188L704.64 519.568M704.64 521.008L704.64 525.388M704.64 526.828L704.64 531.208M704.64 532.648L704.64 536.968M704.64 538.468L704.64 542.788M704.64 544.288L704.64 548.608M704.64 550.048L704.64 554.428M704.64 555.868L704.64 560.248M704.64 561.688L704.64 566.068M704.64 567.508L704.64 571.888M704.64 573.328L704.64 577.648M704.64 579.148L704.64 583.468M704.64 584.908L704.64 589.288M704.64 590.728L704.64 595.108M704.64 596.548L704.64 600.928M704.64 602.368L704.64 606.748M704.64 608.188L704.64 612.028M704.64 360.508L703.44 356.848M704.64 360.508L705.84 356.848M704.64 360.508L704.64 356.848" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="598.44" fill="#000000" x="613.288">associated with</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="702.541" fill="#000000" x="359.245">associated with</tspan>
+</text>
+<path stroke-width="1" d="M722.1 1099.708L722.1 728.248M722.1 726.808L722.1 722.488M722.1 720.988L722.1 716.668M722.1 715.228L722.1 710.848M722.1 709.408L722.1 705.028M722.1 703.588L722.1 699.208M722.1 697.768L722.1 693.388M722.1 691.948L722.1 687.628M722.1 686.128L722.1 681.808M722.1 680.308L722.1 675.988M722.1 674.548L722.1 670.168M722.1 668.728L722.1 664.348M722.1 662.908L722.1 658.528M722.1 657.088L722.1 652.708M722.1 651.268L722.1 646.948M722.1 645.448L722.1 641.128M722.1 639.688L722.1 635.308M722.1 633.868L722.1 629.488M722.1 628.048L722.1 623.668M722.1 622.228L722.1 617.848M722.1 616.408L722.1 612.028M722.1 610.588L722.1 606.268M722.1 604.768L722.1 600.448M722.1 599.008L722.1 594.628M722.1 593.188L722.1 588.808M722.1 587.368L722.1 582.988M722.1 581.548L722.1 577.168M722.1 575.728L722.1 571.408M722.1 569.908L722.1 565.588M722.1 564.088L722.1 559.768M722.1 558.328L722.1 553.948M722.1 552.508L722.1 548.128M722.1 546.688L722.1 542.308M722.1 540.868L722.1 536.488M722.1 535.048L722.1 530.728M722.1 529.228L722.1 524.908M722.1 523.468L722.1 519.088M722.1 517.648L722.1 513.268M722.1 511.828L722.1 507.448M722.1 506.008L722.1 501.628M722.1 500.188L722.1 495.808M722.1 494.368L722.1 490.048M722.1 488.548L722.1 484.228M722.1 482.788L722.1 478.408M722.1 476.968L722.1 472.588M722.1 471.148L722.1 466.768M722.1 465.328L722.1 460.948M722.1 459.508L722.1 455.188M722.1 453.688L722.1 449.368M722.1 447.868L722.1 443.548M722.1 442.108L722.1 437.728M722.1 436.288L722.1 431.908M722.1 430.468L722.1 426.088M722.1 424.648L722.1 420.268M722.1 418.828L722.1 414.508M722.1 413.008L722.1 408.688M722.1 407.248L722.1 402.868M722.1 401.428L722.1 397.048M722.1 395.608L722.1 391.228M722.1 389.788L722.1 385.408M722.1 383.968L722.1 379.588M722.1 378.148L722.1 373.828M722.1 372.328L722.1 368.008M722.1 366.568L722.1 362.188M722.1 360.748L722.1 356.848M722.1 1096.048L720.84 1099.708M722.1 1096.048L723.3 1099.708M722.1 1096.048L722.1 1099.708" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="730.14" fill="#000000" x="1076.67">part of</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="719.52" fill="#000000" x="359.241">composed of</tspan>
+</text>
+<path stroke-width="1" d="M525.24 684.448L525.24 787.588M525.24 789.028L525.24 793.408M525.24 794.848L525.24 799.228M525.24 800.668L525.24 805.048M525.24 806.488L525.24 810.868M525.24 812.308L525.24 816.628M525.24 818.128L525.24 822.448M525.24 823.888L525.24 828.268M525.24 829.708L525.24 834.088M525.24 835.528L525.24 839.908M525.24 841.348L525.24 845.728M525.24 847.168L525.24 851.488M525.24 852.988L525.24 857.308M525.24 858.808L525.24 863.128M525.24 864.568L525.24 868.948M525.24 870.388L525.24 874.768M525.24 876.208L525.24 880.588M525.24 882.028L525.24 886.408M525.24 887.848L525.24 890.728" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="523.14" fill="#000000" x="686.848">[based on]</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="530.64" fill="#000000" x="856.109">[used to define]</tspan>
+</text>
+<path stroke-width="1" d="M579.48 684.448L579.48 729.988M579.48 731.428L579.48 735.808M579.48 737.248L579.48 741.568M579.48 743.068L579.48 747.388M579.48 748.828L579.48 753.208M579.48 754.648L579.48 759.028M579.48 760.468L579.48 764.848M579.48 766.288L579.48 770.668M579.48 772.108L579.48 775.468" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="576.9" fill="#000000" x="688.828">[based on]</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="584.88" fill="#000000" x="741.088">[used to define]</tspan>
+</text>
+<path stroke-width="1" d="M459.36 676.948L459.36 664.108L518.46 664.108M459.36 673.288L458.16 676.948M459.36 673.288L460.56 676.948M459.36 673.288L459.36 676.948" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<g clip-path="url(#id21)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="469.86" fill="#000000" x="666.028">p</tspan>
+</text>
+</g>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="469.86" fill="#000000" x="668.586">art of</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="515.1" fill="#000000" x="634.108">com</tspan>
+</text>
+<g clip-path="url(#id22)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="515.1" fill="#000000" x="642.799">p</tspan>
+</text>
+</g>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="515.1" fill="#000000" x="645.358">osed of</tspan>
+</text>
+<path stroke-width="1" d="M190.32 892.948L271.68 892.948M273.12 892.948L277.5 892.948M278.94 892.948L283.32 892.948M284.76 892.948L289.14 892.948M290.58 892.948L294.96 892.948M296.4 892.948L300.72 892.948M302.22 892.948L306.54 892.948M307.98 892.948L312.36 892.948M313.8 892.948L318.18 892.948M319.62 892.948L324 892.948M325.44 892.948L329.82 892.948M331.26 892.948L335.64 892.948M337.08 892.948L341.4 892.948M342.9 892.948L347.22 892.948M348.66 892.948L353.04 892.948M193.98 892.948L190.32 891.688M193.98 892.948L190.32 894.148M193.98 892.948L190.32 892.948" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="196.92" fill="#000000" x="894.148">established at</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="349.501" fill="#000000" x="847.647">the holding point for</tspan>
+</text>
+<path stroke-width="1" d="M168.54 1099.708L168.54 1012.048M168.54 1010.608L168.54 1006.228M168.54 1004.788L168.54 1000.408M168.54 998.968L168.54 994.588M168.54 993.148L168.54 988.828M168.54 987.328L168.54 983.008M168.54 981.568L168.54 977.188M168.54 975.748L168.54 971.368M168.54 969.928L168.54 965.548M168.54 964.108L168.54 959.728M168.54 958.288L168.54 953.908M168.54 952.468L168.54 948.148M168.54 946.648L168.54 942.328M168.54 940.888L168.54 936.508M168.54 935.068L168.54 930.688M168.54 929.248L168.54 924.868M168.54 1096.048L167.34 1099.708M168.54 1096.048L169.74 1099.708M168.54 1096.048L168.54 1099.708" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="174.66" fill="#000000" x="1074.03">part of</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="166.44" fill="#000000" x="926.546">com</tspan>
+</text>
+<g clip-path="url(#id23)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="166.44" fill="#000000" x="935.239">p</tspan>
+</text>
+</g>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="166.44" fill="#000000" x="937.798">osed of</tspan>
+</text>
+<path stroke-width="1" d="M211.38 776.968L215.76 776.968M217.2 776.968L221.58 776.968M223.02 776.968L227.4 776.968M228.84 776.968L233.16 776.968M234.66 776.968L238.98 776.968M240.48 776.968L244.8 776.968M246.24 776.968L250.62 776.968M252.06 776.968L256.44 776.968M257.88 776.968L262.26 776.968M263.7 776.968L268.08 776.968M269.52 776.968L273.84 776.968M275.34 776.968L279.66 776.968M281.16 776.968L285.48 776.968M286.92 776.968L291.3 776.968M292.74 776.968L297.12 776.968M298.56 776.968L302.94 776.968M304.38 776.968L308.76 776.968M310.2 776.968L314.52 776.968M316.02 776.968L320.34 776.968M321.84 776.968L326.16 776.968M327.6 776.968L331.98 776.968M333.42 776.968L337.8 776.968M339.24 776.968L343.62 776.968M345.06 776.968L349.44 776.968M350.88 776.968L355.2 776.968M356.7 776.968L361.02 776.968M362.52 776.968L366.84 776.968M368.28 776.968L372.66 776.968M374.1 776.968L378.48 776.968M379.92 776.968L384.3 776.968M385.74 776.968L387.42 776.968M388.86 776.968L393.24 776.968M394.68 776.968L399.06 776.968M400.5 776.968L404.88 776.968M406.32 776.968L410.7 776.968M412.14 776.968L416.52 776.968M417.96 776.968L422.28 776.968M423.78 776.968L428.1 776.968M429.54 776.968L433.92 776.968M435.36 776.968L439.74 776.968M441.18 776.968L445.56 776.968M447 776.968L451.38 776.968M452.82 776.968L457.2 776.968M458.64 776.968L462.96 776.968M464.46 776.968L468.78 776.968M470.22 776.968L474.6 776.968M476.04 776.968L480.42 776.968M481.86 776.968L486.24 776.968M487.68 776.968L492.06 776.968M493.5 776.968L497.88 776.968M499.32 776.968L503.64 776.968M505.14 776.968L509.46 776.968M510.9 776.968L515.28 776.968M516.72 776.968L521.1 776.968M522.54 776.968L526.92 776.968M528.36 776.968L532.74 776.968M534.18 776.968L538.56 776.968M540 776.968L544.32 776.968M545.82 776.968L550.14 776.968M551.58 776.968L555.96 776.968M557.4 776.968L561.78 776.968M563.22 776.968L565.14 776.968" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="227.46" fill="#808080" x="778.168">co-located with</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="561.123" fill="#808080" x="771.868">co-located with</tspan>
+</text>
+<path stroke-width="1" d="M443.34 857.548L504.12 857.548M505.62 857.548L509.94 857.548M511.44 857.548L515.76 857.548M517.2 857.548L521.58 857.548M523.02 857.548L527.4 857.548M528.84 857.548L533.22 857.548M534.66 857.548L539.04 857.548M540.48 857.548L544.8 857.548M546.3 857.548L550.62 857.548M552.12 857.548L556.44 857.548M557.88 857.548L562.26 857.548M563.7 857.548L565.14 857.548" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="450" fill="#808080" x="858.808">at</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="561.361" fill="#808080" x="836.968">used as</tspan>
+</text>
+<path stroke-width="1" d="M649.2 1098.268L649.2 1093.888M649.2 1092.448L649.2 1088.068M649.2 1086.628L649.2 1082.248M649.2 1080.808L649.2 1076.428M649.2 1074.988L649.2 1070.668M649.2 1069.168L649.2 1064.848M649.2 1063.348L649.2 1059.028M649.2 1057.588L649.2 1053.208M649.2 1051.768L649.2 1047.388M649.2 1045.948L649.2 1041.568M649.2 1040.128L649.2 1035.748M649.2 1034.308L649.2 1029.988M649.2 1028.488L649.2 1024.168M649.2 1022.728L649.2 1018.348M649.2 1016.908L649.2 1012.528M649.2 1011.088L649.2 1006.708M649.2 1005.268L649.2 1000.888M649.2 999.448L649.2 995.068M649.2 993.628L649.2 989.548M649.2 988.048L649.2 983.728M649.2 982.288L649.2 977.908M649.2 976.468L649.2 972.088M649.2 970.648L649.2 966.268M649.2 964.828L649.2 960.448M649.2 959.008L649.2 954.688M649.2 953.188L649.2 948.868M649.2 947.428L649.2 943.048M649.2 941.608L649.2 937.228M649.2 935.788L649.2 931.408M649.2 929.968L649.2 925.588M649.2 924.148L649.2 919.768M649.2 918.328L649.2 914.008M649.2 912.508L649.2 908.188M649.2 906.748L649.2 902.368M649.2 900.928L649.2 896.548M649.2 895.108L649.2 890.728M649.2 889.288L649.2 884.908M649.2 883.468L649.2 879.388M649.2 1096.048L648 1099.708M649.2 1096.048L650.4 1099.708M649.2 1096.048L649.2 1099.708" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="655.32" fill="#000000" x="1043.07">recommended to use</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="647.1" fill="#000000" x="881.787">recommended for</tspan>
+</text>
+<path stroke-width="1" d="M591.54 880.828L591.54 885.148M591.54 886.648L591.54 890.968M591.54 892.408L591.54 896.788M591.54 898.228L591.54 902.608M591.54 904.048L591.54 908.428M591.54 909.868L591.54 914.248M591.54 915.688L591.54 920.068M591.54 922.468L591.54 926.848M591.54 928.288L591.54 932.608M591.54 934.108L591.54 938.428M591.54 939.868L591.54 944.248M591.54 945.688L591.54 950.068M591.54 951.508L591.54 955.888M591.54 957.328L591.54 961.708" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="589.44" fill="#808080" x="881.788">co-located with</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="597" fill="#808080" x="926.548">co-located with</tspan>
+</text>
+<path stroke-width="1" d="M443.34 917.128L462.96 917.128M464.46 917.128L468.78 917.128M470.22 917.128L474.6 917.128M476.04 917.128L480.42 917.128M481.86 917.128L482.82 917.128" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="450" fill="#808080" x="918.328">at</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="480.48" fill="#808080" x="896.068">used as</tspan>
+</text>
+<path stroke-width="1" d="M489.36 1098.268L489.36 1093.888M489.36 1092.448L489.36 1088.068M489.36 1086.628L489.36 1082.248M489.36 1080.808L489.36 1076.428M489.36 1074.988L489.36 1070.668M489.36 1069.168L489.36 1064.848M489.36 1063.348L489.36 1059.028M489.36 1057.588L489.36 1053.208M489.36 1051.768L489.36 1047.388M489.36 1045.948L489.36 1041.568M489.36 1040.128L489.36 1037.728M489.36 1036.288L489.36 1031.908M489.36 1030.468L489.36 1026.088M489.36 1024.648L489.36 1020.268M489.36 1018.828L489.36 1014.448M489.36 1013.008L489.36 1008.628M489.36 1007.188L489.36 1002.868M489.36 1001.368L489.36 997.048M489.36 995.608L489.36 991.228M489.36 989.788L489.36 985.408M489.36 983.968L489.36 979.588M489.36 978.148L489.36 975.508M489.36 1096.048L488.16 1099.708M489.36 1096.048L490.56 1099.708M489.36 1096.048L489.36 1099.708" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="495.54" fill="#000000" x="1042.77">recommended to use</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="487.26" fill="#000000" x="977.907">recommended for</tspan>
+</text>
+<path stroke-width="1" d="M387.66 851.788L387.66 813.988M211.38 813.988L215.76 813.988M217.2 813.988L221.58 813.988M223.02 813.988L227.4 813.988M228.84 813.988L233.16 813.988M234.66 813.988L238.98 813.988M240.48 813.988L244.8 813.988M246.24 813.988L250.62 813.988M252.06 813.988L256.44 813.988M257.88 813.988L262.26 813.988M263.7 813.988L268.08 813.988M269.52 813.988L273.84 813.988M275.34 813.988L279.66 813.988M281.16 813.988L285.48 813.988M286.92 813.988L291.3 813.988M292.74 813.988L297.12 813.988M298.56 813.988L302.94 813.988M304.38 813.988L308.76 813.988M310.2 813.988L314.52 813.988M316.02 813.988L320.34 813.988M321.84 813.988L326.16 813.988M327.6 813.988L331.98 813.988M333.42 813.988L337.8 813.988M339.24 813.988L343.62 813.988M345.06 813.988L349.44 813.988M350.88 813.988L355.2 813.988M356.7 813.988L361.02 813.988M362.52 813.988L366.84 813.988M368.28 813.988L372.66 813.988M374.1 813.988L378.48 813.988M379.92 813.988L384.3 813.988M385.74 813.988L387.66 813.988" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="393.06" fill="#808080" x="840.868">at</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="216.539" fill="#808080" x="815.188">used as</tspan>
+</text>
+<path stroke-width="1" d="M253.74 740.608L249.42 740.608M247.98 740.608L243.6 740.608M242.16 740.608L237.78 740.608M236.34 740.608L232.68 740.608M231.24 740.608L226.92 740.608M225.42 740.608L221.1 740.608M219.6 740.608L215.28 740.608M213.84 740.608L209.94 740.608M251.58 740.608L255.24 739.408M251.58 740.608L255.24 741.808M251.58 740.608L255.24 740.608" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="250.92" fill="#808080" x="724.648">having</tspan>
+</text>
+<g clip-path="url(#id24)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="216.54" fill="#808080" x="741.808">p</tspan>
+</text>
+</g>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="216.54" fill="#808080" x="744.366">art of</tspan>
+</text>
+<path stroke-width="1" d="M328.08 664.108L180.66 664.588M180.9 734.308L180.9 729.988M180.9 728.548L180.9 724.168M180.9 722.728L180.9 718.348M180.9 716.908L180.9 712.528M180.9 711.088L180.9 706.708M180.9 705.268L180.9 700.888M180.66 699.448L180.66 695.128M180.66 693.628L180.66 689.308M180.66 687.868L180.66 683.488M180.66 682.048L180.66 677.668M180.66 676.228L180.66 671.848M180.66 670.408L180.66 666.028M324.72 664.108L328.08 662.908M324.72 664.108L328.08 665.308M324.72 664.108L328.08 664.108" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="324.78" fill="#808080" x="646.948">having</tspan>
+</text>
+<g clip-path="url(#id25)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="186.3" fill="#808080" x="719.068">p</tspan>
+</text>
+</g>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="186.3" fill="#808080" x="721.626">art of</tspan>
+</text>
+<path stroke-width="1" d="M206.04 822.208L206.04 826.588M206.04 828.028L206.04 832.408M206.04 833.848L206.04 838.228M206.04 839.668L206.04 843.988M206.04 845.488L206.04 849.808M206.04 851.248L206.04 855.628M206.04 857.068L206.04 861.448M206.04 862.888L206.04 867.268M206.04 868.708L206.04 873.088M206.04 874.528L206.04 878.848M206.04 880.348L206.04 884.668M206.04 886.168L206.04 890.488M206.04 891.928L206.04 896.308M206.04 897.748L206.04 902.128M206.04 903.568L206.04 907.948M206.04 909.388L206.04 913.768M206.04 915.208L206.04 919.528M206.04 921.028L206.04 925.348M206.04 926.848L206.04 931.168M206.04 932.608L206.04 936.988M206.04 938.428L206.04 942.808M206.04 944.248L206.04 948.628M206.04 950.068L206.04 954.448M206.04 955.888L206.04 960.208M206.04 961.708L206.04 966.028M206.04 967.468L206.04 971.848M206.04 973.288L206.04 977.668M206.04 979.108L206.04 983.488M206.04 984.928L206.04 989.308M206.04 990.748L206.04 995.068M206.04 996.568L206.04 1000.888M206.04 1002.388L206.04 1006.708M206.04 1008.148L206.04 1012.528M206.04 1013.968L206.04 1018.348M206.04 1019.788L206.04 1024.168M206.04 1025.608L206.04 1029.988M206.04 1031.428L206.04 1035.748M206.04 1037.248L206.04 1041.568M206.04 1043.068L206.04 1047.388M206.04 1048.828L206.04 1053.208M206.04 1054.648L206.04 1059.028M206.04 1060.468L206.04 1064.848M206.04 1066.288L206.04 1070.668M206.04 1072.108L206.04 1076.428M206.04 1077.928L206.04 1082.248M206.04 1083.688L206.04 1088.068M206.04 1089.508L206.04 1093.888M206.04 1095.328L206.04 1099.708M206.04 1096.048L204.84 1099.708M206.04 1096.048L207.3 1099.708M206.04 1096.048L206.04 1099.708" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="204" fill="#000000" x="823.168">recommended for</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="211.74" fill="#000000" x="1043.07">recommended to use</tspan>
+</text>
+<path stroke-width="1" d="M412.86 936.508L412.86 1016.668M547.02 1016.668L542.64 1016.668M541.2 1016.668L536.82 1016.668M535.38 1016.668L531 1016.668M529.56 1016.668L525.24 1016.668M523.74 1016.668L519.42 1016.668M517.92 1016.668L513.6 1016.668M512.16 1016.668L507.78 1016.668M506.34 1016.668L501.96 1016.668M500.52 1016.668L496.14 1016.668M494.7 1016.668L490.32 1016.668M488.88 1016.668L484.56 1016.668M483.06 1016.668L478.74 1016.668M477.24 1016.668L472.92 1016.668M471.48 1016.668L467.1 1016.668M465.66 1016.668L461.28 1016.668M459.84 1016.668L455.46 1016.668M454.02 1016.668L449.64 1016.668M448.2 1016.668L443.88 1016.668M442.38 1016.668L438.06 1016.668M436.56 1016.668L432.24 1016.668M430.8 1016.668L426.42 1016.668M424.98 1016.668L420.6 1016.668M419.16 1016.668L414.78 1016.668M413.34 1016.668L412.86 1016.668" stroke-miterlimit="10" stroke="#808080" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="410.76" fill="#808080" x="938.908">at</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="545.161" fill="#808080" x="994.348">used as</tspan>
+</text>
+<path stroke-width="1" d="M572.7 1098.268L572.7 1093.888M572.7 1092.448L572.7 1088.068M572.7 1086.628L572.7 1082.248M572.7 1080.808L572.7 1076.428M572.7 1074.988L572.7 1070.668M572.7 1069.168L572.7 1067.248M572.7 1065.808L572.7 1061.428M572.7 1059.988L572.7 1055.608M572.7 1054.168L572.7 1049.788M572.7 1048.348L572.7 1044.028M572.7 1042.528L572.7 1038.208M572.7 1036.768L572.7 1034.548M572.7 1096.048L571.44 1099.708M572.7 1096.048L573.9 1099.708M572.7 1096.048L572.7 1099.708" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="579.3" fill="#000000" x="1043.07">recommended to use</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="570.6" fill="#000000" x="1037.01">recommended for</tspan>
+</text>
+<path stroke-width="1" d="M367.08 1098.268L367.08 1093.888M367.08 1092.448L367.08 1088.068M367.08 1086.628L367.08 1082.248M367.08 1080.808L367.08 1076.428M367.08 1074.988L367.08 1070.668M367.08 1069.168L367.08 1064.848M367.08 1063.348L367.08 1059.028M367.08 1057.588L367.08 1053.208M367.08 1051.768L367.08 1047.388M367.08 1045.948L367.08 1041.568M367.08 1040.128L367.08 1035.748M367.08 1034.308L367.08 1029.988M367.08 1028.488L367.08 1024.168M367.08 1022.728L367.08 1018.348M367.08 1016.668L367.08 1012.288M367.08 1010.848L367.08 1006.468M367.08 1005.028L367.08 1000.648M367.08 999.208L367.08 994.828M367.08 993.388L367.08 989.068M367.08 987.568L367.08 983.248M367.08 981.808L367.08 977.428M367.08 975.988L367.08 971.608M367.08 970.168L367.08 965.788M367.08 964.348L367.08 959.968M367.08 958.528L367.08 954.208M367.08 952.708L367.08 948.388M367.08 946.888L367.08 942.568M367.08 941.128L367.08 936.748M367.08 1096.048L365.88 1099.708M367.08 1096.048L368.28 1099.708M367.08 1096.048L367.08 1099.708" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="372.48" fill="#000000" x="1061.91">using as fix</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="364.02" fill="#000000" x="938.907">a fix for</tspan>
+</text>
+<path stroke-width="1" d="M389.1 1098.268L389.1 1093.888M389.1 1092.448L389.1 1088.068M389.1 1086.628L389.1 1082.248M389.1 1080.808L389.1 1076.428M389.1 1074.988L389.1 1070.668M389.1 1069.168L389.1 1064.848M389.1 1063.348L389.1 1059.028M389.1 1057.588L389.1 1053.208M389.1 1051.768L389.1 1047.388M389.1 1045.948L389.1 1041.568M389.1 1040.128L389.1 1035.748M389.1 1034.308L389.1 1029.988M389.1 1028.488L389.1 1024.168M389.1 1022.728L389.1 1018.348M389.1 1016.668L389.1 1012.288M389.1 1010.848L389.1 1006.468M389.1 1005.028L389.1 1000.648M389.1 999.208L389.1 994.828M389.1 993.388L389.1 989.068M389.1 987.568L389.1 983.248M389.1 981.808L389.1 977.428M389.1 975.988L389.1 971.608M389.1 970.168L389.1 965.788M389.1 964.348L389.1 959.968M389.1 958.528L389.1 954.208M389.1 952.708L389.1 948.388M389.1 946.888L389.1 942.568M389.1 941.128L389.1 936.748M389.1 1096.048L387.9 1099.708M389.1 1096.048L390.36 1099.708M389.1 1096.048L389.1 1099.708" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="396" fill="#000000" x="1047.63">using as arc centre</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="386.04" fill="#000000" x="938.907">the arc center for</tspan>
+</text>
+<path stroke-width="1" d="M335.88 1098.268L335.88 1093.888M335.88 1092.448L335.88 1088.068M335.88 1086.628L335.88 1082.248M335.88 1080.808L335.88 1076.428M335.88 1074.988L335.88 1070.668M335.88 1069.168L335.88 1064.848M335.88 1063.348L335.88 1059.028M335.88 1057.588L335.88 1053.208M335.88 1051.768L335.88 1047.388M335.88 1045.948L335.88 1041.568M335.88 1040.128L335.88 1035.748M335.88 1034.308L335.88 1029.988M335.88 1028.488L335.88 1024.168M335.88 1022.728L335.88 1018.348M335.88 1016.908L335.88 1012.528M335.88 1011.088L335.88 1006.708M335.88 1005.268L335.88 1000.888M335.88 999.448L335.88 995.068M335.88 993.628L335.88 989.308M335.88 987.808L335.88 983.488M335.88 982.048L335.88 977.668M335.88 976.228L335.88 971.848M335.88 970.408L335.88 966.028M335.88 964.588L335.88 960.208M335.88 958.768L335.88 954.448M335.88 952.948L335.88 948.628M335.88 947.128L335.88 942.808M335.88 941.368L335.88 936.988M335.88 935.548L335.88 931.168M335.88 929.728L335.88 925.348M335.88 923.908L335.88 919.528M335.88 918.088L335.88 913.768M335.88 912.268L335.88 910.588M335.88 909.148L335.88 904.768M335.88 903.328L335.88 898.948M335.88 897.508L335.88 893.188M335.88 891.688L335.88 887.368M335.88 885.928L335.88 881.548M335.88 880.108L335.88 875.728M335.88 874.288L335.88 869.908M335.88 868.468L335.88 864.088M335.88 862.648L335.88 858.268M335.88 856.828L335.88 852.508M335.88 851.008L335.88 846.688M335.88 845.248L335.88 840.868M335.88 839.428L335.88 835.048M335.88 833.608L335.88 829.228M335.88 827.788L335.88 823.408M335.88 821.968L335.88 817.648M335.88 816.148L335.88 811.828M335.88 810.328L335.88 806.008M335.88 804.568L335.88 800.188M335.88 798.748L335.88 794.368M335.88 792.928L335.88 788.548M335.88 787.108L335.88 782.728M335.88 781.288L335.88 776.968M335.88 775.468L335.88 771.148M335.88 769.708L335.88 765.328M335.88 763.888L335.88 759.508M335.88 758.068L335.88 753.688M335.88 752.248L335.88 747.868M335.88 746.428L335.88 742.048M335.88 740.608L335.88 736.288M335.88 734.788L335.88 730.468M335.88 729.028L335.88 724.648M335.88 723.208L335.88 721.228M335.88 1096.048L334.62 1099.708M335.88 1096.048L337.08 1099.708M335.88 1096.048L335.88 1099.708" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="341.52" fill="#000000" x="1043.31">recommended to use</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="333.78" fill="#000000" x="723.685">recommended for</tspan>
+</text>
+<path stroke-width="1" d="M304.86 1098.268L304.86 1093.888M304.86 1092.448L304.86 1088.068M304.86 1086.628L304.86 1082.248M304.86 1080.808L304.86 1076.428M304.86 1074.988L304.62 1070.668M304.62 1069.168L304.62 1064.848M304.62 1063.348L304.62 1059.028M304.62 1057.588L304.62 1053.208M304.62 1051.768L304.62 1047.388M304.62 1045.948L304.62 1041.568M304.62 1040.128L304.62 1035.748M304.62 1034.308L304.62 1029.988M304.62 1028.488L304.62 1024.168M304.62 1022.728L304.62 1018.348M304.62 1016.908L304.38 1012.528M304.38 1011.088L304.38 1006.708M304.38 1005.268L304.38 1000.888M304.38 999.448L304.38 995.068M304.38 993.628L304.38 989.308M304.38 987.808L304.38 983.488M304.38 982.048L304.38 977.668M304.38 976.228L304.38 971.848M304.38 970.408L304.38 966.028M304.38 964.588L304.38 960.208M304.38 958.768L304.14 954.448M304.14 952.948L304.14 948.628M304.14 947.128L304.14 942.808M304.14 941.368L304.14 936.988M304.14 935.548L304.14 931.168M304.14 929.728L304.14 926.848M304.14 925.348L304.14 921.028M304.14 919.528L304.14 915.208M304.14 913.768L304.14 909.388M304.14 907.948L303.9 903.568M303.9 902.128L303.9 897.748M303.9 896.308L303.9 891.928M303.9 890.488L303.9 886.168M303.9 884.668L303.9 880.348M303.9 878.848L303.9 874.528M303.9 873.088L303.9 868.708M303.9 867.268L303.9 862.888M303.66 861.448L303.66 857.068M303.66 855.628L303.66 851.248M303.66 849.808L303.66 845.488M303.66 843.988L303.66 839.668M303.66 838.228L303.66 833.848M303.66 832.408L303.66 828.028M303.66 826.588L303.66 822.208M303.66 820.768L303.42 816.388M303.42 814.948L303.42 810.628M303.42 809.128L303.42 804.808M303.42 803.308L303.42 798.988M303.42 797.548L303.42 793.168M303.42 791.728L303.42 787.348M303.42 785.908L303.42 781.528M303.42 780.088L303.42 775.708M303.18 774.268L303.18 769.948M303.18 768.448L303.18 764.128M303.18 762.628L303.18 758.308M303.18 756.868L303.18 753.928M304.86 1096.288L303.66 1099.708M304.86 1096.288L306.06 1099.708M304.86 1096.288L304.86 1099.708" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="310.26" fill="#000000" x="1052.01">recommended to </tspan>
+</text>
+<g clip-path="url(#id26)">
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="315.6" fill="#000000" x="1052.01">use</tspan>
+</text>
+</g>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="301.08" fill="#000000" x="756.388">recommended for</tspan>
+</text>
+<path stroke-width="1" d="M90.3 1122.928L85.98 1122.928M84.48 1122.928L80.16 1122.928M78.48 1122.928L74.1 1122.928M72.66 1122.928L68.28 1122.928M88.14 1122.928L91.8 1121.728M88.14 1122.928L91.8 1124.128M88.14 1122.928L91.8 1122.928" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="85.08" fill="#000000" x="1073.79">recommended to use</tspan>
+<tspan font-family="font2" font-size="4.6006" letter-spacing="0" fill-rule="nonzero" stroke="none" y="74.6399" fill="#000000" x="1124.13">recommended for</tspan>
+</text>
+</g>
+</g>
+</g>
+</svg>

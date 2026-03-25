@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg onload="initSVG();" xml:space="preserve" width="842" height="595" viewBox="0 0 842 595" color-interpolation-filters="sRGB" id="root" xmlns:xlink="http://www.w3.org/1999/xlink">
+ Converted with TEXTCAFE (tm) http://www.texterity.com 
+  <title>056_TFC_FLOW_RESTR (AICM-4-5) -- Page 1</title>
+<defs>
+    <color-profile xlink:href="data:application/icc;base64, AAAMSExpbm8CEAAAbW50clJHQiBYWVogB84AAgAJAAYAMQAAYWNzcE1TRlQAAAAASUVDIHNSR0IA AAAAAAAAAAAAAAAAAPbWAAEAAAAA0y1IUCAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAARY3BydAAAAVAAAAAzZGVzYwAAAYQAAABsd3RwdAAAAfAAAAAUYmtw dAAAAgQAAAAUclhZWgAAAhgAAAAUZ1hZWgAAAiwAAAAUYlhZWgAAAkAAAAAUZG1uZAAAAlQAAABw ZG1kZAAAAsQAAACIdnVlZAAAA0wAAACGdmlldwAAA9QAAAAkbHVtaQAAA/gAAAAUbWVhcwAABAwA AAAkdGVjaAAABDAAAAAMclRSQwAABDwAAAgMZ1RSQwAABDwAAAgMYlRSQwAABDwAAAgMdGV4dAAA AABDb3B5cmlnaHQgKGMpIDE5OTggSGV3bGV0dC1QYWNrYXJkIENvbXBhbnkAAGRlc2MAAAAAAAAA EnNSR0IgSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAASc1JHQiBJRUM2MTk2Ni0yLjEAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAADzUQABAAAA ARbMWFlaIAAAAAAAAAAAAAAAAAAAAABYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAA t4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9kZXNjAAAAAAAAABZJRUMgaHR0cDovL3d3dy5pZWMu Y2gAAAAAAAAAAAAAABZJRUMgaHR0cDovL3d3dy5pZWMuY2gAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZGVzYwAAAAAAAAAuSUVDIDYxOTY2LTIuMSBEZWZhdWx0 IFJHQiBjb2xvdXIgc3BhY2UgLSBzUkdCAAAAAAAAAAAAAAAuSUVDIDYxOTY2LTIuMSBEZWZhdWx0 IFJHQiBjb2xvdXIgc3BhY2UgLSBzUkdCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRlc2MAAAAAAAAA LFJlZmVyZW5jZSBWaWV3aW5nIENvbmRpdGlvbiBpbiBJRUM2MTk2Ni0yLjEAAAAAAAAAAAAAACxS ZWZlcmVuY2UgVmlld2luZyBDb25kaXRpb24gaW4gSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAB2aWV3AAAAAAATpP4AFF8uABDPFAAD7cwABBMLAANcngAAAAFYWVogAAAAAABM CVYAUAAAAFcf521lYXMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAKPAAAAAnNpZyAAAAAAQ1JU IGN1cnYAAAAAAAAEAAAAAAUACgAPABQAGQAeACMAKAAtADIANwA7AEAARQBKAE8AVABZAF4AYwBo AG0AcgB3AHwAgQCGAIsAkACVAJoAnwCkAKkArgCyALcAvADBAMYAywDQANUA2wDgAOUA6wDwAPYA +wEBAQcBDQETARkBHwElASsBMgE4AT4BRQFMAVIBWQFgAWcBbgF1AXwBgwGLAZIBmgGhAakBsQG5 AcEByQHRAdkB4QHpAfIB+gIDAgwCFAIdAiYCLwI4AkECSwJUAl0CZwJxAnoChAKOApgCogKsArYC wQLLAtUC4ALrAvUDAAMLAxYDIQMtAzgDQwNPA1oDZgNyA34DigOWA6IDrgO6A8cD0wPgA+wD+QQG BBMEIAQtBDsESARVBGMEcQR+BIwEmgSoBLYExATTBOEE8AT+BQ0FHAUrBToFSQVYBWcFdwWGBZYF pgW1BcUF1QXlBfYGBgYWBicGNwZIBlkGagZ7BowGnQavBsAG0QbjBvUHBwcZBysHPQdPB2EHdAeG B5kHrAe/B9IH5Qf4CAsIHwgyCEYIWghuCIIIlgiqCL4I0gjnCPsJEAklCToJTwlkCXkJjwmkCboJ zwnlCfsKEQonCj0KVApqCoEKmAquCsUK3ArzCwsLIgs5C1ELaQuAC5gLsAvIC+EL+QwSDCoMQwxc DHUMjgynDMAM2QzzDQ0NJg1ADVoNdA2ODakNww3eDfgOEw4uDkkOZA5/DpsOtg7SDu4PCQ8lD0EP Xg96D5YPsw/PD+wQCRAmEEMQYRB+EJsQuRDXEPURExExEU8RbRGMEaoRyRHoEgcSJhJFEmQShBKj EsMS4xMDEyMTQxNjE4MTpBPFE+UUBhQnFEkUahSLFK0UzhTwFRIVNBVWFXgVmxW9FeAWAxYmFkkW bBaPFrIW1hb6Fx0XQRdlF4kXrhfSF/cYGxhAGGUYihivGNUY+hkgGUUZaxmRGbcZ3RoEGioaURp3 Gp4axRrsGxQbOxtjG4obshvaHAIcKhxSHHscoxzMHPUdHh1HHXAdmR3DHeweFh5AHmoelB6+Hukf Ex8+H2kflB+/H+ogFSBBIGwgmCDEIPAhHCFIIXUhoSHOIfsiJyJVIoIiryLdIwojOCNmI5QjwiPw JB8kTSR8JKsk2iUJJTglaCWXJccl9yYnJlcmhya3JugnGCdJJ3onqyfcKA0oPyhxKKIo1CkGKTgp aymdKdAqAio1KmgqmyrPKwIrNitpK50r0SwFLDksbiyiLNctDC1BLXYtqy3hLhYuTC6CLrcu7i8k L1ovkS/HL/4wNTBsMKQw2zESMUoxgjG6MfIyKjJjMpsy1DMNM0YzfzO4M/E0KzRlNJ402DUTNU01 hzXCNf02NzZyNq426TckN2A3nDfXOBQ4UDiMOMg5BTlCOX85vDn5OjY6dDqyOu87LTtrO6o76Dwn PGU8pDzjPSI9YT2hPeA+ID5gPqA+4D8hP2E/oj/iQCNAZECmQOdBKUFqQaxB7kIwQnJCtUL3QzpD fUPARANER0SKRM5FEkVVRZpF3kYiRmdGq0bwRzVHe0fASAVIS0iRSNdJHUljSalJ8Eo3Sn1KxEsM S1NLmkviTCpMcky6TQJNSk2TTdxOJU5uTrdPAE9JT5NP3VAnUHFQu1EGUVBRm1HmUjFSfFLHUxNT X1OqU/ZUQlSPVNtVKFV1VcJWD1ZcVqlW91dEV5JX4FgvWH1Yy1kaWWlZuFoHWlZaplr1W0VblVvl XDVchlzWXSddeF3JXhpebF69Xw9fYV+zYAVgV2CqYPxhT2GiYfViSWKcYvBjQ2OXY+tkQGSUZOll PWWSZedmPWaSZuhnPWeTZ+loP2iWaOxpQ2maafFqSGqfavdrT2una/9sV2yvbQhtYG25bhJua27E bx5veG/RcCtwhnDgcTpxlXHwcktypnMBc11zuHQUdHB0zHUodYV14XY+dpt2+HdWd7N4EXhueMx5 KnmJeed6RnqlewR7Y3vCfCF8gXzhfUF9oX4BfmJ+wn8jf4R/5YBHgKiBCoFrgc2CMIKSgvSDV4O6 hB2EgITjhUeFq4YOhnKG14c7h5+IBIhpiM6JM4mZif6KZIrKizCLlov8jGOMyo0xjZiN/45mjs6P No+ekAaQbpDWkT+RqJIRknqS45NNk7aUIJSKlPSVX5XJljSWn5cKl3WX4JhMmLiZJJmQmfyaaJrV m0Kbr5wcnImc951kndKeQJ6unx2fi5/6oGmg2KFHobaiJqKWowajdqPmpFakx6U4pammGqaLpv2n bqfgqFKoxKk3qamqHKqPqwKrdavprFys0K1ErbiuLa6hrxavi7AAsHWw6rFgsdayS7LCszizrrQl tJy1E7WKtgG2ebbwt2i34LhZuNG5SrnCuju6tbsuu6e8IbybvRW9j74KvoS+/796v/XAcMDswWfB 48JfwtvDWMPUxFHEzsVLxcjGRsbDx0HHv8g9yLzJOsm5yjjKt8s2y7bMNcy1zTXNtc42zrbPN8+4 0DnQutE80b7SP9LB00TTxtRJ1MvVTtXR1lXW2Ndc1+DYZNjo2WzZ8dp22vvbgNwF3IrdEN2W3hze ot8p36/gNuC94UThzOJT4tvjY+Pr5HPk/OWE5g3mlucf56noMui86Ubp0Opb6uXrcOv77IbtEe2c 7ijutO9A78zwWPDl8XLx//KM8xnzp/Q09ML1UPXe9m32+/eK+Bn4qPk4+cf6V/rn+3f8B/yY/Sn9 uv5L/tz/bf//" rendering-intent="relative-colorimetric" name="p1"/>
+<style type="text/css">
+
+clipPath{shape-rendering:crispEdges}
+image{shape-rendering:crispEdges}
+
+    </style>
+<clipPath id="id2">
+      <rect width="595" height="842" y="0" x="0"/>
+</clipPath>
+</defs>
+<defs/>
+<g>
+<g transform="scale(1 -1)">
+<g transform="matrix(0 -1 1 0 0 0)" clip-path="url(#id2)" id="main">
+<path stroke-width="1" d="M585.96 14.511L583.92 14.511M585.96 14.511L585.96 16.551M9.6 14.511L11.64 14.511M9.6 14.511L9.6 16.551M585.96 826.191L583.92 826.191M585.96 826.191L585.96 824.151M9.6 826.191L11.64 826.191M9.6 826.191L9.6 824.151" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<path d="M10.38 15.291h566.58v801.9h-566.58Z" fill-rule="nonzero" stroke="none" fill="#ffffff icc-color(p1,1,1,1)"/>
+<path stroke-width="1" d="M576.96 817.191h-566.64v-801.96h566.64Z" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('TIMESHEET');" onmousemove="(window.status ='TIMESHEET')">
+<path id="TIMESHEET" stroke-width="1" d="M153 741.051C149.22 741.051 146.16 737.931 146.16 734.151L146.16 622.37C146.16 618.591 149.22 615.531 153 615.531L337.5 615.531C341.28 615.531 344.4 618.591 344.4 622.37L344.4 734.151C344.4 737.931 341.28 741.051 337.5 741.051Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="#ffffff icc-color(p1,1,1,1)" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="162.84" fill="#000000 icc-color(p1,0,0,0)" x="622.43">TIMESHEET</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="172.74" fill="#000000 icc-color(p1,0,0,0)" x="622.43">*  CODE_TIME_REF</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="181.68" fill="#000000 icc-color(p1,0,0,0)" x="622.43">*  DATE_VALID_WEF</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="190.56" fill="#000000 icc-color(p1,0,0,0)" x="622.43">*  DATE_VALID_TIL</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="199.5" fill="#000000 icc-color(p1,0,0,0)" x="622.43">*  CODE_DAY</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="208.44" fill="#000000 icc-color(p1,0,0,0)" x="622.43">o  CODE_DAY_TIL</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="217.32" fill="#000000 icc-color(p1,0,0,0)" x="622.43">o  TIME_WEF</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="226.26" fill="#000000 icc-color(p1,0,0,0)" x="622.43">o  CODE_EVENT_WEF</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="235.2" fill="#000000 icc-color(p1,0,0,0)" x="622.43">o  TIME_REL_EVENT_WEF</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="244.08" fill="#000000 icc-color(p1,0,0,0)" x="622.43">o  CODE_COMB_WEF</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="253.02" fill="#000000 icc-color(p1,0,0,0)" x="622.43">o  TIME_TIL</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="261.96" fill="#000000 icc-color(p1,0,0,0)" x="622.43">o  CODE_EVENT_TIL</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="270.84" fill="#000000 icc-color(p1,0,0,0)" x="622.43">o  TIME_REL_EVENT_TIL</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="279.78" fill="#000000 icc-color(p1,0,0,0)" x="622.43">o  CODE_COMB_TIL</tspan>
+</text>
+</a>
+<a onclick="selectEntity('TIMETABLE');" onmousemove="(window.status ='TIMETABLE')">
+<path id="TIMETABLE" stroke-width="1" d="M160.56 509.81C156.78 509.81 153.72 506.69 153.72 502.91L153.72 400.791C153.72 397.011 156.78 393.951 160.56 393.951L198.9 393.951C202.68 393.951 205.8 397.011 205.8 400.791L205.8 502.91C205.8 506.69 202.68 509.81 198.9 509.81Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="#ffffff icc-color(p1,1,1,1)" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="170.4" fill="#000000 icc-color(p1,0,0,0)" x="400.79">TIMETABLE</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="180.3" fill="#000000 icc-color(p1,0,0,0)" x="400.79">*  CODE_WORK_HR</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="189.18" fill="#000000 icc-color(p1,0,0,0)" x="400.79">o  TXT_RMK_WORK_HR</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M190.68 380.211C194.46 380.211 197.52 383.271 197.52 387.051M183.9 387.051C183.9 383.271 186.9 380.211 190.68 380.211M190.68 383.571C188.82 383.571 187.32 382.011 187.32 380.151C187.32 378.291 188.82 376.791 190.68 376.791C192.54 376.791 194.1 378.291 194.1 380.151C194.1 382.011 192.54 383.571 190.68 383.571Z" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('TFC_FLOW_RTE');" onmousemove="(window.status ='TFC_FLOW_RTE')">
+<path id="TFC_FLOW_RTE" stroke-width="1" d="M230.52 496.79C226.74 496.79 223.68 493.671 223.68 489.891L223.68 400.791C223.68 397.011 226.74 393.951 230.52 393.951L269.58 393.951C273.36 393.951 276.48 397.011 276.48 400.791L276.48 489.891C276.48 493.671 273.36 496.79 269.58 496.79Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="#ffffff icc-color(p1,1,1,1)" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="240.36" fill="#000000 icc-color(p1,0,0,0)" x="400.79">TFC_FLOW_RTE</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="250.26" fill="#000000 icc-color(p1,0,0,0)" x="400.79">*  NO_SEQ</tspan>
+</text>
+</a>
+<a onclick="selectEntity('TFC_FLOW_RESTR');" onmousemove="(window.status ='TFC_FLOW_RESTR')">
+<path id="TFC_FLOW_RESTR" stroke-width="1" d="M161.88 212.031C158.1 212.031 155.04 208.911 155.04 205.131L155.04 98.211C155.04 94.431 158.1 91.371 161.88 91.371L430.08 91.371C433.86 91.371 436.98 94.431 436.98 98.211L436.98 205.131C436.98 208.911 433.86 212.031 430.08 212.031Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="#ffffff icc-color(p1,1,1,1)" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="171.78" fill="#000000 icc-color(p1,0,0,0)" x="98.2105">TFC_FLOW_RESTR</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="181.68" fill="#000000 icc-color(p1,0,0,0)" x="98.2105">*  CODE_ID</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="190.56" fill="#000000 icc-color(p1,0,0,0)" x="98.2105">*  CODE_TYPE</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="199.5" fill="#000000 icc-color(p1,0,0,0)" x="98.2105">o  TXT_OPR_GOAL</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="208.44" fill="#000000 icc-color(p1,0,0,0)" x="98.2105">o  TXT_DESCR</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="217.32" fill="#000000 icc-color(p1,0,0,0)" x="98.2105">o  TXT_REMARK</tspan>
+</text>
+</a>
+<a onclick="selectEntity('FLOW_COND_COMBINATION');" onmousemove="(window.status ='FLOW_COND_COMBINATION')">
+<path id="FLOW_COND_COMBINATION" stroke-width="1" d="M378.72 550.971C374.94 550.971 371.88 547.851 371.88 544.07L371.88 386.391C371.88 382.611 374.94 379.551 378.72 379.551L434.22 379.551C438 379.551 441.12 382.611 441.12 386.391L441.12 544.07C441.12 547.851 438 550.971 434.22 550.971Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="#ffffff icc-color(p1,1,1,1)" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="388.56" fill="#000000 icc-color(p1,0,0,0)" x="386.39">FLOW_COND_COMBINATION</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="398.46" fill="#000000 icc-color(p1,0,0,0)" x="386.39">o  NO_SEQ</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="407.4" fill="#000000 icc-color(p1,0,0,0)" x="386.39">*  CODE_OPR</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M358.14 372.651C358.14 368.871 361.2 365.811 364.98 365.811M358.14 372.651L358.14 510.591M364.98 517.37C361.2 517.37 358.14 514.25 358.14 510.531M396.54 365.811C400.26 365.811 403.38 368.871 403.38 372.651M396.6 365.811L365.04 365.811M358.14 513.951C356.22 513.951 354.72 512.391 354.72 510.531C354.72 508.671 356.22 507.171 358.14 507.171C360 507.171 361.56 508.671 361.56 510.531C361.56 512.391 360 513.951 358.14 513.951ZM396.54 369.171C394.68 369.171 393.18 367.611 393.18 365.751C393.18 363.891 394.68 362.391 396.54 362.391C398.4 362.391 399.96 363.891 399.96 365.751C399.96 367.611 398.4 369.171 396.54 369.171Z" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<path stroke-width="1" d="M183.18 615.531L183.18 562.73M183.18 558.591L183.18 546.23M183.18 542.151L183.18 529.791M183.18 525.651L183.18 513.351M183.18 605.271L179.76 615.531M183.18 605.271L186.66 615.531M183.18 605.271L183.18 615.531" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="196.5" fill="#000000 icc-color(p1,0,0,0)" x="569.571">part of</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="175.2" fill="#000000 icc-color(p1,0,0,0)" x="516.77">composed of</tspan>
+</text>
+<path stroke-width="1" d="M421.2 551.031C421.2 555.531 420.36 559.971 418.74 564.171M416.7 568.671C414.48 572.87 411.48 576.711 407.82 580.07M404.82 582.591C401.4 585.23 397.62 587.451 393.54 589.13M389.1 590.81C384.66 592.19 380.04 593.091 375.36 593.391M371.16 593.451C366.66 593.451 362.28 592.851 357.96 591.771M353.58 590.451C349.14 588.951 345 586.911 341.28 584.391M338.04 581.99C337.68 581.69 337.32 581.391 336.96 581.091M336.9 581.031C327.66 573.051 322.5 562.25 322.5 551.031C322.5 527.57 344.58 508.551 371.82 508.551M365.7 509.211L371.88 505.07M365.7 509.211L371.88 511.971M365.7 509.211L371.88 508.551" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="351.54" fill="#000000 icc-color(p1,0,0,0)" x="467.33">used in</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="423.6" fill="#000000 icc-color(p1,0,0,0)" x="578.51">having as operand</tspan>
+</text>
+<path stroke-width="1" d="M396.6 212.091L396.6 379.551" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="387.24" fill="#000000 icc-color(p1,0,0,0)" x="215.57">applicable to flights that fulfil</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="409.86" fill="#000000 icc-color(p1,0,0,0)" x="284.151">associated with</tspan>
+</text>
+<path stroke-width="1" d="M259.38 216.231L259.38 228.591M259.38 232.731L259.38 245.031M259.38 249.171L259.38 261.531M259.38 265.611L259.38 277.971M259.38 282.111L259.38 294.471M259.38 298.551L259.38 393.951M259.38 383.631L255.9 393.951M259.38 383.631L262.8 393.951M259.38 383.631L259.38 393.951" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="251.34" fill="#000000 icc-color(p1,0,0,0)" x="218.99">regulating the use of</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="272.64" fill="#000000 icc-color(p1,0,0,0)" x="347.99">part of</tspan>
+</text>
+<path stroke-width="1" d="M190.74 393.951L190.74 303.351M190.74 299.271L190.74 286.911M190.74 282.771L190.74 270.411M190.74 266.331L190.74 253.971M190.74 249.831L190.74 237.531M190.74 233.391L190.74 221.031M190.74 216.951L190.74 212.091" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="204" fill="#000000 icc-color(p1,0,0,0)" x="211.43">describing applicability hours for</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="182.76" fill="#000000 icc-color(p1,0,0,0)" x="218.99">applicable according to</tspan>
+</text>
+</g>
+</g>
+</g>
+</svg>

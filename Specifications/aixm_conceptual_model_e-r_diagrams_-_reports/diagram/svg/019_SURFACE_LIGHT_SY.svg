@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xml:space="preserve" width="842" height="595" viewBox="0 0 842 595" color-interpolation-filters="sRGB" id="root" xmlns:xlink="http://www.w3.org/1999/xlink">
+ Converted with TEXTCAFE (tm) http://www.texterity.com 
+  <title>019_SURFACE_LIGHT_SYSTEM (AICM- -- Page 1</title>
+<defs>
+    <style type="text/css">
+
+clipPath{shape-rendering:crispEdges}
+image{shape-rendering:crispEdges}
+
+    </style>
+<style type="text/css">
+
+@font-face{font-family:'font1';src:url("data:;base64,\
+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")}
+
+    </style>
+<clipPath id="id2">
+      <rect width="595" height="842" y="0" x="0"/>
+</clipPath>
+</defs>
+<defs/>
+<g>
+<g transform="scale(1 -1)">
+<g transform="matrix(0 -1 1 0 0 0)" clip-path="url(#id2)" id="main">
+<path stroke-width="1" d="M585.96 14.511L583.92 14.511M585.96 14.511L585.96 16.551M9.6 14.511L11.64 14.511M9.6 14.511L9.6 16.551M585.96 826.191L583.92 826.191M585.96 826.191L585.96 824.151M9.6 826.191L11.64 826.191M9.6 826.191L9.6 824.151" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<path d="M10.38 15.291h566.58v801.9h-566.58Z" fill-rule="nonzero" stroke="none" fill="#ffffff"/>
+<path stroke-width="1" d="M576.96 817.191h-566.64v-801.96h566.64Z" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('SURFACE_LGT_GROUP');" onmousemove="(window.status ='SURFACE_LGT_GROUP')">
+<path id="SURFACE_LGT_GROUP" stroke-width="1" d="M357.48 478.971C353.7 478.971 350.64 475.851 350.64 472.071L350.64 120.831C350.64 117.051 353.7 113.991 357.48 113.991L515.88 113.991C519.66 113.991 522.78 117.051 522.78 120.831L522.78 472.071C522.78 475.851 519.66 478.971 515.88 478.971Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="367.32" fill="#000000" x="120.891">SURFACE_LGT_GROUP</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="377.22" fill="#000000" x="120.891">*  GEO_LAT</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="386.1" fill="#000000" x="120.891">*  GEO_LONG</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="395.04" fill="#000000" x="120.891">*  CODE_DATUM</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="403.98" fill="#000000" x="120.891">o  NO_LEN</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="412.86" fill="#000000" x="120.891">o  VAL_LEN_SPACING</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="421.8" fill="#000000" x="120.891">o  NO_WID</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="430.74" fill="#000000" x="120.891">o  VAL_WID_SPACING</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="439.62" fill="#000000" x="120.891">o  UOM_DIST</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="448.56" fill="#000000" x="120.891">*  CODE_SYMMETRY</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="457.5" fill="#000000" x="120.891">o  CODE_INTST</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="466.38" fill="#000000" x="120.891">*  CODE_COLOUR</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="475.32" fill="#000000" x="120.891">o  CODE_TYPE_LGT</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="484.26" fill="#000000" x="120.891">o  TXT_RMK</tspan>
+</text>
+</a>
+<a onclick="selectEntity('SURFACE_LGT_SYS');" onmousemove="(window.status ='SURFACE_LGT_SYS')">
+<path id="SURFACE_LGT_SYS" stroke-width="1" d="M71.34 704.031C67.56 704.031 64.5 700.911 64.5 697.13L64.5 142.791C64.5 139.011 67.56 135.951 71.34 135.951L231.12 135.951C234.9 135.951 238.02 139.011 238.02 142.791L238.02 697.13C238.02 700.911 234.9 704.031 231.12 704.031Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="81.18" fill="#000000" x="142.85">SURFACE_LGT_SYS</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="91.08" fill="#000000" x="142.85">o  TXT_DESCR</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="100.02" fill="#000000" x="142.85">o  TXT_DESCR_EMERG</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="108.9" fill="#000000" x="142.85">o  CODE_INTST</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="117.84" fill="#000000" x="142.85">o  CODE_COLOUR</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="126.78" fill="#000000" x="142.85">o  TXT_RMK</tspan>
+</text>
+</a>
+<a onclick="selectEntity('APRON_LGT_SYS');" onmousemove="(window.status ='APRON_LGT_SYS')">
+<path id="APRON_LGT_SYS" stroke-width="1" d="M99.48 620.99C95.7 620.99 92.64 617.87 92.64 614.091L92.64 509.87C92.64 506.091 95.7 503.031 99.48 503.031L126.84 503.031C130.62 503.031 133.74 506.091 133.74 509.87L133.74 614.091C133.74 617.87 130.62 620.99 126.84 620.99Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="109.32" fill="#000000" x="509.87">APRON_LGT_SYS</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="119.22" fill="#000000" x="509.87">o  CODE_PSN</tspan>
+</text>
+</a>
+<a onclick="selectEntity('TLOF_LGT_SYS');" onmousemove="(window.status ='TLOF_LGT_SYS')">
+<path id="TLOF_LGT_SYS" stroke-width="1" d="M171.54 288.891C167.76 288.891 164.7 285.771 164.7 281.991L164.7 155.811C164.7 152.031 167.76 148.971 171.54 148.971L205.74 148.971C209.52 148.971 212.64 152.031 212.64 155.811L212.64 281.991C212.64 285.771 209.52 288.891 205.74 288.891Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="181.38" fill="#000000" x="155.87">TLOF_LGT_SYS</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="191.28" fill="#000000" x="155.87">*  CODE_PSN</tspan>
+</text>
+</a>
+<a onclick="selectEntity('RWY_DIRECTION_LGT_SYS');" onmousemove="(window.status ='RWY_DIRECTION_LGT_SYS')">
+<path id="RWY_DIRECTION_LGT_SYS" stroke-width="1" d="M168.78 682.73C165 682.73 161.94 679.61 161.94 675.831L161.94 527.031C161.94 523.25 165 520.19 168.78 520.19L202.98 520.19C206.76 520.19 209.88 523.25 209.88 527.031L209.88 675.831C209.88 679.61 206.76 682.73 202.98 682.73Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="178.62" fill="#000000" x="527.03">RWY_DIRECTION_LGT_SYS</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="188.52" fill="#000000" x="527.03">*  CODE_PSN</tspan>
+</text>
+</a>
+<a onclick="selectEntity('FATO_DIRECTION_LGT_SYS');" onmousemove="(window.status ='FATO_DIRECTION_LGT_SYS')">
+<path id="FATO_DIRECTION_LGT_SYS" stroke-width="1" d="M170.82 486.531C167.04 486.531 163.98 483.411 163.98 479.631L163.98 317.091C163.98 313.311 167.04 310.251 170.82 310.251L205.08 310.251C208.86 310.251 211.98 313.311 211.98 317.091L211.98 479.631C211.98 483.411 208.86 486.531 205.08 486.531Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="180.66" fill="#000000" x="317.09">FATO_DIRECTION_LGT_SYS</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="190.56" fill="#000000" x="317.09">*  CODE_PSN</tspan>
+</text>
+</a>
+<a onclick="selectEntity('TWY_LGT_SYS');" onmousemove="(window.status ='TWY_LGT_SYS')">
+<path id="TWY_LGT_SYS" stroke-width="1" d="M96.06 472.071C92.28 472.071 89.22 468.951 89.22 465.171L89.22 374.691C89.22 370.911 92.28 367.851 96.06 367.851L130.98 367.851C134.76 367.851 137.88 370.911 137.88 374.691L137.88 465.171C137.88 468.951 134.76 472.071 130.98 472.071Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="#ffffff" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="105.9" fill="#000000" x="374.75">TWY_LGT_SYS</tspan>
+<tspan font-family="font1" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="115.8" fill="#000000" x="374.75">*  CODE_PSN</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M242.22 640.25L254.58 640.25M258.66 640.25L271.02 640.25M275.16 640.25L287.52 640.25M291.6 640.25L303.96 640.25M308.1 640.25L320.4 640.25M324.54 640.25L336.9 640.25M341.04 640.25L353.34 640.25M357.48 640.25L369.84 640.25M373.92 640.25L386.28 640.25M390.42 640.25L402.78 640.25M406.86 640.25L419.22 640.25L421.98 479.031M421.98 489.291L418.56 479.031M421.98 489.291L425.4 479.031M421.98 489.291L421.98 479.031" stroke-miterlimit="10" stroke="#000000" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="254.82" fill="#000000" x="643.671">composed of</tspan>
+<tspan font-family="font1" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="416.04" fill="#000000" x="485.871">part of</tspan>
+</text>
+</g>
+</g>
+</g>
+</svg>

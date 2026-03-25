@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg onload="initSVG();" xml:space="preserve" width="842" height="595" viewBox="0 0 842 595" color-interpolation-filters="sRGB" id="root" xmlns:xlink="http://www.w3.org/1999/xlink">
+ Converted with TEXTCAFE (tm) http://www.texterity.com 
+  <title>036_SPEC_NAV_SYS (AICM-4-5) -- Page 1</title>
+<defs>
+    <color-profile xlink:href="data:application/icc;base64, AAAMSExpbm8CEAAAbW50clJHQiBYWVogB84AAgAJAAYAMQAAYWNzcE1TRlQAAAAASUVDIHNSR0IA AAAAAAAAAAAAAAAAAPbWAAEAAAAA0y1IUCAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAARY3BydAAAAVAAAAAzZGVzYwAAAYQAAABsd3RwdAAAAfAAAAAUYmtw dAAAAgQAAAAUclhZWgAAAhgAAAAUZ1hZWgAAAiwAAAAUYlhZWgAAAkAAAAAUZG1uZAAAAlQAAABw ZG1kZAAAAsQAAACIdnVlZAAAA0wAAACGdmlldwAAA9QAAAAkbHVtaQAAA/gAAAAUbWVhcwAABAwA AAAkdGVjaAAABDAAAAAMclRSQwAABDwAAAgMZ1RSQwAABDwAAAgMYlRSQwAABDwAAAgMdGV4dAAA AABDb3B5cmlnaHQgKGMpIDE5OTggSGV3bGV0dC1QYWNrYXJkIENvbXBhbnkAAGRlc2MAAAAAAAAA EnNSR0IgSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAASc1JHQiBJRUM2MTk2Ni0yLjEAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAADzUQABAAAA ARbMWFlaIAAAAAAAAAAAAAAAAAAAAABYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAA t4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9kZXNjAAAAAAAAABZJRUMgaHR0cDovL3d3dy5pZWMu Y2gAAAAAAAAAAAAAABZJRUMgaHR0cDovL3d3dy5pZWMuY2gAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZGVzYwAAAAAAAAAuSUVDIDYxOTY2LTIuMSBEZWZhdWx0 IFJHQiBjb2xvdXIgc3BhY2UgLSBzUkdCAAAAAAAAAAAAAAAuSUVDIDYxOTY2LTIuMSBEZWZhdWx0 IFJHQiBjb2xvdXIgc3BhY2UgLSBzUkdCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRlc2MAAAAAAAAA LFJlZmVyZW5jZSBWaWV3aW5nIENvbmRpdGlvbiBpbiBJRUM2MTk2Ni0yLjEAAAAAAAAAAAAAACxS ZWZlcmVuY2UgVmlld2luZyBDb25kaXRpb24gaW4gSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAB2aWV3AAAAAAATpP4AFF8uABDPFAAD7cwABBMLAANcngAAAAFYWVogAAAAAABM CVYAUAAAAFcf521lYXMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAKPAAAAAnNpZyAAAAAAQ1JU IGN1cnYAAAAAAAAEAAAAAAUACgAPABQAGQAeACMAKAAtADIANwA7AEAARQBKAE8AVABZAF4AYwBo AG0AcgB3AHwAgQCGAIsAkACVAJoAnwCkAKkArgCyALcAvADBAMYAywDQANUA2wDgAOUA6wDwAPYA +wEBAQcBDQETARkBHwElASsBMgE4AT4BRQFMAVIBWQFgAWcBbgF1AXwBgwGLAZIBmgGhAakBsQG5 AcEByQHRAdkB4QHpAfIB+gIDAgwCFAIdAiYCLwI4AkECSwJUAl0CZwJxAnoChAKOApgCogKsArYC wQLLAtUC4ALrAvUDAAMLAxYDIQMtAzgDQwNPA1oDZgNyA34DigOWA6IDrgO6A8cD0wPgA+wD+QQG BBMEIAQtBDsESARVBGMEcQR+BIwEmgSoBLYExATTBOEE8AT+BQ0FHAUrBToFSQVYBWcFdwWGBZYF pgW1BcUF1QXlBfYGBgYWBicGNwZIBlkGagZ7BowGnQavBsAG0QbjBvUHBwcZBysHPQdPB2EHdAeG B5kHrAe/B9IH5Qf4CAsIHwgyCEYIWghuCIIIlgiqCL4I0gjnCPsJEAklCToJTwlkCXkJjwmkCboJ zwnlCfsKEQonCj0KVApqCoEKmAquCsUK3ArzCwsLIgs5C1ELaQuAC5gLsAvIC+EL+QwSDCoMQwxc DHUMjgynDMAM2QzzDQ0NJg1ADVoNdA2ODakNww3eDfgOEw4uDkkOZA5/DpsOtg7SDu4PCQ8lD0EP Xg96D5YPsw/PD+wQCRAmEEMQYRB+EJsQuRDXEPURExExEU8RbRGMEaoRyRHoEgcSJhJFEmQShBKj EsMS4xMDEyMTQxNjE4MTpBPFE+UUBhQnFEkUahSLFK0UzhTwFRIVNBVWFXgVmxW9FeAWAxYmFkkW bBaPFrIW1hb6Fx0XQRdlF4kXrhfSF/cYGxhAGGUYihivGNUY+hkgGUUZaxmRGbcZ3RoEGioaURp3 Gp4axRrsGxQbOxtjG4obshvaHAIcKhxSHHscoxzMHPUdHh1HHXAdmR3DHeweFh5AHmoelB6+Hukf Ex8+H2kflB+/H+ogFSBBIGwgmCDEIPAhHCFIIXUhoSHOIfsiJyJVIoIiryLdIwojOCNmI5QjwiPw JB8kTSR8JKsk2iUJJTglaCWXJccl9yYnJlcmhya3JugnGCdJJ3onqyfcKA0oPyhxKKIo1CkGKTgp aymdKdAqAio1KmgqmyrPKwIrNitpK50r0SwFLDksbiyiLNctDC1BLXYtqy3hLhYuTC6CLrcu7i8k L1ovkS/HL/4wNTBsMKQw2zESMUoxgjG6MfIyKjJjMpsy1DMNM0YzfzO4M/E0KzRlNJ402DUTNU01 hzXCNf02NzZyNq426TckN2A3nDfXOBQ4UDiMOMg5BTlCOX85vDn5OjY6dDqyOu87LTtrO6o76Dwn PGU8pDzjPSI9YT2hPeA+ID5gPqA+4D8hP2E/oj/iQCNAZECmQOdBKUFqQaxB7kIwQnJCtUL3QzpD fUPARANER0SKRM5FEkVVRZpF3kYiRmdGq0bwRzVHe0fASAVIS0iRSNdJHUljSalJ8Eo3Sn1KxEsM S1NLmkviTCpMcky6TQJNSk2TTdxOJU5uTrdPAE9JT5NP3VAnUHFQu1EGUVBRm1HmUjFSfFLHUxNT X1OqU/ZUQlSPVNtVKFV1VcJWD1ZcVqlW91dEV5JX4FgvWH1Yy1kaWWlZuFoHWlZaplr1W0VblVvl XDVchlzWXSddeF3JXhpebF69Xw9fYV+zYAVgV2CqYPxhT2GiYfViSWKcYvBjQ2OXY+tkQGSUZOll PWWSZedmPWaSZuhnPWeTZ+loP2iWaOxpQ2maafFqSGqfavdrT2una/9sV2yvbQhtYG25bhJua27E bx5veG/RcCtwhnDgcTpxlXHwcktypnMBc11zuHQUdHB0zHUodYV14XY+dpt2+HdWd7N4EXhueMx5 KnmJeed6RnqlewR7Y3vCfCF8gXzhfUF9oX4BfmJ+wn8jf4R/5YBHgKiBCoFrgc2CMIKSgvSDV4O6 hB2EgITjhUeFq4YOhnKG14c7h5+IBIhpiM6JM4mZif6KZIrKizCLlov8jGOMyo0xjZiN/45mjs6P No+ekAaQbpDWkT+RqJIRknqS45NNk7aUIJSKlPSVX5XJljSWn5cKl3WX4JhMmLiZJJmQmfyaaJrV m0Kbr5wcnImc951kndKeQJ6unx2fi5/6oGmg2KFHobaiJqKWowajdqPmpFakx6U4pammGqaLpv2n bqfgqFKoxKk3qamqHKqPqwKrdavprFys0K1ErbiuLa6hrxavi7AAsHWw6rFgsdayS7LCszizrrQl tJy1E7WKtgG2ebbwt2i34LhZuNG5SrnCuju6tbsuu6e8IbybvRW9j74KvoS+/796v/XAcMDswWfB 48JfwtvDWMPUxFHEzsVLxcjGRsbDx0HHv8g9yLzJOsm5yjjKt8s2y7bMNcy1zTXNtc42zrbPN8+4 0DnQutE80b7SP9LB00TTxtRJ1MvVTtXR1lXW2Ndc1+DYZNjo2WzZ8dp22vvbgNwF3IrdEN2W3hze ot8p36/gNuC94UThzOJT4tvjY+Pr5HPk/OWE5g3mlucf56noMui86Ubp0Opb6uXrcOv77IbtEe2c 7ijutO9A78zwWPDl8XLx//KM8xnzp/Q09ML1UPXe9m32+/eK+Bn4qPk4+cf6V/rn+3f8B/yY/Sn9 uv5L/tz/bf//" rendering-intent="relative-colorimetric" name="p1"/>
+<style type="text/css">
+
+clipPath{shape-rendering:crispEdges}
+image{shape-rendering:crispEdges}
+
+    </style>
+<clipPath id="id2">
+      <rect width="595" height="842" y="0" x="0"/>
+</clipPath>
+</defs>
+<defs/>
+<g>
+<g transform="scale(1 -1)">
+<g transform="matrix(0 -1 1 0 0 0)" clip-path="url(#id2)" id="main">
+<path stroke-width="1" d="M585.96 14.511L583.92 14.511M585.96 14.511L585.96 16.611M9.6 14.511L11.64 14.511M9.6 14.511L9.6 16.611M585.96 826.191L583.92 826.191M585.96 826.191L585.96 824.151M9.6 826.191L11.64 826.191M9.6 826.191L9.6 824.151" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<path d="M10.38 15.291h566.58v801.9h-566.58Z" fill-rule="nonzero" stroke="none" fill="#ffffff icc-color(p1,1,1,1)"/>
+<path stroke-width="1" d="M576.96 817.191h-566.64v-801.96h566.64Z" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('TIMETABLE');" onmousemove="(window.status ='TIMETABLE')">
+<path id="TIMETABLE" stroke-width="1" d="M427.44 307.431C423.66 307.431 420.6 304.311 420.6 300.531L420.6 181.911C420.6 178.131 423.66 175.071 427.44 175.071L476.76 175.071C480.54 175.071 483.66 178.131 483.66 181.911L483.66 300.531C483.66 304.311 480.54 307.431 476.76 307.431Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="#ffffff icc-color(p1,1,1,1)" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="437.28" fill="#000000 icc-color(p1,0,0,0)" x="181.91">TIMETABLE</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="447.18" fill="#000000 icc-color(p1,0,0,0)" x="181.91">*  CODE_WORK_HR</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="456.12" fill="#000000 icc-color(p1,0,0,0)" x="181.91">o  TXT_RMK_WORK_HR</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M406.86 236.811C406.86 233.031 409.92 229.971 413.7 229.971M413.7 243.651C409.92 243.651 406.86 240.531 406.86 236.811M406.86 240.171C404.94 240.171 403.44 238.611 403.44 236.751C403.44 234.891 404.94 233.391 406.86 233.391C408.72 233.391 410.28 234.891 410.28 236.751C410.28 238.611 408.72 240.171 406.86 240.171Z" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<a onclick="selectEntity('TIMESHEET');" onmousemove="(window.status ='TIMESHEET')">
+<path id="TIMESHEET" stroke-width="1" d="M351.96 685.49C348.18 685.49 345.12 682.37 345.12 678.591L345.12 561.351C345.12 557.57 348.18 554.51 351.96 554.51L531.66 554.51C535.44 554.51 538.56 557.57 538.56 561.351L538.56 678.591C538.56 682.37 535.44 685.49 531.66 685.49Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="#ffffff icc-color(p1,1,1,1)" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="361.8" fill="#000000 icc-color(p1,0,0,0)" x="561.35">TIMESHEET</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="371.7" fill="#000000 icc-color(p1,0,0,0)" x="561.35">*  CODE_TIME_REF</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="380.64" fill="#000000 icc-color(p1,0,0,0)" x="561.35">*  DATE_VALID_WEF</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="389.58" fill="#000000 icc-color(p1,0,0,0)" x="561.35">*  DATE_VALID_TIL</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="398.46" fill="#000000 icc-color(p1,0,0,0)" x="561.35">*  CODE_DAY</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="407.4" fill="#000000 icc-color(p1,0,0,0)" x="561.35">o  CODE_DAY_TIL</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="416.34" fill="#000000 icc-color(p1,0,0,0)" x="561.35">o  TIME_WEF</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="425.22" fill="#000000 icc-color(p1,0,0,0)" x="561.35">o  CODE_EVENT_WEF</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="434.16" fill="#000000 icc-color(p1,0,0,0)" x="561.35">o  TIME_REL_EVENT_WEF</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="443.1" fill="#000000 icc-color(p1,0,0,0)" x="561.35">o  CODE_COMB_WEF</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="451.98" fill="#000000 icc-color(p1,0,0,0)" x="561.35">o  TIME_TIL</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="460.92" fill="#000000 icc-color(p1,0,0,0)" x="561.35">o  CODE_EVENT_TIL</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="469.86" fill="#000000 icc-color(p1,0,0,0)" x="561.35">o  TIME_REL_EVENT_TIL</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="478.74" fill="#000000 icc-color(p1,0,0,0)" x="561.35">o  CODE_COMB_TIL</tspan>
+</text>
+</a>
+<a onclick="selectEntity('SPEC_NAV_SYS');" onmousemove="(window.status ='SPEC_NAV_SYS')">
+<path id="SPEC_NAV_SYS" stroke-width="1" d="M55.56 658.01C51.78 658.01 48.72 654.891 48.72 651.11L48.72 562.01C48.72 558.23 51.78 555.171 55.56 555.171L127.5 555.171C131.28 555.171 134.4 558.23 134.4 562.01L134.4 651.11C134.4 654.891 131.28 658.01 127.5 658.01Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="#ffffff icc-color(p1,1,1,1)" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="65.4" fill="#000000 icc-color(p1,0,0,0)" x="562.071">SPEC_NAV_SYS</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="75.3" fill="#000000 icc-color(p1,0,0,0)" x="562.071">*  CODE_TYPE</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="84.24" fill="#000000 icc-color(p1,0,0,0)" x="562.071">*  CODE_ID</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="93.12" fill="#000000 icc-color(p1,0,0,0)" x="562.071">*  TXT_NAME</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="102.06" fill="#000000 icc-color(p1,0,0,0)" x="562.071">o  TXT_RMK</tspan>
+</text>
+</a>
+<a onclick="selectEntity('SPEC_NAV_STATION');" onmousemove="(window.status ='SPEC_NAV_STATION')">
+<path id="SPEC_NAV_STATION" stroke-width="1" d="M91.92 324.591C88.14 324.591 85.08 321.471 85.08 317.691L85.08 169.551C85.08 165.771 88.14 162.711 91.92 162.711L312.78 162.711C316.56 162.711 319.68 165.771 319.68 169.551L319.68 317.691C319.68 321.471 316.56 324.591 312.78 324.591Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="#ffffff icc-color(p1,1,1,1)" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="101.76" fill="#000000 icc-color(p1,0,0,0)" x="169.61">SPEC_NAV_STATION</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="111.66" fill="#000000 icc-color(p1,0,0,0)" x="169.61">*  TXT_NAME</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="120.6" fill="#000000 icc-color(p1,0,0,0)" x="169.61">*  CODE_TYPE_SER</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="129.54" fill="#000000 icc-color(p1,0,0,0)" x="169.61">o  VAL_FREQ</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="138.42" fill="#000000 icc-color(p1,0,0,0)" x="169.61">o  UOM_FREQ</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="147.36" fill="#000000 icc-color(p1,0,0,0)" x="169.61">o  CODE_EM</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="156.3" fill="#000000 icc-color(p1,0,0,0)" x="169.61">*  GEO_LAT</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="165.18" fill="#000000 icc-color(p1,0,0,0)" x="169.61">*  GEO_LONG</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="174.12" fill="#000000 icc-color(p1,0,0,0)" x="169.61">*  CODE_DATUM</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="183.06" fill="#000000 icc-color(p1,0,0,0)" x="169.61">o  VAL_GEO_ACCURACY</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="191.94" fill="#000000 icc-color(p1,0,0,0)" x="169.61">o  UOM_GEO_ACCURACY</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="200.88" fill="#000000 icc-color(p1,0,0,0)" x="169.61">o  VAL_ELEV</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="209.82" fill="#000000 icc-color(p1,0,0,0)" x="169.61">o  VAL_ELEV_ACCURACY</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="218.7" fill="#000000 icc-color(p1,0,0,0)" x="169.61">o  VAL_GEOID_UNDULATION</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="227.64" fill="#000000 icc-color(p1,0,0,0)" x="169.61">o  UOM_DIST_VER</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="236.58" fill="#000000 icc-color(p1,0,0,0)" x="169.61">o  VAL_CRC</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="245.46" fill="#000000 icc-color(p1,0,0,0)" x="169.61">o  TXT_VER_DATUM</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="254.4" fill="#000000 icc-color(p1,0,0,0)" x="169.61">o  TXT_RMK</tspan>
+</text>
+</a>
+<a onclick="selectEntity('ORG_AUTH');" onmousemove="(window.status ='ORG_AUTH')">
+<path id="ORG_AUTH" stroke-width="1" d="M257.28 662.81C253.5 662.81 250.44 659.69 250.44 655.911L250.44 562.73C250.44 558.951 253.5 555.891 257.28 555.891L323.76 555.891C327.54 555.891 330.66 558.951 330.66 562.73L330.66 655.911C330.66 659.69 327.54 662.81 323.76 662.81Z" fill-rule="evenodd" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="#ffffff icc-color(p1,1,1,1)" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="267.12" fill="#000000 icc-color(p1,0,0,0)" x="562.73">ORG_AUTH</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="277.02" fill="#000000 icc-color(p1,0,0,0)" x="562.73">*  TXT_NAME</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="285.96" fill="#000000 icc-color(p1,0,0,0)" x="562.73">o  CODE_ID</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="294.9" fill="#000000 icc-color(p1,0,0,0)" x="562.73">*  CODE_TYPE</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="8.2336" letter-spacing="0" fill-rule="nonzero" stroke="none" y="303.78" fill="#000000 icc-color(p1,0,0,0)" x="562.73">o  TXT_RMK</tspan>
+</text>
+</a>
+<path stroke-width="1" d="M268.98 551.75L268.98 539.391M268.98 535.31L268.98 522.951M268.98 518.81L268.98 506.451M268.98 502.37L268.98 490.011M268.98 485.871L268.98 473.511M268.98 469.431L268.98 457.071M268.98 452.931L268.98 324.651M268.98 334.911L265.56 324.651M268.98 334.911L272.4 324.651M268.98 334.911L268.98 324.651" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="282.24" fill="#000000 icc-color(p1,0,0,0)" x="463.25">responsible for</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="260.94" fill="#000000 icc-color(p1,0,0,0)" x="331.491">under responsibility of</tspan>
+</text>
+<path stroke-width="1" d="M114.6 551.091L114.6 538.73M114.6 534.591L114.6 522.23M114.6 518.151L114.6 505.79M114.6 501.651L114.6 489.291M114.6 485.211L114.6 472.851M114.6 468.711L114.6 456.351M114.6 452.271L114.6 324.651M114.6 334.911L111.18 324.651M114.6 334.911L118.02 324.651M114.6 334.911L114.6 324.651" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="127.86" fill="#000000 icc-color(p1,0,0,0)" x="492.05">based on</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="106.56" fill="#000000 icc-color(p1,0,0,0)" x="331.491">part of</tspan>
+</text>
+<path stroke-width="1" d="M134.46 614.87L192.12 614.87M196.26 614.87L208.56 614.87M212.7 614.87L225.06 614.87M229.2 614.87L241.5 614.87M245.64 614.87L250.44 614.87M144.78 614.87L134.46 611.451M144.78 614.87L134.46 618.291M144.78 614.87L134.46 614.87" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="151.2" fill="#000000 icc-color(p1,0,0,0)" x="618.291">under the responsibility of</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="239.04" fill="#000000 icc-color(p1,0,0,0)" x="525.651">responsible for</tspan>
+</text>
+<path stroke-width="1" d="M440.52 554.51L440.52 430.971M440.52 426.891L440.52 414.531M440.52 410.391L440.52 398.031M440.52 393.951L440.52 381.591M440.52 377.451L440.52 365.151M440.52 361.011L440.52 348.651M440.52 344.571L440.52 332.211M440.52 328.071L440.52 315.711M440.52 311.631L440.52 307.491M440.52 544.19L437.1 554.51M440.52 544.19L443.94 554.51M440.52 544.19L440.52 554.51" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="453.78" fill="#000000 icc-color(p1,0,0,0)" x="508.55">part of</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="432.48" fill="#000000 icc-color(p1,0,0,0)" x="314.331">composed of</tspan>
+</text>
+<path stroke-width="1" d="M420.6 236.811L370.5 236.811M366.42 236.811L354.06 236.811M349.92 236.811L337.56 236.811M333.48 236.811L321.12 236.811" stroke-miterlimit="10" stroke="#000000 icc-color(p1,0,0,0)" stroke-linejoin="round" fill="none" stroke-linecap="round"/>
+<text transform="matrix(0 1 1 0 0 0)">
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="409.2" fill="#000000 icc-color(p1,0,0,0)" x="72.8305">describing operational hours for</tspan>
+<tspan font-family="ArialMT,sans-serif" font-size="10.9781" letter-spacing="0" fill-rule="nonzero" stroke="none" y="336.421" fill="#000000 icc-color(p1,0,0,0)" x="240.23">operating according to</tspan>
+</text>
+</g>
+</g>
+</g>
+</svg>

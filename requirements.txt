@@ -1,0 +1,23 @@
+# AIXM 4.5 Parser Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies (standard library only)
+# - xml.etree.ElementTree
+# - dataclasses
+# - typing
+# - pathlib
+# - re
+
+# Visualization
+folium>=0.14.0
+
+# Optional dependencies for advanced features
+# plotly>=5.0.0  # Alternative visualization
+# geopandas>=0.13.0  # For advanced geospatial operations
+# shapely>=2.0.0  # Geometric operations
+
+# Development dependencies
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+mypy>=1.0.0
