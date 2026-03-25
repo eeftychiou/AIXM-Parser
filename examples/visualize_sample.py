@@ -16,8 +16,9 @@ from src.visualization.map_renderer import MapRenderer
 
 def main():
     # Path to your AIXM file
-    aixm_file = Path(__file__).parent.parent / "Samples" / "BD_2025-09-30_400005921419525.xml"
-    
+    #aixm_file = Path(__file__).parent.parent / "Samples" / "BD_2025-09-30_400005921419525.xml"
+    aixm_file = Path(__file__).parent.parent / "Samples" / "BD_2026-03-24_400006091018854.xml"
+
     # Alternative: use a file from ddfn_v2
     # aixm_file = Path(r"C:\Users\eftyc\Antigravity\ddfn_v2\AIXM\BD_2025-09-30_400005921419525.xml")
     

@@ -1,0 +1,8 @@
+--- Rwy ---
+<Rwy><RwyUid mid="4849276"><AhpUid mid="4583406"><codeId>LCRA</codeId></AhpUid><txtDesig>RWY-10/28</txtDesig></RwyUid><valLen>2743</valLen><valWid>61</valWid><uomDimRwy>M</uomDimRwy></Rwy>
+
+--- Rdn ---
+<Rdn><RdnUid mid="4876830"><RwyUid mid="4849276"><AhpUid mid="4583406"><codeId>LCRA</codeId></AhpUid><txtDesig>RWY-10/28</txtDesig></RwyUid><txtDesig>10</txtDesig></RdnUid><valTrueBrg>100.0</valTrueBrg><valMagBrg>096</valMagBrg><valElevTdz>71</valElevTdz><uomElevTdz>FT</uomElevTdz></Rdn>
+
+--- Dpn ---
+<Dpn><DpnUid mid="101002033639343"><codeId>GIPRO</codeId><geoLat>344117.09N</geoLat><geoLong>0330854.47E</geoLong></DpnUid><codeDatum>WGE</codeDatum><valCrc>C03FDC23</valCrc><codeType>ICAO</codeType><txtName>GIPRO</txtName><txtRmk>SID, STAR LCLK</txtRmk></Dpn>

@@ -281,8 +281,8 @@ class AIXMParser {
             const uid = this.getChildElement(elem, 'DpnUid');
             if (!uid) continue;
             const codeId = this.getChildText(uid, 'codeId');
-            const lat = this.getChildText(elem, 'geoLat');
-            const lon = this.getChildText(elem, 'geoLong');
+            const lat = this.getChildText(uid, 'geoLat');
+            const lon = this.getChildText(uid, 'geoLong');
             const pos = this.parseLatLon(lat, lon);
             if (codeId && pos) this.waypointPositions[codeId] = pos;
         }
@@ -506,13 +506,13 @@ class AIXMParser {
     extractWaypoints() {
         const elems = this._xmlDoc.getElementsByTagName('Dpn');
         for (const elem of elems) {
-            const uid = this.getChildElement(elem, 'DpnUid');
+             const uid = this.getChildElement(elem, 'DpnUid');
             if (!uid) continue;
 
             const mid = elem.getAttribute('mid') || uid.getAttribute('mid') || '';
             const codeId = this.getChildText(uid, 'codeId');
-            const lat = this.getChildText(elem, 'geoLat');
-            const lon = this.getChildText(elem, 'geoLong');
+            const lat = this.getChildText(uid, 'geoLat');
+            const lon = this.getChildText(uid, 'geoLong');
             const position = this.parseLatLon(lat, lon);
 
             this.features.push({
@@ -536,8 +536,8 @@ class AIXMParser {
 
             const mid = elem.getAttribute('mid') || uid.getAttribute('mid') || '';
             const codeId = this.getChildText(uid, 'codeId');
-            const lat = this.getChildText(elem, 'geoLat');
-            const lon = this.getChildText(elem, 'geoLong');
+            const lat = this.getChildText(uid, 'geoLat');
+            const lon = this.getChildText(uid, 'geoLong');
             const position = this.parseLatLon(lat, lon);
 
             const feature = {
@@ -566,7 +566,7 @@ class AIXMParser {
     // ─── Routes ───────────────────────────────────────────────────────────
 
     extractRoutes() {
-        // Build segment index keyed by 'codeId|codeType'
+        // Build segment index keyed by RteUid mid attribute
         const segIndex = this.buildRouteSegmentIndex();
 
         const elems = this._xmlDoc.getElementsByTagName('Rte');
@@ -575,17 +575,21 @@ class AIXMParser {
             if (!uid) continue;
 
             const mid = elem.getAttribute('mid') || uid.getAttribute('mid') || '';
-            const codeId = this.getChildText(uid, 'codeId');
-            const codeType = this.getChildText(uid, 'codeType');
-            const key = `${codeId}|${codeType}`;
-            const segments = segIndex[key] || segIndex[codeId] || [];
+            const rteMid = uid.getAttribute('mid') || '';
+
+            // AIXM 4.5 uses txtDesig (not codeId) as the route designator
+            const txtDesig = this.getChildText(uid, 'txtDesig') || this.getChildText(elem, 'txtDesig');
+            const codeType = this.getChildText(uid, 'codeType') || this.getChildText(elem, 'codeType');
+
+            // Primary lookup by RteUid mid; fallback by txtDesig
+            const segments = segIndex[rteMid] || segIndex[txtDesig] || [];
 
             this.features.push({
                 type: 'route',
                 mid,
-                codeId,
+                codeId: txtDesig,       // expose designator as codeId for UI consistency
                 codeType,
-                txtDesig: this.getChildText(elem, 'txtDesig') || codeId,
+                txtDesig,
                 txtName: this.getChildText(elem, 'txtName'),
                 segments,
                 // Resolve positions for renderer
@@ -604,13 +608,15 @@ class AIXMParser {
 
             const rteUid = this.getChildElement(segUid, 'RteUid');
             if (!rteUid) continue;
-            const rteCid = this.getChildText(rteUid, 'codeId');
-            const rteCtype = this.getChildText(rteUid, 'codeType');
-            const key = `${rteCid}|${rteCtype}`;
 
-            // Start point
+            // Primary key: mid attribute of the nested RteUid (matches Rte's RteUid mid)
+            const rteMid = rteUid.getAttribute('mid') || '';
+            // Fallback key: txtDesig for secondary lookup
+            const rteTxtDesig = this.getChildText(rteUid, 'txtDesig');
+
+            // Start and end waypoint/navaid points
             const startPos = this.extractSegmentPoint(segUid, 'start');
-            const endPos = this.extractSegmentPoint(segUid, 'end');
+            const endPos   = this.extractSegmentPoint(segUid, 'end');
 
             const segment = {
                 startPointId: startPos.codeId,
@@ -622,10 +628,15 @@ class AIXMParser {
                 uomLen: this.getChildText(seg, 'uomLen'),
             };
 
-            if (!index[key]) index[key] = [];
-            index[key].push(segment);
-            if (!index[rteCid]) index[rteCid] = [];
-            index[rteCid].push(segment);
+            // Index by mid (primary) and by txtDesig (fallback)
+            if (rteMid) {
+                if (!index[rteMid]) index[rteMid] = [];
+                index[rteMid].push(segment);
+            }
+            if (rteTxtDesig) {
+                if (!index[rteTxtDesig]) index[rteTxtDesig] = [];
+                index[rteTxtDesig].push(segment);
+            }
         }
         return index;
     }
@@ -726,8 +737,8 @@ class AIXMParser {
             const mid = elem.getAttribute('mid') || uid.getAttribute('mid') || '';
             const ahpUid = this.getChildElement(uid, 'AhpUid');
             const airportId = ahpUid ? this.getChildText(ahpUid, 'codeId') : '';
-            // Correct: designator is RwyUid/codeId, not txtDesig
-            const codeId = this.getChildText(uid, 'codeId');
+            // In AIXM 4.5, Runway identifier is txtDesig, not codeId
+            const codeId = this.getChildText(uid, 'txtDesig');
 
             this.features.push({
                 type: 'runway',
@@ -755,12 +766,12 @@ class AIXMParser {
             const rwyUid = this.getChildElement(uid, 'RwyUid');
             const ahpUid = rwyUid ? this.getChildElement(rwyUid, 'AhpUid') : null;
             const airportId = ahpUid ? this.getChildText(ahpUid, 'codeId') : '';
-            const rwyDesig = rwyUid ? this.getChildText(rwyUid, 'codeId') : '';
+            const rwyDesig = rwyUid ? this.getChildText(rwyUid, 'txtDesig') : '';
             const codeId = this.getChildText(uid, 'txtDesig') || rwyDesig;
 
             // Threshold position
-            const thresholdLat = this.getChildText(elem, 'geoLat');
-            const thresholdLon = this.getChildText(elem, 'geoLong');
+            const thresholdLat = this.getChildText(uid, 'geoLat') || this.getChildText(elem, 'geoLat');
+            const thresholdLon = this.getChildText(uid, 'geoLong') || this.getChildText(elem, 'geoLong');
             const position = this.parseLatLon(thresholdLat, thresholdLon);
 
             this.features.push({

@@ -205,10 +205,17 @@ class MapRenderer {
         if (!feature.position) return false;
         const { lat, lon } = feature.position;
 
+        const svgIcon = feature.codeType === 'MIL' ? '086_AD_MilitaryLand.svg' : '084_AD_CivilLand.svg';
         const icon = L.divIcon({
             className: '',
-            html: `<div style="background:#1a56db;color:#fff;border-radius:3px;padding:1px 3px;font-size:9px;font-weight:bold;white-space:nowrap;border:1px solid #fff;">✈ ${feature.icao || feature.codeId || ''}</div>`,
-            iconAnchor: [0, 8],
+            html: `
+                <div style="display:flex; flex-direction:column; align-items:center; transform: translate(-50%, -50%);">
+                    <img src="../charting_symbols/svg_icons/qgis_parametrized/${svgIcon}" style="width:20px; height:20px;">
+                    <div style="background:rgba(255,255,255,0.8); border:1px solid #1a56db; color:#1a56db; border-radius:2px; padding:0 2px; font-size:9px; font-weight:bold; white-space:nowrap; margin-top:2px;">
+                        ${feature.icao || feature.codeId || ''}
+                    </div>
+                </div>`,
+            iconAnchor: [0, 0],
         });
 
         const marker = L.marker([lat, lon], { icon });
@@ -231,8 +238,14 @@ class MapRenderer {
 
         const icon = L.divIcon({
             className: '',
-            html: '<div style="width:5px;height:5px;background:#555;border-radius:50%;border:1px solid #fff;"></div>',
-            iconAnchor: [3, 3],
+            html: `
+                <div style="display:flex; flex-direction:column; align-items:center; transform: translate(-50%, -50%);">
+                    <img src="../charting_symbols/svg_icons/qgis_parametrized/121_Compulsory_Fly_By_Waypoint.svg" style="width:16px; height:16px;">
+                    <div style="background:rgba(255,255,255,0.8); border-radius:2px; padding:0 2px; font-size:8px; font-weight:bold; margin-top:-2px;">
+                        ${feature.codeId}
+                    </div>
+                </div>`,
+            iconAnchor: [0, 0],
         });
         const marker = L.marker([lat, lon], { icon });
         marker.bindPopup(`<b>${feature.codeId}</b><br>Type: ${feature.codeType || '—'}<br>${feature.txtName || ''}`);
@@ -246,10 +259,25 @@ class MapRenderer {
         if (!feature.position) return false;
         const { lat, lon } = feature.position;
 
+        const navaidIcons = {
+            vor: '101_Navaid_VOR.svg',
+            ndb: '100_Navaid_NDB.svg',
+            dme: '102_Navaid_DME.svg',
+            tacan: '106_Navaid_TACAN.svg',
+            vortac: '107_Navaid_VORTAC.svg'
+        };
+        const svgFile = navaidIcons[feature.type] || '101_Navaid_VOR.svg';
+
         const icon = L.divIcon({
             className: '',
-            html: `<div style="border:2px solid ${color};color:${color};border-radius:2px;padding:1px 2px;font-size:8px;font-weight:bold;background:rgba(255,255,255,0.85);">${label}</div>`,
-            iconAnchor: [0, 8],
+            html: `
+                <div style="display:flex; flex-direction:column; align-items:center; transform: translate(-50%, -50%);">
+                    <img src="../charting_symbols/svg_icons/qgis_parametrized/${svgFile}" style="width:18px; height:18px;">
+                    <div style="background:rgba(255,255,255,0.85); border:1px solid ${color}; color:${color}; border-radius:2px; padding:0 2px; font-size:8px; font-weight:bold; margin-top:-2px;">
+                        ${label}
+                    </div>
+                </div>`,
+            iconAnchor: [0, 0],
         });
         const marker = L.marker([lat, lon], { icon });
         marker.bindPopup(`
@@ -285,10 +313,17 @@ class MapRenderer {
 
             const line = L.polyline(
                 [[startPos.lat, startPos.lon], [endPos.lat, endPos.lon]],
-                { color: '#e65c00', weight: 1.5, opacity: 0.7 }
+                { color: '#e65c00', weight: 2.0, opacity: 0.8 }
             );
+            const routeName = feature.codeId || feature.txtDesig || '';
+            if (routeName) {
+                line.bindTooltip(
+                    `<span style="background:rgba(255,255,255,0.9); padding:2px 4px; border:1px solid #e65c00; border-radius:3px; font-size:10px; font-weight:bold; color:#e65c00;">${routeName}</span>`,
+                    { permanent: true, direction: 'center', className: 'transparent-tooltip', opacity: 1.0 }
+                );
+            }
             line.bindPopup(`
-                <b>${feature.txtDesig || feature.codeId}</b><br>
+                <b>${routeName}</b><br>
                 Type: ${feature.codeType || '—'}<br>
                 ${segment.startPointId} → ${segment.endPointId}<br>
                 ${segment.valLen ? 'Length: ' + segment.valLen + ' ' + (segment.uomLen || '') : ''}
@@ -332,8 +367,14 @@ class MapRenderer {
 
         const icon = L.divIcon({
             className: '',
-            html: `<div style="background:#333;color:#fff;border-radius:2px;padding:1px 3px;font-size:8px;font-weight:bold;transform:rotate(${bearing || 0}deg)">▶ ${feature.codeId || ''}</div>`,
-            iconAnchor: [10, 6],
+            html: `
+                <div style="display:flex; flex-direction:column; align-items:center; transform: translate(-50%, -50%);">
+                    <img src="../charting_symbols/svg_icons/qgis_parametrized/994_Line_Arrow.svg" style="width:20px; height:20px; transform:rotate(${bearing || 0}deg);">
+                    <div style="background:rgba(255,255,255,0.8); border:1px solid #333; color:#333; border-radius:2px; padding:1px 3px; font-size:9px; font-weight:bold; margin-top:2px;">
+                        ${feature.codeId || ''}
+                    </div>
+                </div>`,
+            iconAnchor: [0, 0],
         });
 
         const marker = L.marker([lat, lon], { icon });
@@ -356,8 +397,11 @@ class MapRenderer {
 
         const icon = L.divIcon({
             className: '',
-            html: '<div style="font-size:10px;color:#cc0000;">⚠</div>',
-            iconAnchor: [5, 5],
+            html: `
+                <div style="transform: translate(-50%, -50%);">
+                    <img src="../charting_symbols/svg_icons/qgis_parametrized/130_obstacle.svg" style="width:16px; height:16px;">
+                </div>`,
+            iconAnchor: [0, 0],
         });
         const marker = L.marker([lat, lon], { icon });
         const hgt = feature.valHgt ? feature.valHgt + ' ' + (feature.uomDistVer || '') : '—';
