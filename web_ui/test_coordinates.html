@@ -1,95 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Coordinate Parser Test</title>
+    <meta charset="UTF-8">
+    <title>Coordinate Parser Test - Fixed</title>
     <style>
         body { font-family: Arial, sans-serif; padding: 20px; }
-        .test { margin: 10px 0; padding: 10px; border: 1px solid #ccc; }
-        .pass { background-color: #d4edda; }
-        .fail { background-color: #f8d7da; }
+        .test { margin: 10px 0; padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+        .pass { background-color: #d4edda; border-color: #c3e6cb; }
+        .fail { background-color: #f8d7da; border-color: #f5c6cb; }
         h1 { color: #333; }
-        h2 { color: #666; }
+        h2 { color: #555; }
+        code { background: #f0f0f0; padding: 2px 4px; border-radius: 3px; font-weight: bold; }
     </style>
 </head>
 <body>
     <h1>Coordinate Parser Test</h1>
-    <p>This page tests the coordinate parsing logic to verify the fix for formats like "43.784009N" and "510520.60N"</p>
+    <p>Verifying fix for DMS (e.g. <code>341200N</code>) vs Decimal (<code>43.7N</code>) parsing priority.</p>
     <div id="results"></div>
 
     <script>
-        // Copy of the parseCoordinate function from aixm-parser.js
         function parseCoordinate(coord) {
             if (!coord) return null;
-            
             coord = coord.trim();
             
-            // Handle decimal format with direction suffix like "43.784009N" or "007.529827E"
-            const decimalDirMatch = coord.match(/^([\d.]+)([NSWE])$/);
-            if (decimalDirMatch) {
-                let decimal = parseFloat(decimalDirMatch[1]);
-                const direction = decimalDirMatch[2];
-                if (!isNaN(decimal)) {
-                    if (direction === 'S' || direction === 'W') {
-                        decimal = -decimal;
-                    }
-                    return decimal;
-                }
-            }
-            
-            // Handle DMS format like "341200N" or "0163411E" (3-digit degrees for longitude)
-            const match = coord.match(/^(\d{2,3})(\d{2})(\d{2})([NSWE])$/);
-            if (match) {
-                const degrees = parseInt(match[1]);
-                const minutes = parseInt(match[2]);
-                const seconds = parseInt(match[3]);
-                const direction = match[4];
-                
-                let decimal = degrees + minutes / 60 + seconds / 3600;
-                if (direction === 'S' || direction === 'W') {
-                    decimal = -decimal;
-                }
-                return decimal;
-            }
-            
-            // Handle DMS format with decimal seconds like "510520.60N"
+            // 1. Handle DMS format with decimal seconds
             const dmsDecimalMatch = coord.match(/^(\d{2,3})(\d{2})(\d{2}\.\d+)([NSWE])$/);
             if (dmsDecimalMatch) {
                 const degrees = parseInt(dmsDecimalMatch[1]);
                 const minutes = parseInt(dmsDecimalMatch[2]);
                 const seconds = parseFloat(dmsDecimalMatch[3]);
                 const direction = dmsDecimalMatch[4];
-                
                 let decimal = degrees + minutes / 60 + seconds / 3600;
-                if (direction === 'S' || direction === 'W') {
-                    decimal = -decimal;
-                }
+                if (direction === 'S' || direction === 'W') decimal = -decimal;
+                return decimal;
+            }
+
+            // 2. Handle DMS format
+            const dmsMatch = coord.match(/^(\d{2,3})(\d{2})(\d{2})([NSWE])$/);
+            if (dmsMatch) {
+                const degrees = parseInt(dmsMatch[1]);
+                const minutes = parseInt(dmsMatch[2]);
+                const seconds = parseInt(dmsMatch[3]);
+                const direction = dmsMatch[4];
+                let decimal = degrees + minutes / 60 + seconds / 3600;
+                if (direction === 'S' || direction === 'W') decimal = -decimal;
+                return decimal;
+            }
+
+            // 3. Handle DM format (4-5 digits + direction)
+            const dmMatch = coord.match(/^(\d{2,3})(\d{2})([NSWE])$/);
+            if (dmMatch) {
+                const degrees = parseInt(dmMatch[1]);
+                const minutes = parseInt(dmMatch[2]);
+                const direction = dmMatch[3];
+                let decimal = degrees + minutes / 60;
+                if (direction === 'S' || direction === 'W') decimal = -decimal;
                 return decimal;
             }
             
-            // Handle pure decimal format
-            const decimalValue = parseFloat(coord);
-            if (!isNaN(decimalValue)) {
-                return decimalValue;
+            // 4. General Decimal with direction (must be after DM/DMS)
+            const decimalDirMatch = coord.match(/^([\d.]+)([NSWE])$/);
+            if (decimalDirMatch) {
+                let decimal = parseFloat(decimalDirMatch[1]);
+                const direction = decimalDirMatch[2];
+                if (!isNaN(decimal)) {
+                    if (direction === 'S' || direction === 'W') decimal = -decimal;
+                    return decimal;
+                }
             }
             
+            const decimalValue = parseFloat(coord);
+            if (!isNaN(decimalValue)) return decimalValue;
             return null;
         }
 
-        // Test cases
         const tests = [
-            { input: "341200N", expected: 34.2, description: "DMS format (34°12'00\"N)" },
-            { input: "0163411E", expected: 16.5697, description: "DMS longitude (016°34'11\"E)", tolerance: 0.001 },
+            { input: "341200N", expected: 34.2, description: "DMS format (34-12-00N)" },
+            { input: "0163411E", expected: 16.5697, description: "DMS longitude (016-34-11E)", tolerance: 0.001 },
             { input: "341200S", expected: -34.2, description: "DMS South" },
             { input: "43.784009N", expected: 43.784009, description: "Decimal with direction (43.784009N)" },
             { input: "007.529827E", expected: 7.529827, description: "Decimal with direction (007.529827E)" },
             { input: "35.5S", expected: -35.5, description: "Decimal South (35.5S)" },
-            { input: "510520.60N", expected: 51 + 5/60 + 20.60/3600, description: "DMS with decimal seconds (51°05'20.60\"N)", tolerance: 0.0001 },
-            { input: "0023243.54E", expected: 2 + 32/60 + 43.54/3600, description: "DMS with decimal seconds (002°32'43.54\"E)", tolerance: 0.0001 },
+            { input: "510520.60N", expected: 51 + 5/60 + 20.60/3600, description: "DMS with decimal seconds (51-05-20.60N)", tolerance: 0.0001 },
+            { input: "0023243.54E", expected: 2 + 32/60 + 43.54/3600, description: "DMS with decimal seconds (002-32-43.54E)", tolerance: 0.0001 },
             { input: "35.5", expected: 35.5, description: "Pure decimal" },
+            { input: "4500N", expected: 45.0, description: "DM format latitude (45-00N)" },
+            { input: "04000W", expected: -40.0, description: "DM format longitude (040-00W)" },
+            { input: "2218N", expected: 22.3, description: "DM format latitude (22-18N)" },
             { input: "invalid", expected: null, description: "Invalid input" }
         ];
 
-        // Run tests
         const resultsDiv = document.getElementById('results');
         let passed = 0;
         let failed = 0;
@@ -97,26 +97,22 @@
         tests.forEach(test => {
             const result = parseCoordinate(test.input);
             const tolerance = test.tolerance || 0.0001;
-            const success = result !== null && test.expected !== null 
+            const success = (result !== null && test.expected !== null)
                 ? Math.abs(result - test.expected) < tolerance 
                 : result === test.expected;
-            
-            if (success) passed++;
-            else failed++;
-
+            if (success) passed++; else failed++;
             const div = document.createElement('div');
             div.className = 'test ' + (success ? 'pass' : 'fail');
             div.innerHTML = `
                 <strong>${test.description}</strong><br>
-                Input: "${test.input}"<br>
-                Expected: ${test.expected}<br>
-                Got: ${result}<br>
-                Status: ${success ? 'PASS ✓' : 'FAIL ✗'}
+                Input: "<code>${test.input}</code>"<br>
+                Expected: <code>${test.expected}</code><br>
+                Got: <code>${result}</code><br>
+                Status: <strong>${success ? 'PASS' : 'FAIL'}</strong>
             `;
             resultsDiv.appendChild(div);
         });
 
-        // Summary
         const summary = document.createElement('h2');
         summary.textContent = `Results: ${passed} passed, ${failed} failed`;
         resultsDiv.insertBefore(summary, resultsDiv.firstChild);

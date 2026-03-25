@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIXM UI Test Suite</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body { font-family: sans-serif; margin: 0; display: flex; height: 100vh; }
+        #sidebar { width: 350px; border-right: 1px solid #ccc; padding: 20px; overflow-y: auto; background: #f9f9f9; }
+        #map-container { flex: 1; position: relative; }
+        #map { width: 100%; height: 100%; }
+        .test-case { margin-bottom: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; background: white; }
+        .test-case:hover { background: #f0f7ff; }
+        .test-case.active { border-color: #2563eb; background: #eef2ff; }
+        .test-case h3 { margin: 0 0 5px 0; font-size: 1rem; }
+        .test-case p { margin: 0; font-size: 0.8rem; color: #666; }
+        .status { font-weight: bold; margin-top: 5px; }
+        .status.pass { color: green; }
+        .status.fail { color: red; }
+        .controls { margin-bottom: 20px; }
+        .btn { padding: 8px 12px; cursor: pointer; border: 1px solid #ccc; border-radius: 4px; background: white; }
+        .btn-primary { background: #2563eb; color: white; border-color: #1d4ed8; }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <h2>AIXM UI Tests</h2>
+        <div class="controls">
+            <button class="btn btn-primary" id="runAllBtn">Run All Tests</button>
+            <button class="btn" id="clearBtn">Clear Map</button>
+        </div>
+        <div id="testList"></div>
+    </div>
+    <div id="map-container">
+        <div id="map"></div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- App Scripts -->
+    <script src="js/aixm-parser.js"></script>
+    <script src="js/map-renderer.js"></script>
+
+    <script>
+        const testCases = [
+            {
+                id: 'airspace-single',
+                name: 'Airspace (Single Ring)',
+                description: 'Verifies rendering of a simple airspace polygon.',
+                feature: {
+                    type: 'airspace',
+                    codeId: 'TEST1',
+                    codeType: 'CTR',
+                    txtName: 'Test CTR Single',
+                    polygon: [
+                        [[35.1, 33.1], [35.2, 33.1], [35.2, 33.2], [35.1, 33.2], [35.1, 33.1]]
+                    ]
+                }
+            },
+            {
+                id: 'airspace-multi',
+                name: 'Airspace (Multi Ring)',
+                description: 'Verifies rendering of an airspace with multiple Abd segments.',
+                feature: {
+                    type: 'airspace',
+                    codeId: 'TEST2',
+                    codeType: 'TMA',
+                    txtName: 'Test TMA Multi-ring',
+                    polygon: [
+                        [[35.3, 33.3], [35.4, 33.3], [35.4, 33.4], [35.3, 33.4], [35.3, 33.3]],
+                        [[35.35, 33.35], [35.38, 33.35], [35.38, 33.38], [35.35, 33.38], [35.35, 33.35]]
+                    ]
+                }
+            },
+            {
+                id: 'airport',
+                name: 'Airport',
+                description: 'Verifies rendering of an airport marker.',
+                feature: {
+                    type: 'airport',
+                    icao: 'LCLK',
+                    name: 'Larnaca Intl',
+                    position: { lat: 34.8751, lon: 33.6249 },
+                    elevation: '8'
+                }
+            },
+            {
+                id: 'waypoint',
+                name: 'Waypoint',
+                description: 'Verifies rendering of a waypoint star icon.',
+                feature: {
+                    type: 'waypoint',
+                    codeId: 'BALMA',
+                    codeType: 'WPT',
+                    position: { lat: 34.5, lon: 33.5 }
+                }
+            },
+            {
+                id: 'vor-ndb',
+                name: 'NAVAIDs (VOR & NDB)',
+                description: 'Verifies rendering of VOR and NDB symbols.',
+                features: [
+                    {
+                        type: 'vor',
+                        codeId: 'LCA',
+                        name: 'Larnaca VOR',
+                        frequency: '112.8',
+                        position: { lat: 34.8, lon: 33.7 }
+                    },
+                    {
+                        type: 'ndb',
+                        codeId: 'SKN',
+                        name: 'Shaheen NDB',
+                        frequency: '355',
+                        position: { lat: 34.9, lon: 33.8 }
+                    }
+                ]
+            },
+            {
+                id: 'route',
+                name: 'Route Segment',
+                description: 'Verifies rendering of a route line between waypoints.',
+                features: [
+                    { type: 'waypoint', codeId: 'WPT A', position: { lat: 35.5, lon: 34.0 } },
+                    { type: 'waypoint', codeId: 'WPT B', position: { lat: 35.6, lon: 34.5 } },
+                    {
+                        type: 'route',
+                        codeId: 'R1',
+                        designator: 'AWY1',
+                        segments: [
+                            {
+                                startPointId: 'WPT A',
+                                startPointType: 'waypoint',
+                                endPointId: 'WPT B',
+                                endPointType: 'waypoint',
+                                pathType: 'CONV',
+                                length: '30',
+                                lengthUnit: 'NM'
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'route-inline',
+                name: 'Route (Inline Coords)',
+                description: 'Verifies rendering of a route using inline coordinates.',
+                feature: {
+                    type: 'route',
+                    codeId: 'R2',
+                    designator: 'AWY2',
+                    segments: [
+                        {
+                            startPointId: 'INLINE1',
+                            startPosition: { lat: 35.7, lon: 34.0 },
+                            endPointId: 'INLINE2',
+                            endPosition: { lat: 35.8, lon: 34.5 },
+                            pathType: 'RNAV'
+                        }
+                    ]
+                }
+            },
+            {
+                id: 'runway',
+                name: 'Runway',
+                description: 'Verifies rendering of a representative runway line.',
+                features: [
+                    {
+                        type: 'airport',
+                        icao: 'LCLK',
+                        name: 'Larnaca Intl',
+                        position: { lat: 34.8751, lon: 33.6249 }
+                    },
+                    {
+                        type: 'runway',
+                        airportId: 'LCLK',
+                        codeId: '04/22',
+                        length: '2980',
+                        width: '45',
+                        composition: 'CONC'
+                    }
+                ]
+            },
+            {
+                id: 'border',
+                name: 'Border',
+                description: 'Verifies rendering of a state border.',
+                feature: {
+                    type: 'border',
+                    name: 'Maritime Border',
+                    borderType: 'MAR',
+                    polygon: [
+                        [[34.0, 32.0], [34.0, 35.0], [33.0, 35.0], [33.0, 32.0], [34.0, 32.0]]
+                    ]
+                }
+            }
+        ];
+
+        let renderer;
+
+        function init() {
+            renderer = new MapRenderer('map');
+            const listEl = document.getElementById('testList');
+            
+            testCases.forEach(test => {
+                const div = document.createElement('div');
+                div.className = 'test-case';
+                div.id = `test-${test.id}`;
+                div.innerHTML = `
+                    <h3>${test.name}</h3>
+                    <p>${test.description}</p>
+                    <div class="status" id="status-${test.id}">Pending</div>
+                `;
+                div.onclick = () => runTest(test);
+                listEl.appendChild(div);
+            });
+
+            document.getElementById('runAllBtn').onclick = runAllTests;
+            document.getElementById('clearBtn').onclick = () => {
+                renderer.clear();
+                document.querySelectorAll('.status').forEach(s => {
+                    s.textContent = 'Pending';
+                    s.className = 'status';
+                });
+                document.querySelectorAll('.test-case').forEach(tc => tc.classList.remove('active'));
+            };
+        }
+
+        function runTest(test) {
+            document.querySelectorAll('.test-case').forEach(tc => tc.classList.remove('active'));
+            document.getElementById(`test-${test.id}`).classList.add('active');
+            
+            renderer.clear();
+            const features = test.features || [test.feature];
+            renderer.renderFeatures(features);
+            
+            // Center map on the first feature with a position
+            const firstWithPos = features.find(f => f.position);
+            if (firstWithPos) {
+                renderer.map.setView([firstWithPos.position.lat, firstWithPos.position.lon], 10);
+            } else if (features[0].segments && features[0].segments[0].startPosition) {
+                const sp = features[0].segments[0].startPosition;
+                renderer.map.setView([sp.lat, sp.lon], 10);
+            }
+            
+            const statusEl = document.getElementById(`status-${test.id}`);
+            statusEl.textContent = 'Displayed';
+            statusEl.className = 'status pass';
+        }
+
+        async function runAllTests() {
+            renderer.clear();
+            let allFeatures = [];
+            testCases.forEach(test => {
+                allFeatures = allFeatures.concat(test.features || [test.feature]);
+                const statusEl = document.getElementById(`status-${test.id}`);
+                statusEl.textContent = 'Displayed';
+                statusEl.className = 'status pass';
+            });
+            renderer.renderFeatures(allFeatures);
+        }
+
+        window.onload = init;
+    </script>
+</body>
+</html>

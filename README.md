@@ -27,7 +27,7 @@ AIXM (Aeronautical Information Exchange Model) is the global standard for the pr
 
 | Feature | AIXM Code | Description |
 |---------|-----------|-------------|
-| Airspace | Ase + Abd | Airspace boundaries with polygon geometry |
+| Airspace | Ase + Abd | Airspace boundaries with polygon geometry (including arc/circle) |
 | Airport | Ahp | Aerodromes and heliports |
 | Waypoint | Dpn | Designated points |
 | Route | Rte + Rsg | Airways and route segments |
@@ -35,16 +35,22 @@ AIXM (Aeronautical Information Exchange Model) is the global standard for the pr
 | NDB | Ndb | Non-directional beacon |
 | DME | Dme | Distance measuring equipment |
 | TACAN | Tcn | Tactical air navigation |
-| Runway | Rwy | Runways with dimensions and PCN data |
+| Runway | Rwy | Runways with dimensions |
+| Runway Direction | Rdn | Runway threshold position and bearing |
 | Taxiway | Twy | Taxiways |
 | Apron | Apn | Aprons/ramps |
-| SID | Pdr | Standard Instrument Departures |
-| STAR | Pdr | Standard Terminal Arrival Routes |
-| Approach | Prc | Instrument Approach Procedures |
+| Apron Geometry | Apg | Apron polygon geometry |
+| SID | Sid | Standard Instrument Departures |
+| STAR | Sia | Standard Terminal Arrival Routes |
+| Approach | Iap | Instrument Approach Procedures |
 | ILS | Ils | Instrument Landing Systems |
 | Marker | Mkr | Marker beacons |
-| Border | Gbr | Geographical borders |
+| Border | Gbr | Geographical borders (Gbv vertices) |
 | Organization | Org | Aviation authorities |
+| Obstacle | Obs | Obstacles (terrain/structures) |
+| Holding | Hpe | Holding procedures |
+| MSA Group | Mgp | Minimum safe altitude sectors |
+| Airspace Assoc | Aas | Airspace parent/child hierarchy |
 
 ## Installation
 

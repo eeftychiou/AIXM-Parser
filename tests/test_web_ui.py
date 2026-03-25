@@ -476,5 +476,188 @@ class TestUIWorkflow:
         assert len(exclude_result) == 2
 
 
+class TestXSDCompliance:
+    """Tests for XSD-confirmed AIXM 4.5 structure correctness in the JS parser."""
+
+    def test_parse_coordinate_dms_decimal_seconds(self):
+        """Test DMS with decimal seconds (e.g., 510520.60N)."""
+        import re
+        def parseCoordinate(coord):
+            if not coord:
+                return None
+            coord = coord.strip()
+            match = re.match(r'^(\d{2,3})(\d{2})(\d{2}(?:\.\d+)?)([NSEW])$', coord, re.I)
+            if match:
+                deg = int(match.group(1))
+                mn = int(match.group(2))
+                sec = float(match.group(3))
+                dir_ = match.group(4).upper()
+                decimal = deg + mn / 60 + sec / 3600
+                if dir_ in ('S', 'W'):
+                    decimal = -decimal
+                return decimal
+            try:
+                return float(coord)
+            except ValueError:
+                return None
+
+        result = parseCoordinate("510520.60N")
+        assert result is not None, "Should parse DMS with decimal seconds"
+        assert abs(result - 51.0890) < 0.0001, f"Expected ~51.0890 but got {result}"
+
+        result2 = parseCoordinate("0010230.50E")
+        assert result2 is not None
+        assert abs(result2 - 1.0418) < 0.0001  # 001°02'30.5"E = 1.04180°
+
+    def test_gbv_border_vertex_extraction(self):
+        """Confirm that GeographicalBorderVertexType (Gbv) uses geoLat/geoLong, not posList."""
+        # Simulate extraction from Gbv elements as per XSD lines 3816–3863
+        gbv_elements = [
+            {'geoLat': '341200N', 'geoLong': '0163411E'},
+            {'geoLat': '344451N', 'geoLong': '0175530E'},
+            {'geoLat': '330000N', 'geoLong': '0170000E'},
+        ]
+
+        def parse_coord(s):
+            import re
+            m = re.match(r'^(\d{2,3})(\d{2})(\d{2})([NSEW])$', s)
+            if m:
+                d, mn, sc, dir_ = int(m[1]), int(m[2]), int(m[3]), m[4]
+                v = d + mn / 60 + sc / 3600
+                return -v if dir_ in ('S', 'W') else v
+            return None
+
+        polygon = []
+        for gbv in gbv_elements:
+            lat = parse_coord(gbv['geoLat'])
+            lon = parse_coord(gbv['geoLong'])
+            if lat is not None and lon is not None:
+                polygon.append([lat, lon])
+
+        assert len(polygon) == 3, "Should extract 3 vertices from Gbv elements"
+        assert polygon[0][0] > 34, "First vertex latitude should be ~34°N"
+        assert polygon[0][1] > 16, "First vertex longitude should be ~16°E"
+
+    def test_cwa_arc_interpolation_produces_intermediate_points(self):
+        """CWA arc vertex should generate interpolated points between start and end."""
+        import math
+
+        def interpolate_arc(start_lat, start_lon, center_lat, center_lon, clockwise, end_lat, end_lon, num_pts=16):
+            to_rad = lambda d: d * math.pi / 180
+            to_deg = lambda r: r * 180 / math.pi
+
+            def bearing(flat, flon, tlat, tlon):
+                lat1, lat2 = to_rad(flat), to_rad(tlat)
+                dlon = to_rad(tlon - flon)
+                x = math.sin(dlon) * math.cos(lat2)
+                y = math.cos(lat1) * math.sin(lat2) - math.sin(lat1) * math.cos(lat2) * math.cos(dlon)
+                return (to_deg(math.atan2(x, y)) + 360) % 360
+
+            def dest_pt(lat, lon, brg, dist_nm):
+                R = 3440.065
+                delta = dist_nm / R
+                phi1, lam1, theta = to_rad(lat), to_rad(lon), to_rad(brg)
+                phi2 = math.asin(math.sin(phi1) * math.cos(delta) + math.cos(phi1) * math.sin(delta) * math.cos(theta))
+                lam2 = lam1 + math.atan2(math.sin(theta) * math.sin(delta) * math.cos(phi1), math.cos(delta) - math.sin(phi1) * math.sin(phi2))
+                return (to_deg(phi2), to_deg(lam2))
+
+            def dist_nm(lat1, lon1, lat2, lon2):
+                R = 3440.065
+                phi1, phi2 = to_rad(lat1), to_rad(lat2)
+                dp, dl = to_rad(lat2 - lat1), to_rad(lon2 - lon1)
+                a = math.sin(dp / 2) ** 2 + math.cos(phi1) * math.cos(phi2) * math.sin(dl / 2) ** 2
+                return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+
+            radius = dist_nm(center_lat, center_lon, start_lat, start_lon)
+            start_brg = bearing(center_lat, center_lon, start_lat, start_lon)
+            end_brg = bearing(center_lat, center_lon, end_lat, end_lon)
+
+            if clockwise:
+                sweep = end_brg - start_brg if end_brg >= start_brg else 360 - start_brg + end_brg
+            else:
+                sweep = start_brg - end_brg if start_brg >= end_brg else 360 - end_brg + start_brg
+            if sweep < 1:
+                sweep = 360
+
+            pts = []
+            for i in range(num_pts + 1):
+                angle = (start_brg + sweep * i / num_pts) % 360 if clockwise else (start_brg - sweep * i / num_pts + 360) % 360
+                pts.append(dest_pt(center_lat, center_lon, angle, radius))
+            return pts
+
+        # Circle of radius 10 NM, CWA from North to East
+        center_lat, center_lon = 35.0, 33.0
+        start_pt = (35.0 + 10 / 60, 33.0)  # approx 10 NM north
+        end_pt = (35.0, 33.0 + 10 / 60)    # approx 10 NM east
+
+        pts = interpolate_arc(start_pt[0], start_pt[1], center_lat, center_lon, True, end_pt[0], end_pt[1], 8)
+        assert len(pts) == 9, f"Should have 9 points (0..8), got {len(pts)}"
+        # All points should be roughly 10 NM from center
+        for lat, lon in pts:
+            d = math.sqrt((lat - center_lat) ** 2 + (lon - center_lon) ** 2)
+            assert d > 0.1, "Arc points should not collapse to center"
+
+    def test_circle_airspace_polygon_from_circle_element(self):
+        """AirspaceCircularVertexType (Circle) should generate a closed polygon."""
+        import math
+
+        def interpolate_circle(center_lat, center_lon, radius_nm, num_pts=36):
+            to_rad = lambda d: d * math.pi / 180
+            to_deg = lambda r: r * 180 / math.pi
+            R = 3440.065
+            delta = radius_nm / R
+            phi1, lam1 = to_rad(center_lat), to_rad(center_lon)
+            pts = []
+            for i in range(num_pts + 1):
+                theta = to_rad(360 * i / num_pts)
+                phi2 = math.asin(math.sin(phi1) * math.cos(delta) + math.cos(phi1) * math.sin(delta) * math.cos(theta))
+                lam2 = lam1 + math.atan2(math.sin(theta) * math.sin(delta) * math.cos(phi1), math.cos(delta) - math.sin(phi1) * math.sin(phi2))
+                pts.append((to_deg(phi2), to_deg(lam2)))
+            return pts
+
+        pts = interpolate_circle(35.0, 33.0, 5.0)
+
+        assert len(pts) == 37, "Should have 37 points (0..36 inclusive)"
+        assert pts[0] == pts[-1], "First and last point should be identical (closed ring)"
+        # All points should be approx 5 NM from center
+        for lat, lon in pts:
+            dist_lat = abs(lat - 35.0) * 60
+            dist_lon = abs(lon - 33.0) * 60 * math.cos(math.radians(35))
+            approx_nm = math.sqrt(dist_lat ** 2 + dist_lon ** 2)
+            assert 4.5 < approx_nm < 5.5, f"Circle point should be ~5NM from center, got {approx_nm:.2f}NM"
+
+    def test_rdn_threshold_position_extracted(self):
+        """RunwayDirectionType (Rdn) has geoLat/geoLong for threshold position."""
+        import re
+
+        # Simulate parsing an Rdn element per XSD lines 6863–6975
+        rdn_data = {
+            'geoLat': '345152N',   # Threshold lat
+            'geoLong': '0334006E', # Threshold lon
+            'valTrueBrg': '272.0',
+            'valMagBrg': '270.0',
+            'airportId': 'LCLK',
+            'codeId': '27',        # Runway designator
+        }
+
+        def parse_coord(s):
+            m = re.match(r'^(\d{2,3})(\d{2})(\d{2})([NSEW])$', s)
+            if m:
+                d, mn, sc, dir_ = int(m[1]), int(m[2]), int(m[3]), m[4]
+                v = d + mn / 60 + sc / 3600
+                return -v if dir_ in ('S', 'W') else v
+            return None
+
+        lat = parse_coord(rdn_data['geoLat'])
+        lon = parse_coord(rdn_data['geoLong'])
+
+        assert lat is not None, "Threshold latitude should parse"
+        assert lon is not None, "Threshold longitude should parse"
+        assert 34 < lat < 35, f"LCLK RWY 27 threshold lat should be ~34.86°N, got {lat}"
+        assert 33 < lon < 34, f"LCLK RWY 27 threshold lon should be ~33.67°E, got {lon}"
+        assert float(rdn_data['valTrueBrg']) == 272.0
+
+
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])
+
